@@ -1,0 +1,2 @@
+# HaxLog
+HaxBall logs
