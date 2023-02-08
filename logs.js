@@ -30,8 +30,13 @@ function checkLogs(){
 
         console.log(logs.at(-1)) //czat w konsoli
         
-      
-        
+        //system sprawdzający
+        for(let phrase of phrases){
+            if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) != -1){
+                console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
+                break;
+            }
+        }
         lastLog = logs.at(-1); //nowy ostatni zapisany log
     }
 }
