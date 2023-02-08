@@ -1,12 +1,6 @@
-//wyświetlenie ich według id
-for (let index = 0; index < a.length; index++) {
-    console.log(index);
-    console.log(a[index].innerText);
-}
-
-//last log a[a.length-1].innerText
 //init
 function clear(){clearInterval(interval)} //helper
+function restart(){clear(); start();}
 function changeInterval (time){
     clearInterval(interval);
     interval = setInterval(checkLogs, time);
