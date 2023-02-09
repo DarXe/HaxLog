@@ -6,7 +6,7 @@ function changeInterval (time){
     interval = setInterval(checkLogs, time);
 }
 
-function start(){interval = setInterval(checkLogs, 25);}
+function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();")}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 const phrases = [];
