@@ -1,4 +1,4 @@
-# HaxLog
+# HaxLog PL || ANG
 HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 
 # JAK ZAINSTALOWAĆ?
