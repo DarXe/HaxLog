@@ -19,6 +19,7 @@ W przyszłości czat z HaxBalla będzie połączony z HaxLog, powstaną odpowied
 # Zmiana odświeżania czatu: 
 **changeInterval(czas w ms);**
 
+
 # HaxLog
 HaxBall Logus - program for sound notifications from HaxBall.com game chat
 
@@ -39,3 +40,8 @@ In the future, chat with HaxBall will be connected to HaxLog, appropriate comman
 
 # Change chat refresh: 
 **changeInterval(time in ms);**
+
+
+##NOTICE! IMPORTANT
+PL: Nigdy nie uruchamiaj skryptu 2 razy! Komenda start(); uruchamia, a stop(); zatrzumuje skrypt
+ENG: Never run a script twice! start(); starts, and stop(); stops the script
