@@ -1,15 +1,15 @@
 //init
-function clear(){clearInterval(interval)} //helper
-function restart(){clear(); start();}
+function stop(){clearInterval(interval)} //helper
+function restart(){stop(); start();}
 function changeInterval (time){
     clearInterval(interval);
     interval = setInterval(checkLogs, time);
 }
 
-function start(){interval = setInterval(checkLogs, 50);}
+function start(){interval = setInterval(checkLogs, 25);}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
-const phrases = [""];
+const phrases = [];
 var interval;
 var lastLog = "";
 var newLog = "";
@@ -54,5 +54,6 @@ const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             oscillator.start(now);
             oscillator.stop(now + 1);
 	}
-
-//const changeInterval = (time)
+    start();
+    console.log("Pomyślnie zainicjowano HaxLog!")
+//
