@@ -42,6 +42,6 @@ In the future, chat with HaxBall will be connected to HaxLog, appropriate comman
 **changeInterval(time in ms);**
 
 
-#NOTICE! IMPORTANT
+## NOTICE! IMPORTANT
 PL: Nigdy nie uruchamiaj skryptu 2 razy! Komenda start(); uruchamia, a stop(); zatrzumuje skrypt
 ENG: Never run a script twice! start(); starts, and stop(); stops the script
