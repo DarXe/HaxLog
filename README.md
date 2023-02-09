@@ -21,7 +21,7 @@ W przyszłości czat z HaxBalla będzie połączony z HaxLog, powstaną odpowied
 **changeInterval(czas w ms);**
 
 
-# HaxLog
+# #ANG HaxLog
 HaxBall Logus - program for sound notifications from HaxBall.com game chat
 
 # HOW TO INSTALL
