@@ -1,5 +1,5 @@
 # HaxLog
-HaxBall logs
+HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 
 # JAK ZAINSTALOWAĆ?
 1. Klikamy prawym przyciskiem myszki na okno haxballa, wybieramy "Zbadaj", "zbadaj element", bądź "Wykonaj inspekcję"
@@ -10,14 +10,17 @@ HaxBall logs
 Aby dodać gracza wystarczy wpisać w konsoli (tam gdzie wklejaliśmy kod) komendę **phrases.push('nick')**
 W przyszłości czat z HaxBalla będzie połączony z HaxLog, powstaną odpowiednie komendy
 
-# Usuwanie ostatnio dodanej frazy: **phrases.pop();**
+# Usuwanie ostatnio dodanej frazy: 
+**phrases.pop();**
 
-# Zatrzymanie skryptu: **stop();**
+# Zatrzymanie skryptu: 
+**stop();**
 
-# Zmiana odświeżania czatu: **changeInterval(czas w ms);**
+# Zmiana odświeżania czatu: 
+**changeInterval(czas w ms);**
 
 # HaxLog
-HaxBall logs
+HaxBall Logus - program for sound notifications from HaxBall.com game chat
 
 # HOW TO INSTALL
 1. Right-click on the haxball window, select "Inspect", "inspect element", or "Inspect"
@@ -28,8 +31,11 @@ HaxBall logs
 To add a player, just type in the console (where you pasted the code) the command **phrases.push('nick')**
 In the future, chat with HaxBall will be connected to HaxLog, appropriate commands will be created
 
-# Delete last added phrase: **phrases.pop();**
+# Delete last added phrase:
+**phrases.pop();**
 
-# Stop the script: **stop();**
+# Stop the script: 
+**stop();**
 
-# Change chat refresh: **changeInterval(time in ms);**
+# Change chat refresh: 
+**changeInterval(time in ms);**
