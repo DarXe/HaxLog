@@ -5,10 +5,11 @@ function changeInterval (time){
     clearInterval(interval);
     interval = setInterval(checkLogs, time);
 }
+
 function start(){interval = setInterval(checkLogs, 50);}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
-const phrases = ["test"];
+const phrases = ["test","darxe"];
 var interval;
 var lastLog = "";
 var newLog = "";
@@ -28,7 +29,7 @@ function checkLogs(){
         for(let phrase of phrases){
             if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) != -1){
                 console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
-                New_sound.play_sound();
+                play();
                 break;
             }
         }
@@ -36,9 +37,27 @@ function checkLogs(){
     }
 }
 
+//audio
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        function play() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            oscillator.type = "sine";
+            oscillator.frequency.value = 440;
+
+            const now = audioContext.currentTime;
+            gainNode.gain.setValueAtTime(10, now);
+            gainNode.gain.exponentialRampToValueAtTime(0.11, now + 1);
+            oscillator.start(now);
+            oscillator.stop(now + 1);
+	}
+
 //const changeInterval = (time)
 
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+/*const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 	
 let New_sound = {
    song: "fffbzfbzz",
@@ -84,6 +103,7 @@ let New_sound = {
 		this.oscillator.disconnect(this.gainNode);
 		this.gainNode.disconnect(audioContext.destination);
 		let loop = this.play_sound();
-	}, 220);
+	}, 50);
    }
 }
+*/
