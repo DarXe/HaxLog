@@ -10,6 +10,7 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 const phrases = [];
+const notifications = [];
 var interval;
 var lastLog = "";
 var newLog = "";
@@ -29,6 +30,7 @@ function checkLogs(){
         for(let phrase of phrases){
             if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) != -1){
                 console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
+                notifications.push(); //dodanie powiadomienia do pojemnika
                 play();
                 break;
             }
