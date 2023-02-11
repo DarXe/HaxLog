@@ -30,7 +30,7 @@ function checkLogs(){
         for(let phrase of phrases){
             if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) != -1){
                 console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
-                notifications.push(); //dodanie powiadomienia do pojemnika
+                notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
                 break;
             }
