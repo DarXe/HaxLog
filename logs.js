@@ -12,6 +12,8 @@ const logs = ["null"];
 var push_logs = false;
 const phrases = [];
 const notifications = [];
+const muted = ["spam"];
+var mute = false;
 var interval;
 var lastLog = "";
 var newLog = "";
@@ -25,12 +27,33 @@ function checkLogs(){
     if(newLog != lastLog){
         if(push_logs) logs.push(time+" "+newLog); //do tablicy
 
-        console.log(time+" "+newLog) //czat w konsoli
+        //system cmd
+        if(newLog.indexOf("^mute") !== -1){
+            let _ = newLog.substring(newLog.indexOf("^mute")+6)
+            muted.push(_);
+            console.log("WYCISZYŁEŚ GRACZA: "+_);
+            play();
+            return;
+        }
+
+        //chat + system mute
+        for(let _ of muted){
+            if(newLog.indexOf(_) !== -1){
+                mute = true;
+                break;
+            }
+        }
+
+        if (mute){
+            mute = false;
+        }   else{
+            console.log(time+" "+newLog) //czat w konsoli
+        }
         
         //system sprawdzający
         for(let phrase of phrases){
-            if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) != -1){
-                console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
+            if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) !== -1){
+                console.log("NOWE POWIADOMIENIE NA FRAZE: "+phrase);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
                 break;
@@ -58,5 +81,5 @@ const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             oscillator.stop(now + 1);
 	}
     start();
-    console.log("Pomyślnie zainicjowano HaxLog!")
+    console.log("Pomyślnie zainicjowano HaxLog!");
 //
