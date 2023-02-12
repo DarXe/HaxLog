@@ -9,6 +9,7 @@ function changeInterval (time){
 function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();")}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
+var push_logs = false;
 const phrases = [];
 const notifications = [];
 var interval;
@@ -21,10 +22,10 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 function checkLogs(){
     time = getTime();
     newLog = a[a.length-1].innerText;
-    if(newLog != lastLog.substring(9)){
-        logs.push(time+" "+newLog); //do tablicy
+    if(newLog != lastLog){
+        if(push_logs) logs.push(time+" "+newLog); //do tablicy
 
-        console.log(logs.at(-1)) //czat w konsoli
+        console.log(time+" "+newLog) //czat w konsoli
         
         //system sprawdzający
         for(let phrase of phrases){
@@ -35,7 +36,7 @@ function checkLogs(){
                 break;
             }
         }
-        lastLog = logs.at(-1); //nowy ostatni zapisany log
+        lastLog = newLog; //nowy ostatni zapisany log
     }
 }
 

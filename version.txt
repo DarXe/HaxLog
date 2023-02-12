@@ -1,0 +1,2 @@
+1.0211 dodanie pojemnika notifications na dane o powiadomieniach
+1.0212 dodanie opcji włączenia zapisu logów (domyślnie wyłączone)
