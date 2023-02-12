@@ -1,2 +1,3 @@
 1.0211 dodanie pojemnika notifications na dane o powiadomieniach
 1.0212 dodanie opcji włączenia zapisu logów (domyślnie wyłączone)
+1.0212.1 naprawa powiadmienia na własny nick (dostaniesz powiadomienie tylko jeśli ktoś napisze twój nick)
