@@ -1,19 +1,18 @@
 //init
-function stop(){clearInterval(interval)} //helper
+function stop(){clearInterval(interval); console.log("Pomyślnie zatrzymano skrypt! Aby uruchomić wpisz start();");}
 function restart(){stop(); start();}
 function changeInterval (time){
     clearInterval(interval);
     interval = setInterval(checkLogs, time);
 }
 
-function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();")}
+function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();";)}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 var push_logs = false;
 const phrases = [];
 const notifications = [];
 const muted = ["spam"];
-var mute = false;
 var interval;
 var lastLog = "";
 var newLog = "";
@@ -55,7 +54,7 @@ function checkLogs(){
                 console.log("NOWE POWIADOMIENIE NA FRAZE: "+phrase);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
-                
+
                 break;
             }
         }
