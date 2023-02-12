@@ -29,7 +29,7 @@ function checkLogs(){
         
         //system sprawdzający
         for(let phrase of phrases){
-            if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) != -1){
+            if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) != -1){
                 console.log(phrase+" NAPISAŁ WIADOMOŚĆ! ! !");
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
