@@ -32,23 +32,22 @@ function checkLogs(){
             let _ = newLog.substring(newLog.indexOf("^mute")+6)
             muted.push(_);
             console.log("WYCISZYŁEŚ GRACZA: "+_);
+            lastLog = newLog;
             play();
+
             return;
         }
 
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
-                mute = true;
-                break;
+                lastLog = newLog;
+
+                return;
             }
         }
-
-        if (mute){
-            mute = false;
-        }   else{
-            console.log(time+" "+newLog) //czat w konsoli
-        }
+        
+        console.log(time+" "+newLog) //czat w konsoli
         
         //system sprawdzający
         for(let phrase of phrases){
@@ -56,6 +55,7 @@ function checkLogs(){
                 console.log("NOWE POWIADOMIENIE NA FRAZE: "+phrase);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
+                
                 break;
             }
         }
