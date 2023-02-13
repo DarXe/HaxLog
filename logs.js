@@ -9,13 +9,13 @@ function changeInterval (time){
 function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");}
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
-var push_logs = false;
+let push_logs = false;
 const phrases = [];
 const notifications = [];
 const muted = ["spam"];
-var interval;
-var lastLog = "";
-var newLog = "";
+let interval;
+let lastLog = "";
+let newLog = "";
 let time;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 
