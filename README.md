@@ -9,10 +9,7 @@ HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 
 # KOMENDY (beta)
 * ^mute test - wycisza gracza o nazwie test w konsoli czatu
-
-# DODAWANIE GRACZA DO BAZY
-Aby dodać gracza wystarczy wpisać w konsoli (tam gdzie wklejaliśmy kod) komendę **phrases.push('nick')**  (konsola)
-W przyszłości czat z HaxBalla będzie połączony z HaxLog, powstaną odpowiednie komendy
+* ^add test - dodaje frazę 'test' do powiadomień dźwiękowych
 
 # Usuwanie ostatnio dodanej frazy: 
 **phrases.pop();**  (konsola)
@@ -28,6 +25,7 @@ HaxBall Logus - program for sound notifications from HaxBall.com game chat
 
 # COMMANDS (beta)
 * ^mute test - mutes the player named test in the chat console
+* ^add test - adds the phrase 'test' to sound notifications
 
 # ADDING A PLAYER TO THE BASE
 To add a player, just type in the console (where you pasted the code) the command **phrases.push('nick')** (console)
