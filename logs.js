@@ -33,7 +33,16 @@ function checkLogs(){
         if(newLog.indexOf("^mute") !== -1){
             let _ = newLog.substring(newLog.indexOf("^mute")+6)
             muted.push(_);
-            console.log("WYCISZYŁEŚ GRACZA: "+_);
+            console.log("👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: "+_);
+            lastLog = newLog;
+            play();
+
+            return;
+        }else
+        if(newLog.indexOf("^add") !== -1){
+            let _ = newLog.substring(newLog.indexOf("^add")+5)
+            phrases.push(_);
+            console.log("👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: "+_);
             lastLog = newLog;
             play();
 
@@ -54,7 +63,7 @@ function checkLogs(){
         //system sprawdzający
         for(let phrase of phrases){
             if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) !== -1){
-                console.log("NOWE POWIADOMIENIE NA FRAZE: "+phrase);
+                console.log("👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: "+phrase);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
 
