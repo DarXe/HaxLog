@@ -1,12 +1,15 @@
-//init
+/* old log checking system
 function stop(){clearInterval(interval); console.log("Pomyślnie zatrzymano skrypt! Aby uruchomić wpisz start();");}
 function restart(){stop(); start();}
 function changeInterval (time){
     clearInterval(interval);
     interval = setInterval(checkLogs, time);
 }
-
 function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");}
+*/
+
+//init
+
 const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 let push_logs = false;
@@ -64,21 +67,23 @@ function checkLogs(){
 
 //audio
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        function play() {
-            const oscillator = audioContext.createOscillator();
-            const gainNode = audioContext.createGain();
-            oscillator.connect(gainNode);
-            gainNode.connect(audioContext.destination);
+function play() {
+    const oscillator = audioContext.createOscillator();
+    const gainNode = audioContext.createGain();
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContext.destination);
 
-            oscillator.type = "sine";
-            oscillator.frequency.value = 440;
+    oscillator.type = "sine";
+    oscillator.frequency.value = 440;
 
-            const now = audioContext.currentTime;
-            gainNode.gain.setValueAtTime(10, now);
-            gainNode.gain.exponentialRampToValueAtTime(0.11, now + 1);
-            oscillator.start(now);
-            oscillator.stop(now + 1);
-	}
-    start();
-    console.log("Pomyślnie zainicjowano HaxLog!");
+    const now = audioContext.currentTime;
+    gainNode.gain.setValueAtTime(10, now);
+    gainNode.gain.exponentialRampToValueAtTime(0.11, now + 1);
+    oscillator.start(now);
+    oscillator.stop(now + 1);
+}
+
+const chat = document.getElementsByClassName("log ps ps--active-y");
+chat[0].addEventListener("DOMNodeInserted", checkLogs);
+console.log("Pomyślnie zainicjowano HaxLog!");
 //

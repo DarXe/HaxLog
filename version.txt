@@ -4,3 +4,4 @@
 1.0212.1 naprawa powiadmienia na własny nick (dostaniesz powiadomienie tylko jeśli ktoś napisze twój nick)
 1.0212.2 dodano system wykrywania mute, oraz komendę ^mute do wyciszania graczy
 1.0212.3 małe poprawki z return
+1.0213 nowy system sprawdzania logów
