@@ -92,9 +92,13 @@ function play() {
     oscillator.stop(now + 1);
 }
 
-const chat = document.getElementsByClassName("log ps ps--active-y");
+const chat = document.getElementsByClassName("log ps ps--active-y")[0];
 console.log("Pomyślnie zainicjowano HaxLog!");
-function start(){chat[0].addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");}
-function stop(){chat[0].removeEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie zatrzymano skrypt! Aby uruchomić wpisz start();");}
+function start(){
+    stop();
+    const chat = document.getElementsByClassName("log ps ps--active-y")[0];
+    chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
+}
+function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 //
