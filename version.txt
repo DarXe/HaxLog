@@ -6,3 +6,4 @@
 1.0212.3 małe poprawki z return
 1.0213 nowy system sprawdzania logów
 1.0213.1 komenda na dodanie gracza/frazy do bazy powiadomień
+1.0216 poprawka do komendy start()

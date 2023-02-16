@@ -10,7 +10,7 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 
 //init
 
-const a = document.getElementsByClassName("announcement");
+//const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 let push_logs = false;
 const phrases = [];
@@ -25,7 +25,7 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 //main
 function checkLogs(){
     time = getTime();
-    newLog = a[a.length-1].innerText;
+    newLog = chat.lastChild.innerText;
     if(newLog != lastLog){
         if(push_logs) logs.push(time+" "+newLog); //do tablicy
 
@@ -92,11 +92,11 @@ function play() {
     oscillator.stop(now + 1);
 }
 
-const chat = document.getElementsByClassName("log ps ps--active-y")[0];
+let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
-    const chat = document.getElementsByClassName("log ps ps--active-y")[0];
+    chat = document.getElementsByClassName("log ps ps--active-y")[0];
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
