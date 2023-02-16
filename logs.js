@@ -10,7 +10,6 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 
 //init
 
-//const a = document.getElementsByClassName("announcement");
 const logs = ["null"];
 let push_logs = false;
 const phrases = [];
@@ -31,22 +30,26 @@ function checkLogs(){
 
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
-            let _ = newLog.substring(newLog.indexOf("^mute")+6)
-            muted.push(_);
-            console.log("👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: "+_);
-            lastLog = newLog;
-            play();
+            if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
+                let _ = newLog.substring(newLog.indexOf("^mute")+6)
+                muted.push(_);
+                console.log("👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: "+_);
+                lastLog = newLog;
+                play();
 
-            return;
+                return;
+            }
         }else
         if(newLog.indexOf("^add") !== -1){
-            let _ = newLog.substring(newLog.indexOf("^add")+5)
-            phrases.push(_);
-            console.log("👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: "+_);
-            lastLog = newLog;
-            play();
+            if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
+                let _ = newLog.substring(newLog.indexOf("^add")+5)
+                phrases.push(_);
+                console.log("👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: "+_);
+                lastLog = newLog;
+                play();
 
-            return;
+                return;
+            }
         }
 
         //chat + system mute
@@ -101,4 +104,6 @@ function start(){
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
+const playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
+console.log("👑 HAXLOG 👑 Ustawiłeś swój nick na: "+playerNickname);
 //
