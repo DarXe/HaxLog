@@ -24,7 +24,7 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 //main
 function checkLogs(){
     time = getTime();
-    newLog = chat.lastChild.innerText;
+    newLog = chat.lastElementChild.innerText;
     if(newLog != lastLog){
         if(push_logs) logs.push(time+" "+newLog); //do tablicy
 
@@ -55,6 +55,10 @@ function checkLogs(){
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
+                chat.lastElementChild.style.display = "none";
+                console.log(newLog);
+                __ = chat.scrollTop = chat.scrollHeight;
+                console.log(__);
                 lastLog = newLog;
 
                 return;
