@@ -56,9 +56,9 @@ function checkLogs(){
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
                 chat.lastElementChild.style.display = "none";
-                console.log(newLog);
+                //console.log(newLog);
                 __ = chat.scrollTop = chat.scrollHeight;
-                console.log(__);
+                //console.log(__);
                 lastLog = newLog;
 
                 return;
