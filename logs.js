@@ -26,14 +26,14 @@ function checkLogs(){
     time = getTime();
     newLog = chat.lastElementChild.innerText;
     if(newLog != lastLog){
-        if(push_logs) logs.push(time+" "+newLog); //do tablicy
+        if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^mute")+6)
                 muted.push(_);
-                console.log("👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: "+_);
+                console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
                 lastLog = newLog;
                 play();
 
@@ -44,7 +44,7 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^add")+5)
                 phrases.push(_);
-                console.log("👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: "+_);
+                console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
                 lastLog = newLog;
                 play();
 
@@ -70,7 +70,7 @@ function checkLogs(){
         //system sprawdzający
         for(let phrase of phrases){
             if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) !== -1){
-                console.log("👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: "+phrase);
+                console.log(`👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: ${phrase}`);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
 
@@ -109,5 +109,5 @@ function start(){
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 const playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
-console.log("👑 HAXLOG 👑 Ustawiłeś swój nick na: "+playerNickname);
+console.log(`👑 HAXLOG 👑 Ustawiłeś swój nick na: ${playerNickname}`);
 //
