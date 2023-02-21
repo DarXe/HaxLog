@@ -13,6 +13,7 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 const logs = ["null"];
 let push_logs = false;
 const phrases = [];
+let debugMess = false;
 const notifications = [];
 const muted = ["spam"];
 let interval;
@@ -23,6 +24,11 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 
 //main
 function checkLogs(){
+    if(chat.scrollTop == 0){
+        chat.scrollTop = chat.scrollHeight;
+        if(debugMess)
+            console.log(`👑 HAXLOG 👑 PRZEWINIETO CZAT  NA DOL2`);
+    }else if(debugMess){console.log(`👑 HAXLOG 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);}
     time = getTime();
     newLog = chat.lastElementChild.innerText;
     if(newLog != lastLog){
@@ -55,10 +61,14 @@ function checkLogs(){
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
+                let __ = chat.lastElementChild.innerText;
                 chat.lastElementChild.style.display = "none";
-                //console.log(newLog);
-                __ = chat.scrollTop = chat.scrollHeight;
-                //console.log(__);
+                console.log(`👑 HAXLOG newLog  ${newLog} lastChild:  ${__}`);
+                if(chat.scrollTop == 0){
+                    chat.scrollTop = chat.scrollHeight;
+                    if(debugMess)
+                        console.log(`👑 MUTED 👑 PRZEWINIETO CZAT  NA DOL`);
+                }else {if(debugMess) console.log(`👑 MUTED 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);}
                 lastLog = newLog;
 
                 return;
