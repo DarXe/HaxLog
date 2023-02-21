@@ -63,7 +63,8 @@ function checkLogs(){
             if(newLog.indexOf(_) !== -1){
                 let __ = chat.lastElementChild.innerText;
                 chat.lastElementChild.style.display = "none";
-                console.log(`👑 HAXLOG newLog  ${newLog} lastChild:  ${__}`);
+                if(debugMess)
+                    console.log(`👑 HAXLOG newLog  ${newLog} lastChild:  ${__}`);
                 if(chat.scrollTop == 0){
                     chat.scrollTop = chat.scrollHeight;
                     if(debugMess)
