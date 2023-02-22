@@ -29,27 +29,25 @@ function checkLogs(){
     time = getTime();
     newLog = chat.lastElementChild.innerText;
 
-    if(true){
+    if(newLog.at(2) !== ":"){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^mute")+6)
                 muted.push(_);
                 console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
-                lastLog = newLog;
                 play();
 
                 return;
             }
         }else
         if(newLog.indexOf("^add") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname.toLowerCase()) !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^add")+5)
                 phrases.push(_);
                 console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
-                lastLog = newLog;
                 play();
 
                 return;
@@ -62,7 +60,6 @@ function checkLogs(){
                 chat.lastElementChild.style.display = "none";
                 console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
                 setTimeout(scrollDown, 5);
-                lastLog = newLog;
 
                 return;
             }
@@ -73,7 +70,7 @@ function checkLogs(){
         
         //system sprawdzający powiadomienia na frazy
         for(let phrase of phrases){
-            if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) !== -1){
+            if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) !== -1 && newLog.toLowerCase().indexOf(playerNickname) == -1){
                 console.log(`👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: ${phrase}`);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
@@ -81,7 +78,6 @@ function checkLogs(){
                 break;
             }
         }
-        lastLog = newLog; //nowy ostatni zapisany log
     }
 }
 
@@ -121,17 +117,21 @@ function autoConfig(){
     //ustaw swój nick
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
 
+    push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
+
     //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
-    phrases[1] = "jakastamwiadomosc";
-    phrases[2] = "jakastamwiadomosc";
+    phrases[1] = "[Server] Tryb rankingowy. ";
+    phrases[2] = "[Server] Rusz się!";
+    phrases[3] = "jakastamwiadomosc";
 
     //możesz z góry dodać frazy, które chcesz wyciszać na czacie
-    muted[0] = "Server"; //wielkość liter ma znadzenie przy mute!
+    muted[0] = "hb.jakjus.com"; //wielkość liter ma znadzenie przy mute!
     muted[1] = "jakastamwiadomosc"
     muted[2] = "jakastamwiadomosc"
 
     //wiadomość powitalna, nie zmieniaj
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
+    playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2215.2
+//1.02.2216
