@@ -7,9 +7,10 @@ HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 3. Wybieramy konsole "Console", wklejamy tam cały kod z pliku logs.js (wklej do konsoli Ctrl+V)
 4. Program uruchomi się automatycznie, w konsoli powinniśmy dostać informację "Pomyślnie zainicjowano HaxLog!"
 
-# KOMENDY (beta)
+# KOMENDY
 * ^mute test - wycisza gracza o nazwie test w konsoli czatu
 * ^add test - dodaje frazę 'test' do powiadomień dźwiękowych
+* ^time - włącza/wyłącza godzinę obok wiadomości
 
 # Usuwanie ostatnio dodanej frazy: 
 **phrases.pop();**  (konsola)
