@@ -23,6 +23,7 @@ let time;
 let playerNickname;
 let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 let timestamp;
+let consoleChat;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 
 //main
@@ -43,8 +44,7 @@ function checkLogs(){
 
                 return;
             }
-        }else
-        if(newLog.indexOf("^add") !== -1){
+        }else if(newLog.indexOf("^add") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^add")+5)
                 phrases.push(_);
@@ -53,10 +53,16 @@ function checkLogs(){
 
                 return;
             }
-        }else
-        if(newLog.indexOf("^time") !== -1){
+        }else if(newLog.indexOf("^time") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 timestamp = timestamp ? 0 : 1;
+
+                return;
+            }
+        }
+        else if(newLog.indexOf("^console") !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                consoleChat = consoleChat ? 0 : 1;
 
                 return;
             }
@@ -73,7 +79,7 @@ function checkLogs(){
             }
         }
         
-        console.log(`${time} ${newLog}`) //czat w konsoli
+        if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
         if(timestamp) chat.lastChild.innerText = `${time} ${newLog}`;
         
         //system sprawdzający powiadomienia na frazy
@@ -127,12 +133,14 @@ function autoConfig(){
 
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
+    consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
 
     //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
-    phrases[1] = "[Server] Tryb rankingowy. ";
+    phrases[1] = "[Server] Tryb rankingowy";
     phrases[2] = "[Server] Rusz się!";
-    phrases[3] = "jakastamwiadomosc";
+    phrases[3] = "[Server] Tryb rozgrzewki";
+    phrases[4] = "jakastamwiadomosc";
 
     //możesz z góry dodać frazy, które chcesz wyciszać na czacie
     muted[0] = "hb.jakjus.com"; //wielkość liter ma znadzenie przy mute!
