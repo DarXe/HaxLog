@@ -13,4 +13,5 @@
 1.02.2203 dodano możliwość zapisania swoich ustawień z poziomu kodu - autoConfig (jeszcze ręczny)
 1.02.2214 naprawiono buga z przewijaniem czatu do góry przy pojawieniu się wyciszonej wiadomości! (6 dni kminiłem)
 1.02.2215.2 dodano nowy autoConfig, który ustawia się ręcznie według naszych potrzeb
-1.02.2222 dodano godzinę obok wiadomości, możliwość wyłączenia (domyślnie włączone)
+1.02.2222 dodano godzinę obok wiadomości, możliwość wyłączenia, (domyślnie włączone), komenda ^time
+1.02.2223 dodano komendę ^console na pokazywanie/ukrywanie czatu w konsoli przeglądarki
