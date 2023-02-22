@@ -11,3 +11,4 @@
 1.02.1602 dodano nowości do systemu mute - wiadomości nie pokazują się w konsoli oraz.. na czacie gry
 1.02.2112 nadal trwają prace nad poprawą buga z przewijaniem czatu ku górze przy wyciszonej wiadomości
 1.02.2203 dodano możliwość zapisania swoich ustawień z poziomu kodu - autoConfig (jeszcze ręczny)
+1.02.2214 naprawiono buga z przewijaniem czatu do góry przy pojawieniu się wyciszonej wiadomości! (6 dni kminiłem)
