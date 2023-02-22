@@ -114,15 +114,12 @@ function scrollDown(){
     }
 }
 start();
+autoConfig();
 let playerNickname;
-const autoConfig = false;
-if(autoConfig){
+function autoConfig(){
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia
     muted[0] = "Server";
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
-}else{
-    playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
-    console.log(`👑 HAXLOG 👑 Ustawiłeś swój nick na: ${playerNickname}`);
 }
 //
