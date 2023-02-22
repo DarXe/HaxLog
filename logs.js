@@ -117,9 +117,20 @@ function scrollDown(){
 start();
 autoConfig();
 function autoConfig(){
+    //ustaw swój nick
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
-    phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia
-    muted[0] = "Server";
+
+    //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
+    phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
+    phrases[1] = "jakastamwiadomosc";
+    phrases[2] = "jakastamwiadomosc";
+
+    //możesz z góry dodać frazy, które chcesz wyciszać na czacie
+    muted[0] = "Server"; //wielkość liter ma znadzenie przy mute!
+    muted[1] = "jakastamwiadomosc"
+    muted[2] = "jakastamwiadomosc"
+
+    //wiadomość powitalna, nie zmieniaj
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
-//
+//1.02.2215.2
