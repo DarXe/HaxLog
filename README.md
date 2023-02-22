@@ -11,6 +11,7 @@ HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 * ^mute test - wycisza gracza o nazwie test w konsoli czatu
 * ^add test - dodaje frazę 'test' do powiadomień dźwiękowych
 * ^time - włącza/wyłącza godzinę obok wiadomości
+* ^console - włącza/wyłącza logi z czatu w konsoli przeglądarki (wyciszone zawsze się tam pokazują)
 
 # Usuwanie ostatnio dodanej frazy: 
 **phrases.pop();**  (konsola)
