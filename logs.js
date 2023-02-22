@@ -26,9 +26,10 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 function checkLogs(){
     if(chat.scrollTop == 0){
         chat.scrollTop = chat.scrollHeight;
-        if(debugMess)
-            console.log(`👑 HAXLOG 👑 PRZEWINIETO CZAT  NA DOL2`);
+    if(debugMess)
+        console.log(`👑 HAXLOG 👑 PRZEWINIETO CZAT  NA DOL2`);
     }else if(debugMess){console.log(`👑 HAXLOG 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);}
+
     time = getTime();
     newLog = chat.lastElementChild.innerText;
     if(newLog != lastLog){
@@ -65,11 +66,10 @@ function checkLogs(){
                 chat.lastElementChild.style.display = "none";
                 if(debugMess)
                     console.log(`👑 HAXLOG newLog  ${newLog} lastChild:  ${__}`);
-                if(chat.scrollTop == 0){
-                    chat.scrollTop = chat.scrollHeight;
-                    if(debugMess)
-                        console.log(`👑 MUTED 👑 PRZEWINIETO CZAT  NA DOL`);
-                }else {if(debugMess) console.log(`👑 MUTED 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);}
+                setTimeout(scrollDown, 1);
+                if(debugMess){
+                    console.log(`👑 MUTED 👑 PRZEWINIETO CZAT  NA DOL`);
+                }else if(debugMess) console.log(`👑 MUTED 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);
                 lastLog = newLog;
 
                 return;
@@ -118,6 +118,11 @@ function start(){
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
+function scrollDown(){
+    if(chat.scrollTop == 0){
+        chat.scrollTop = chat.scrollHeight;
+    }
+}
 start();
 let playerNickname;
 const autoConfig = false;
@@ -125,9 +130,9 @@ if(autoConfig){
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia
     muted[0] = "Server";
-}
-    
-else
+    console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
+}else{
     playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
-console.log(`👑 HAXLOG 👑 Ustawiłeś swój nick na: ${playerNickname}`);
+    console.log(`👑 HAXLOG 👑 Ustawiłeś swój nick na: ${playerNickname}`);
+}
 //
