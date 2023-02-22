@@ -20,6 +20,8 @@ let interval;
 let lastLog = "";
 let newLog = "";
 let time;
+let playerNickname;
+let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 
 //main
@@ -100,7 +102,6 @@ function play() {
     oscillator.stop(now + 1);
 }
 
-let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
@@ -115,7 +116,6 @@ function scrollDown(){
 }
 start();
 autoConfig();
-let playerNickname;
 function autoConfig(){
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia
