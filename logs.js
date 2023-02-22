@@ -29,7 +29,7 @@ function checkLogs(){
     time = getTime();
     newLog = chat.lastElementChild.innerText;
 
-    if(newLog != lastLog){
+    if(true){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
         //system cmd
@@ -68,7 +68,8 @@ function checkLogs(){
             }
         }
         
-        console.log(time+" "+newLog) //czat w konsoli
+        console.log(`${time} ${newLog}`) //czat w konsoli
+        chat.lastChild.innerText = `${time} ${newLog}`;
         
         //system sprawdzający powiadomienia na frazy
         for(let phrase of phrases){
