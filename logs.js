@@ -24,14 +24,9 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 
 //main
 function checkLogs(){
-    if(chat.scrollTop == 0){
-        chat.scrollTop = chat.scrollHeight;
-    if(debugMess)
-        console.log(`👑 HAXLOG 👑 PRZEWINIETO CZAT  NA DOL2`);
-    }else if(debugMess){console.log(`👑 HAXLOG 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);}
-
     time = getTime();
     newLog = chat.lastElementChild.innerText;
+
     if(newLog != lastLog){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
@@ -62,14 +57,9 @@ function checkLogs(){
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
-                let __ = chat.lastElementChild.innerText;
                 chat.lastElementChild.style.display = "none";
-                if(debugMess)
-                    console.log(`👑 HAXLOG newLog  ${newLog} lastChild:  ${__}`);
-                setTimeout(scrollDown, 1);
-                if(debugMess){
-                    console.log(`👑 MUTED 👑 PRZEWINIETO CZAT  NA DOL`);
-                }else if(debugMess) console.log(`👑 MUTED 👑 NIE PRZEWIJA CZATU NA DOL2 ${chat.scrollTop} ${chat.scrollHeight}`);
+                console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
+                setTimeout(scrollDown, 5);
                 lastLog = newLog;
 
                 return;
@@ -78,7 +68,7 @@ function checkLogs(){
         
         console.log(time+" "+newLog) //czat w konsoli
         
-        //system sprawdzający
+        //system sprawdzający powiadomienia na frazy
         for(let phrase of phrases){
             if(newLog.substring(11).toLowerCase().indexOf(phrase.toLowerCase()) !== -1){
                 console.log(`👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: ${phrase}`);
