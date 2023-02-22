@@ -11,7 +11,7 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 //init
 
 const logs = ["null"];
-let push_logs = false;
+let push_logs;
 const phrases = [];
 let debugMess = false;
 const notifications = [];
@@ -22,6 +22,7 @@ let newLog = "";
 let time;
 let playerNickname;
 let chat = document.getElementsByClassName("log ps ps--active-y")[0];
+let timestamp;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 
 //main
@@ -52,6 +53,13 @@ function checkLogs(){
 
                 return;
             }
+        }else
+        if(newLog.indexOf("^time") !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                timestamp ? 0 : 1;
+
+                return;
+            }
         }
 
         //chat + system mute
@@ -66,7 +74,7 @@ function checkLogs(){
         }
         
         console.log(`${time} ${newLog}`) //czat w konsoli
-        chat.lastChild.innerText = `${time} ${newLog}`;
+        if(timestamp) chat.lastChild.innerText = `${time} ${newLog}`;
         
         //system sprawdzający powiadomienia na frazy
         for(let phrase of phrases){
@@ -118,6 +126,7 @@ function autoConfig(){
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
 
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
+    timestamp = false; //domyślnie wyłączona godzina obok wiadomości
 
     //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
@@ -134,4 +143,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2216
+//1.02.2221
