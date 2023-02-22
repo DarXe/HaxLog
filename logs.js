@@ -56,7 +56,7 @@ function checkLogs(){
         }else
         if(newLog.indexOf("^time") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                timestamp ? 0 : 1;
+                timestamp = timestamp ? 0 : 1;
 
                 return;
             }
@@ -126,7 +126,7 @@ function autoConfig(){
     playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
 
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
-    timestamp = false; //domyślnie wyłączona godzina obok wiadomości
+    timestamp = true; //domyślnie włączona godzina obok wiadomości
 
     //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
@@ -143,4 +143,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2221
+//1.02.2222.1 fix bug cmd ^time
