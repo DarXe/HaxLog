@@ -119,6 +119,15 @@ function start(){
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
-const playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
+let playerNickname;
+const autoConfig = false;
+if(autoConfig){
+    playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
+    phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia
+    muted[0] = "Server";
+}
+    
+else
+    playerNickname = prompt("Witaj w HaxLog! Podaj swój dokładny nick z czatu: ")
 console.log(`👑 HAXLOG 👑 Ustawiłeś swój nick na: ${playerNickname}`);
 //

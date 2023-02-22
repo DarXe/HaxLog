@@ -1,11 +1,13 @@
 1.0211 dodanie pojemnika notifications na dane o powiadomieniach
 
-1.0212 dodanie opcji włączenia zapisu logów (domyślnie wyłączone)
-1.0212.1 naprawa powiadmienia na własny nick (dostaniesz powiadomienie tylko jeśli ktoś napisze twój nick)
-1.0212.2 dodano system wykrywania mute, oraz komendę ^mute do wyciszania graczy
-1.0212.3 małe poprawki z return
-1.0213 nowy system sprawdzania logów
-1.0213.1 komenda na dodanie gracza/frazy do bazy powiadomień
-1.0216 poprawka do komendy start()
-1.0216.1 dodanie rozpoznawanie nicków do komend, należy na początku wpisać swój dokładny nick aby wywołać komendę
-1.0216.
+1.02.12 dodanie opcji włączenia zapisu logów (domyślnie wyłączone)
+1.02.1201 naprawa powiadmienia na własny nick (dostaniesz powiadomienie tylko jeśli ktoś napisze twój nick)
+1.02.1202 dodano system wykrywania mute, oraz komendę ^mute do wyciszania graczy
+1.02.1203 małe poprawki z return
+1.02.13 nowy system sprawdzania logów
+1.02.1301 komenda na dodanie gracza/frazy do bazy powiadomień
+1.02.16 poprawka do komendy start()
+1.02.1601 dodanie rozpoznawanie nicków do komend, należy na początku wpisać swój dokładny nick aby wywołać komendę
+1.02.1602 dodano nowości do systemu mute - wiadomości nie pokazują się w konsoli oraz.. na czacie gry
+1.02.2112 nadal trwają prace nad poprawą buga z przewijaniem czatu ku górze przy wyciszonej wiadomości
+1.02.2203 dodano możliwość zapisania swoich ustawień z poziomu kodu - autoConfig (jeszcze ręczny)
