@@ -137,9 +137,9 @@ function autoConfig(){
 
     //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
     phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
-    phrases[1] = "[Server] Tryb rankingowy";
+    phrases[1] = "jakastamwiadomosc";
     phrases[2] = "[Server] Rusz się!";
-    phrases[3] = "[Server] Tryb rozgrzewki";
+    phrases[3] = "jakastamwiadomosc";
     phrases[4] = "jakastamwiadomosc";
 
     //możesz z góry dodać frazy, które chcesz wyciszać na czacie
@@ -151,4 +151,6 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2222.1 fix bug cmd ^time
+//1.02.2223 new cmd: ^console
+//00:48:08 [Server] GOAL! 🟥 0 - 1 🟦 🕒0:33 ⚽ DeVeRaS
+//00:48:25 [Server] GOAL! 🟥 1 - 1 🟦 🕒0:41 ⚽ boleco (Assist: bvb)
