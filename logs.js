@@ -178,6 +178,3 @@ function autoConfig(){
     playerNickname = playerNickname.toLowerCase();
 }
 //1.02.2313.2 new cmd: ^unmute nick
-//00:48:08 [Server] GOAL! 🟥 0 - 1 🟦 🕒0:33 ⚽ DeVeRaS
-//00:48:25 [Server] GOAL! 🟥 1 - 1 🟦 🕒0:41 ⚽ boleco (Assist: bvb)
-//💎 You earned 15 coins for being AFK (50% of total). Spend it in !store.⭐️
