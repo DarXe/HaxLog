@@ -66,6 +66,15 @@ function checkLogs(){
 
                 return;
             }
+        }else if(newLog.indexOf("^del") !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                let _ = newLog.substring(newLog.indexOf("^del")+5)
+                phrases = phrases.filter(phrase => !phrase.includes(_));
+                console.log(`👑 HAXLOG 👑 USUNĄŁEŚ Z POWIADOMIEŃ FRAZĘ: ${_}`);
+                play();
+
+                return;
+            }
         }
 
         //chat + system mute
@@ -151,6 +160,7 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2223 new cmd: ^console
+//1.02.2313 new cmd: ^del nick
 //00:48:08 [Server] GOAL! 🟥 0 - 1 🟦 🕒0:33 ⚽ DeVeRaS
 //00:48:25 [Server] GOAL! 🟥 1 - 1 🟦 🕒0:41 ⚽ boleco (Assist: bvb)
+//💎 You earned 15 coins for being AFK (50% of total). Spend it in !store.⭐️
