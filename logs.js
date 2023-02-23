@@ -99,7 +99,12 @@ function checkLogs(){
             if(newLog.indexOf(_) !== -1){
                 chat.lastElementChild.style.display = "none";
                 console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
-                setTimeout(scrollDown, 5);
+                setTimeout(scrollDown, 2);
+                function scrollDown(){
+                    if(chat.scrollTop == 0){
+                        chat.scrollTop = chat.scrollHeight;
+                    }
+                }
 
                 return;
             }
@@ -146,11 +151,6 @@ function start(){
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
-function scrollDown(){
-    if(chat.scrollTop == 0){
-        chat.scrollTop = chat.scrollHeight;
-    }
-}
 start();
 autoConfig();
 function autoConfig(){
