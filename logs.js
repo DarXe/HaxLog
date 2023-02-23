@@ -12,10 +12,10 @@ function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie 
 
 const logs = ["null"];
 let push_logs;
-const phrases = [];
+let phrases = [];
 let debugMess = false;
 const notifications = [];
-const muted = ["spam"];
+let muted = ["spam"];
 let interval;
 let lastLog = "";
 let newLog = "";
