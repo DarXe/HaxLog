@@ -1,13 +1,3 @@
-/* old log checking system
-function stop(){clearInterval(interval); console.log("Pomyślnie zatrzymano skrypt! Aby uruchomić wpisz start();");}
-function restart(){stop(); start();}
-function changeInterval (time){
-    clearInterval(interval);
-    interval = setInterval(checkLogs, time);
-}
-function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");}
-*/
-
 //init
 
 const logs = ["null"];
