@@ -99,12 +99,11 @@ function checkLogs(){
             if(newLog.indexOf(_) !== -1){
                 chat.lastElementChild.style.display = "none";
                 console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
-                setTimeout(scrollDown, 2);
-                function scrollDown(){
-                    if(chat.scrollTop == 0){
+                setTimeout(() => {
+                    if(chat.scrollTop === 0){
                         chat.scrollTop = chat.scrollHeight;
                     }
-                }
+                }, 2);
 
                 return;
             }
@@ -115,7 +114,7 @@ function checkLogs(){
         
         //system sprawdzający powiadomienia na frazy
         for(let phrase of phrases){
-            if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) !== -1 && newLog.toLowerCase().indexOf(playerNickname) == -1){
+            if(newLog.toLowerCase().indexOf(phrase.toLowerCase()) !== -1 && newLog.toLowerCase().indexOf(playerNickname) === -1){
                 console.log(`👑 HAXLOG 👑 NOWE POWIADOMIENIE NA FRAZE: ${phrase}`);
                 notifications.push(time+newLog); //dodanie powiadomienia do pojemnika
                 play();
