@@ -61,10 +61,7 @@ function checkLogs(){
                 let _ = newLog.substring(newLog.indexOf("^del")+5)
                 phrases = phrases.filter(phrase => !phrase.includes(_));
                 console.log(`👑 HAXLOG 👑 USUNĄŁEŚ Z POWIADOMIEŃ FRAZĘ: ${_}`);
-                console.log("👑 Aktualne zapisane frazy: ");
-                for(let _ of phrases){
-                    console.log(`${_}, `);
-                }
+                console.log("👑 Aktualne zapisane frazy: ", phrases);
                 play();
 
                 return;
@@ -74,10 +71,7 @@ function checkLogs(){
                 let _ = newLog.substring(newLog.indexOf("^unmute")+8)
                 muted = muted.filter(mute => !mute.includes(_));
                 console.log(`👑 HAXLOG 👑 ODCISZYŁEŚ GRACZA: ${_}`);
-                console.log("👑 Aktualne wyciszeni: ");
-                for(let _ of muted){
-                    console.log(`${_}, `);
-                }
+                console.log("👑 Aktualne wyciszeni: ", muted);
                 play();
 
                 return;
@@ -87,7 +81,7 @@ function checkLogs(){
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
-                chat.lastElementChild.style.display = "none";
+                chat.removeChild(chat.lastElementChild);
                 console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
                 setTimeout(() => {
                     if(chat.scrollTop === 0){

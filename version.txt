@@ -15,3 +15,4 @@
 1.02.2215.2 dodano nowy autoConfig, który ustawia się ręcznie według naszych potrzeb
 1.02.2222 dodano godzinę obok wiadomości, możliwość wyłączenia, (domyślnie włączone), komenda ^time
 1.02.2223 dodano komendę ^console na pokazywanie/ukrywanie czatu w konsoli przeglądarki
+1.02.2313.2 dodano komendę ^unmute nick
