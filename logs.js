@@ -86,6 +86,9 @@ function checkLogs(){
                 setTimeout(() => {
                     if(chat.scrollTop === 0){
                         chat.scrollTop = chat.scrollHeight;
+                        //fix bug
+                        document.getElementsByClassName("ps__rail-x")[0].innerText = "";
+                        document.getElementsByClassName("ps__rail-y")[0].innerText = "";
                     }
                 }, 2);
 
@@ -126,9 +129,6 @@ function play() {
     oscillator.start(now);
     oscillator.stop(now + 1);
 }
-//fix bug
-document.getElementsByClassName("ps__rail-x")[0].innerText = "";
-document.getElementsByClassName("ps__rail-y")[0].innerText = "";
 
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
