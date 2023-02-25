@@ -126,6 +126,9 @@ function play() {
     oscillator.start(now);
     oscillator.stop(now + 1);
 }
+//fix bug
+document.getElementsByClassName("ps__rail-x")[0].innerText = "";
+document.getElementsByClassName("ps__rail-y")[0].innerText = "";
 
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
@@ -160,4 +163,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2313.2 new cmd: ^unmute nick
+//1.02.2522 fix bug in chat

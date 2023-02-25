@@ -15,3 +15,5 @@ function changeInterval (time){
 }
 function start(){interval = setInterval(checkLogs, 25); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");}
 */
+document.getElementsByClassName("ps__rail-x")[0].innerText = "";
+document.getElementsByClassName("ps__rail-y")[0].innerText = "";
