@@ -129,7 +129,14 @@ function play() {
     oscillator.start(now);
     oscillator.stop(now + 1);
 }
-
+function oldStyleHax(){
+    document.getElementsByClassName("header")[0].style.display = "block";
+    document.getElementsByClassName("game-view")[0].style.flexDirection = "column";
+}
+function newStyleHax(){
+    document.getElementsByClassName("header")[0].style.display="none";
+    //document.getElementsByClassName("game-view")[0].style.flexDirection = "column-reverse";
+}
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
