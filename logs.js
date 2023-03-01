@@ -16,6 +16,7 @@ let timestamp;
 let consoleChat;
 let players = [];
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
+getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 
 //main
 function checkLogs(){
@@ -167,7 +168,7 @@ function addPlayer(playerName){
     let playerIndex = players.findIndex(player => player.name === playerName);
     
     if (playerIndex === -1){
-        players.push({added: time, name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: 0});
+        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getTime()});
         playerIndex = players.findIndex(player => player.name === playerName);
     }
 
@@ -207,4 +208,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.03.0119.1 added automatic player name assignment
+//1.03.0120 added automatic player name assignment
