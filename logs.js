@@ -182,14 +182,12 @@ function start(){
     //import data
     const jsonData = localStorage.getItem('data');
     players = JSON.parse(jsonData);
-}
+    playerNickname = localStorage['player_name'];
+} 
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 autoConfig();
 function autoConfig(){
-    //ustaw swój nick
-    playerNickname = "[live]darxe"; //wielkosc liter nie ma znaczenia
-
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
@@ -206,7 +204,6 @@ function autoConfig(){
     muted[1] = "jakastamwiadomosc"
     muted[2] = "jakastamwiadomosc"
 
-    //wiadomość powitalna, nie zmieniaj
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
