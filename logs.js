@@ -105,7 +105,7 @@ function checkLogs(){
             }
         }else if(newLog.indexOf("^top") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                console.log(`👑 HAXLOG 👑 STATYSTYKI: ${_}`);
+                console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
                 topScore();
                 play();
 
