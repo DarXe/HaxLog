@@ -35,10 +35,12 @@ function checkLogs(){
                 const playerGoal = newLog.split("⚽ ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerGoal);
                 players[playerIndex].goals++;
+                players[playerIndex].time = time;
                 if (newLog.includes("Assist:")){
                     const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
                     const playerIndex = addPlayer(playerAssist);
                     players[playerIndex].assists++;
+                    players[playerIndex].time = time;
                 }
             }
         }
@@ -160,13 +162,11 @@ function addPlayer(playerName){
     let playerIndex = players.findIndex(player => player.name === playerName);
     
     if (playerIndex === -1){
-        players.push({ name: playerName, goals: 0, assists: 0, ownGoals: 0 });
+        players.push({added: time, name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: 0});
         playerIndex = players.findIndex(player => player.name === playerName);
     }
-    if(debugMess){
-        console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
-        console.log(players);
-    }
+    console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
+    console.log(players);
 
     return playerIndex;
 }
@@ -203,4 +203,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.03.0118 fix bug in chat
+//1.03.0118.1 added player stats
