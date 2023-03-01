@@ -35,12 +35,12 @@ function checkLogs(){
                 const playerGoal = newLog.split("⚽ ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerGoal);
                 players[playerIndex].goals++;
-                players[playerIndex].time = time;
+                players[playerIndex].lastAction = time;
                 if (newLog.includes("Assist:")){
                     const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
                     const playerIndex = addPlayer(playerAssist);
                     players[playerIndex].assists++;
-                    players[playerIndex].time = time;
+                    players[playerIndex].lastAction = time;
                 }
             }
         }
