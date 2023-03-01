@@ -14,6 +14,7 @@ let playerNickname;
 let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 let timestamp;
 let consoleChat;
+let players = [];
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 
 //main
@@ -23,6 +24,24 @@ function checkLogs(){
 
     if(newLog.at(2) !== ":"){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
+
+        //statistics
+        if (newLog.includes("GOAL!")){
+            if(newLog.includes("OWN") && newLog.includes("🐸")){
+                const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
+                const playerIndex = addPlayer(playerOwnGoal);
+                players[playerIndex].ownGoals++;
+            }else{
+                const playerGoal = newLog.split("⚽ ")[1].split(" (")[0];
+                const playerIndex = addPlayer(playerGoal);
+                players[playerIndex].goals++;
+                if (newLog.includes("Assist:")){
+                    const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
+                    const playerIndex = addPlayer(playerAssist);
+                    players[playerIndex].assists++;
+                }
+            }
+        }
 
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
@@ -137,6 +156,20 @@ function newStyleHax(){
     document.getElementsByClassName("header")[0].style.display="none";
     //document.getElementsByClassName("game-view")[0].style.flexDirection = "column-reverse";
 }
+function addPlayer(playerName){
+    let playerIndex = players.findIndex(player => player.name === playerName);
+    
+    if (playerIndex === -1){
+        players.push({ name: playerName, goals: 0, assists: 0, ownGoals: 0 });
+        playerIndex = players.findIndex(player => player.name === playerName);
+    }
+    if(debugMess){
+        console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
+        console.log(players);
+    }
+
+    return playerIndex;
+}
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
@@ -170,4 +203,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.02.2522 fix bug in chat
+//1.03.0118 fix bug in chat
