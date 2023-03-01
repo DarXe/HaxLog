@@ -103,6 +103,14 @@ function checkLogs(){
 
                 return;
             }
+        }else if(newLog.indexOf("^top") !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                console.log(`👑 HAXLOG 👑 STATYSTYKI: ${_}`);
+                topScore();
+                play();
+
+                return;
+            }
         }
 
         //chat + system mute
@@ -188,6 +196,39 @@ function start(){
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 autoConfig();
+
+function topScore(){
+    let goals = {};
+    let assists = {};
+
+    players.forEach(item => {
+        if(goals[item.name]){
+            goals[item.name] += item.goals;
+        }else{
+            goals[item.name] = item.goals;
+        }
+        
+        if(assists[item.name]){
+            assists[item.name] += item.assists;
+        }else{
+            assists[item.name] = item.assists;
+        }
+    });
+
+    const sortedGoals = Object.entries(goals).sort((a, b) => b[1] - a[1]);
+    const sortedAssists = Object.entries(assists).sort((a, b) => b[1] - a[1]);
+
+    console.log("Top 5 strzelców:");
+    sortedGoals.slice(0, 5).forEach((item, index) => {
+    console.log(`${index + 1}. ${item[0]} - ${item[1]} goli`);
+    });
+
+    console.log("Top 5 asystentów:");
+    sortedAssists.slice(0, 5).forEach((item, index) => {
+    console.log(`${index + 1}. ${item[0]} - ${item[1]} asyst`);
+    });
+}
+
 function autoConfig(){
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
@@ -208,4 +249,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.03.0120 added automatic player name assignment
+//1.03.0120.1 added scorers and assists stats & ^top
