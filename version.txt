@@ -19,3 +19,4 @@
 1.02.2313.1 dodano komendę ^unmute nick
 1.03.0118 dodano statystyki graczy: bramki, asysty, gole samobójcze
 1.03.0118.1 dodano statystyki graczy: czas dodania do bazy oraz czas ostatniej akcji (bez goli samobójczych)
+1.03.0119 dodano zapisywanie i wczytywanie danych graczy

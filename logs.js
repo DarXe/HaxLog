@@ -45,6 +45,9 @@ function checkLogs(){
             }
             console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
             console.log(players);
+
+            //save data in local storage
+            localStorage.setItem('players', JSON.stringify(players));
         }
 
         //system cmd
@@ -175,6 +178,10 @@ function start(){
     stop();
     chat = document.getElementsByClassName("log ps ps--active-y")[0];
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
+
+    //import data
+    const jsonData = localStorage.getItem('data');
+    players = JSON.parse(jsonData);
 }
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
@@ -203,4 +210,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.03.0118.1 added player stats
+//1.03.0119 added save and load data of players
