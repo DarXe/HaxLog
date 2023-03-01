@@ -43,6 +43,8 @@ function checkLogs(){
                     players[playerIndex].lastAction = time;
                 }
             }
+            console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
+            console.log(players);
         }
 
         //system cmd
@@ -165,8 +167,6 @@ function addPlayer(playerName){
         players.push({added: time, name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: 0});
         playerIndex = players.findIndex(player => player.name === playerName);
     }
-    console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
-    console.log(players);
 
     return playerIndex;
 }
