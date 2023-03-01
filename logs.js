@@ -207,4 +207,4 @@ function autoConfig(){
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     playerNickname = playerNickname.toLowerCase();
 }
-//1.03.0119 added save and load data of players
+//1.03.0119.1 added automatic player name assignment
