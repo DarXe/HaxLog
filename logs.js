@@ -221,12 +221,12 @@ function topScore(){
 
     console.log("Top 5 strzelców:");
     sortedGoals.slice(0, 5).forEach((item, index) => {
-    console.log(`${index + 1}. ${item[0]} - ${item[1]} goli`);
+    console.log(`${index + 1}. ${item[0]} - ${item[1]}`);
     });
 
     console.log("Top 5 asystentów:");
     sortedAssists.slice(0, 5).forEach((item, index) => {
-    console.log(`${index + 1}. ${item[0]} - ${item[1]} asyst`);
+    console.log(`${index + 1}. ${item[0]} - ${item[1]}`);
     });
 }
 
