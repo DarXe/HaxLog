@@ -192,6 +192,7 @@ function start(){
     const jsonData = localStorage.getItem('players');
     players = JSON.parse(jsonData);
     playerNickname = localStorage['player_name'];
+    playerNickname = playerNickname.toLowerCase();
 } 
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
@@ -247,6 +248,5 @@ function autoConfig(){
     muted[2] = "jakastamwiadomosc"
 
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
-    playerNickname = playerNickname.toLowerCase();
 }
 //1.03.0120.1 added scorers and assists stats & ^top
