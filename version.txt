@@ -20,3 +20,4 @@
 1.03.0118 dodano statystyki graczy: bramki, asysty, gole samobójcze
 1.03.0118.1 dodano statystyki graczy: czas dodania do bazy oraz czas ostatniej akcji (bez goli samobójczych)
 1.03.0119 dodano zapisywanie i wczytywanie danych graczy
+1.03.0119.1 dodano automatyczne rozpoznanie nicku gracza, nie trzeba go już ustawiać ręcznie
