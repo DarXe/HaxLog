@@ -180,7 +180,7 @@ function start(){
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 
     //import data
-    const jsonData = localStorage.getItem('data');
+    const jsonData = localStorage.getItem('players');
     players = JSON.parse(jsonData);
     playerNickname = localStorage['player_name'];
 } 
