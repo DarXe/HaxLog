@@ -271,13 +271,13 @@ function topScore(){
     const sortedGoals = Object.entries(goals).sort((a, b) => b[1] - a[1]);
     const sortedAssists = Object.entries(assists).sort((a, b) => b[1] - a[1]);
 
-    console.log("Top 5 strzelców:");
-    sortedGoals.slice(0, 5).forEach((item, index) => {
+    console.log("Top 10 strzelców:");
+    sortedGoals.slice(0, 10).forEach((item, index) => {
     console.log(`${index + 1}. ${item[0]} - ${item[1]}`);
     });
 
-    console.log("Top 5 asystentów:");
-    sortedAssists.slice(0, 5).forEach((item, index) => {
+    console.log("Top 10 asystentów:");
+    sortedAssists.slice(0, 10).forEach((item, index) => {
     console.log(`${index + 1}. ${item[0]} - ${item[1]}`);
     });
 }
