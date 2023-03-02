@@ -229,7 +229,7 @@ function addPlayer(playerName){
             assists: 0,
             ownGoals: 0,
             lastAction: getFullTime(),
-            elo: "",
+            elo: 0,
             yellowCard: 0,
             redCard: 0,
             unrankedGoals: 0,
