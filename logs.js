@@ -39,21 +39,31 @@ function checkLogs(){
         }
 
         //statistics
-        if (isServerMessage && newLog.includes("ELO.")) {
+        if (isServerMessage && isRanked && newLog.includes(" 🟨 ")) { //yellow card
+            const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
+            const playerIndex = addPlayer(playerYellowCard);
+            players[playerIndex].yellowCard++;
+        } else if (isServerMessage && isRanked && newLog.includes(" 🟥 ")) { //red card
+            const playerRedCard = newLog.split(" kartka dla ")[1].split("!")[0];
+            const playerIndex = addPlayer(playerRedCard);
+            players[playerIndex].redCard++;
+
+        } else if (isServerMessage && newLog.includes("ELO.")) { //player elo
             const playerELO = newLog.split(" ")[1];
             const playerIndex = addPlayer(playerELO);
             players[playerIndex].elo = newLog.split(" ")[3];
+
         } else if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
-            if(newLog.includes("OWN") && newLog.includes("🐸")){
+            if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
                 const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerOwnGoal);
                 players[playerIndex].ownGoals++;
             }else{
-                const playerGoal = newLog.split("⚽ ")[1].split(" (")[0];
+                const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
                 const playerIndex = addPlayer(playerGoal);
                 players[playerIndex].goals++;
                 players[playerIndex].lastAction = time;
-                if (newLog.includes("Assist:")){
+                if (newLog.includes("Assist:")){  //assist
                     const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
                     const playerIndex = addPlayer(playerAssist);
                     players[playerIndex].assists++;
@@ -192,7 +202,17 @@ function addPlayer(playerName){
     let playerIndex = players.findIndex(player => player.name === playerName);
     
     if (playerIndex === -1){
-        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getFullTime(), elo: ""});
+        players.push({
+            added: getFullTime(),
+            name: playerName,
+            goals: 0,
+            assists: 0,
+            ownGoals: 0,
+            lastAction: getFullTime(),
+            elo: "",
+            yellowCard: 0,
+            redCard: 0
+        });
         playerIndex = players.findIndex(player => player.name === playerName);
     }
 
@@ -265,4 +285,4 @@ function autoConfig(){
 
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
-//1.03.0202.1 added ELO statistics
+//1.03.0203 added stats on yellow and red cards
