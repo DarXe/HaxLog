@@ -26,3 +26,4 @@
 1.03.0203 dodano statystyki o żółtych i czerwonych kartkach
 1.03.0203.1 dodano komendę ^start, do uruchomienia skryptu po zmianie rooma
 1.03.0203.2 dodano zapis fraz i wyciszonych
+1.03.0204 dodano statystyki goli, kartek w trybie rozgrzewkowym

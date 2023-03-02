@@ -15,10 +15,13 @@ let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 let timestamp;
 let consoleChat;
 let players = [];
-let isRanked = true;
+let isRanked = false;
 let isServerMessage = false;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
+const savePlayers = () => {
+    localStorage.setItem('players', JSON.stringify(players));
+}
 
 //main
 function checkLogs(){
@@ -42,16 +45,16 @@ function checkLogs(){
         if (isServerMessage && isRanked && newLog.includes(" 🟨 Żółta")) { //yellow card
             const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerYellowCard);
-            players[playerIndex].yellowCard++;
+            players[playerIndex].yellowCard++; savePlayers();
         } else if (isServerMessage && isRanked && newLog.includes(" 🟥 Czerwona")) { //red card
             const playerRedCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerRedCard);
-            players[playerIndex].redCard++;
+            players[playerIndex].redCard++; savePlayers();
 
         } else if (isServerMessage && newLog.includes("ELO.")) { //player elo
             const playerELO = newLog.split(" ")[1];
             const playerIndex = addPlayer(playerELO);
-            players[playerIndex].elo = newLog.split(" ")[3];
+            players[playerIndex].elo = newLog.split(" ")[3]; savePlayers();
 
         } else if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
             if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
@@ -72,8 +75,16 @@ function checkLogs(){
             }
             console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
             console.log(players);
+            savePlayers();
+        } else if (isServerMessage && !isRanked && newLog.includes(" kartka dla ")) { //yellow card
+            const playerCard = newLog.split(" kartka dla ")[1].split("!")[0];
+            const playerIndex = addPlayer(playerCard);
+            players[playerIndex].unrankedCards++; savePlayers();
 
-            localStorage.setItem('players', JSON.stringify(players)); //save
+        } else if (isServerMessage && !isRanked && newLog.includes("GOAL!")) {
+            const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
+            const playerIndex = addPlayer(playerGoal);
+            players[playerIndex].unrankedGoals++; savePlayers();
         }
 
         //system cmd
@@ -220,7 +231,9 @@ function addPlayer(playerName){
             lastAction: getFullTime(),
             elo: "",
             yellowCard: 0,
-            redCard: 0
+            redCard: 0,
+            unrankedGoals: 0,
+            unrankedCards: 0
         });
         playerIndex = players.findIndex(player => player.name === playerName);
     }
@@ -230,6 +243,7 @@ function addPlayer(playerName){
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
+    isRanked = false;
     chat = document.getElementsByClassName("log ps ps--active-y")[0];
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 
@@ -286,4 +300,4 @@ function autoConfig(){
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
 }
-//1.03.0203.2 added save of phrases and mutes
+//1.03.0204 added stats:goals, cards in warm-up mode
