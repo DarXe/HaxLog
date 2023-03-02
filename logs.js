@@ -45,46 +45,64 @@ function checkLogs(){
         if (isServerMessage && isRanked && newLog.includes(" 🟨 Żółta")) { //yellow card
             const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerYellowCard);
-            players[playerIndex].yellowCard++; savePlayers();
+            players[playerIndex].yellowCard++; 
+            players[playerIndex].lastAction = getFullTime(); savePlayers();
         } else if (isServerMessage && isRanked && newLog.includes(" 🟥 Czerwona")) { //red card
             const playerRedCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerRedCard);
-            players[playerIndex].redCard++; savePlayers();
+            players[playerIndex].redCard++; 
+            players[playerIndex].lastAction = getFullTime();savePlayers();
 
         } else if (isServerMessage && newLog.includes("ELO.")) { //player elo
             const playerELO = newLog.split(" ")[1];
             const playerIndex = addPlayer(playerELO);
-            players[playerIndex].elo = newLog.split(" ")[3]; savePlayers();
+            players[playerIndex].elo = newLog.split(" ")[3];
+            players[playerIndex].lastAction = getFullTime(); savePlayers();
 
         } else if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
             if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
                 const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerOwnGoal);
                 players[playerIndex].ownGoals++;
+                players[playerIndex].lastAction = getFullTime();
             }else{
                 const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
                 const playerIndex = addPlayer(playerGoal);
                 players[playerIndex].goals++;
-                players[playerIndex].lastAction = time;
+                players[playerIndex].lastAction = getFullTime();
                 if (newLog.includes("Assist:")){  //assist
                     const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
                     const playerIndex = addPlayer(playerAssist);
                     players[playerIndex].assists++;
-                    players[playerIndex].lastAction = time;
+                    players[playerIndex].lastAction = getFullTime();
                 }
             }
             console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
             console.log(players);
             savePlayers();
+
+        //game unranked
         } else if (isServerMessage && !isRanked && newLog.includes(" kartka dla ")) { //yellow card
             const playerCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerCard);
             players[playerIndex].unrankedCards++; savePlayers();
+            players[playerIndex].lastAction = getFullTime();
 
-        } else if (isServerMessage && !isRanked && newLog.includes("GOAL!")) {
-            const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
-            const playerIndex = addPlayer(playerGoal);
-            players[playerIndex].unrankedGoals++; savePlayers();
+        } else if (isServerMessage && !isRanked && newLog.includes("GOAL!")){ 
+            if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
+                const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
+                const playerIndex = addPlayer(playerOwnGoal);
+                players[playerIndex].unrankedGoals++;
+                players[playerIndex].lastAction = getFullTime();
+            }else{
+                const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
+                const playerIndex = addPlayer(playerGoal);
+                players[playerIndex].unrankedGoals++;
+                players[playerIndex].lastAction = getFullTime();
+            }
+            console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
+            console.log(players);
+            savePlayers();
         }
 
         //system cmd
@@ -300,4 +318,4 @@ function autoConfig(){
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
 }
-//1.03.0204 added stats:goals, cards in warm-up mode
+//1.03.0212 fix bug, clear code
