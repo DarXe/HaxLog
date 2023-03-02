@@ -15,6 +15,7 @@ let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 let timestamp;
 let consoleChat;
 let players = [];
+let isRanked = false;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 
@@ -27,7 +28,7 @@ function checkLogs(){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
         //statistics
-        if (newLog.includes("GOAL!")){
+        if (newLog.includes("GOAL!") && newLog.charAt(0) === "[" && newLog.charAt(7) === "]"){ //is server message
             if(newLog.includes("OWN") && newLog.includes("🐸")){
                 const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerOwnGoal);
@@ -176,7 +177,7 @@ function addPlayer(playerName){
     let playerIndex = players.findIndex(player => player.name === playerName);
     
     if (playerIndex === -1){
-        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getTime()});
+        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getFullTime()});
         playerIndex = players.findIndex(player => player.name === playerName);
     }
 
