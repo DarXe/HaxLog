@@ -15,7 +15,8 @@ let chat = document.getElementsByClassName("log ps ps--active-y")[0];
 let timestamp;
 let consoleChat;
 let players = [];
-let isRanked = false;
+let isRanked = true;
+let isServerMessage = false;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 
@@ -23,12 +24,22 @@ getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsa
 function checkLogs(){
     time = getTime();
     newLog = chat.lastElementChild.innerText;
+    isServerMessage = false;
 
     if(newLog.at(2) !== ":"){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
 
+        if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]")//is server message
+            isServerMessage = true;
+
+        if(isServerMessage && newLog.includes("Tryb rankingowy.")) {//game is ranked?
+            isRanked = true;
+        } else if(isServerMessage && newLog.includes("Tryb rozgrzewki (")) {
+            isRanked = false;
+        }
+
         //statistics
-        if (newLog.includes("GOAL!") && newLog.charAt(0) === "[" && newLog.charAt(7) === "]"){ //is server message
+        if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
             if(newLog.includes("OWN") && newLog.includes("🐸")){
                 const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerOwnGoal);
@@ -250,4 +261,4 @@ function autoConfig(){
 
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
-//1.03.0120.1 added scorers and assists stats & ^top
+//1.03.0202 check if game is ranked
