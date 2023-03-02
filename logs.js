@@ -39,7 +39,11 @@ function checkLogs(){
         }
 
         //statistics
-        if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
+        if (isServerMessage && newLog.includes("ELO.")) {
+            const playerELO = newLog.split(" ")[1];
+            const playerIndex = addPlayer(playerELO);
+            players[playerIndex].elo = newLog.split(" ")[3];
+        } else if (isServerMessage && isRanked && newLog.includes("GOAL!")){ 
             if(newLog.includes("OWN") && newLog.includes("🐸")){
                 const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
                 const playerIndex = addPlayer(playerOwnGoal);
@@ -188,7 +192,7 @@ function addPlayer(playerName){
     let playerIndex = players.findIndex(player => player.name === playerName);
     
     if (playerIndex === -1){
-        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getFullTime()});
+        players.push({added: getFullTime(), name: playerName, goals: 0, assists: 0, ownGoals: 0, lastAction: getFullTime(), elo: ""});
         playerIndex = players.findIndex(player => player.name === playerName);
     }
 
@@ -261,4 +265,4 @@ function autoConfig(){
 
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
-//1.03.0202 check if game is ranked
+//1.03.0202.1 added ELO statistics
