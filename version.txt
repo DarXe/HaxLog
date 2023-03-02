@@ -25,3 +25,4 @@
 1.03.0202.1 dodano statystyki ELO, gdy gracz wpisze !rank
 1.03.0203 dodano statystyki o żółtych i czerwonych kartkach
 1.03.0203.1 dodano komendę ^start, do uruchomienia skryptu po zmianie rooma
+1.03.0203.2 dodano zapis fraz i wyciszonych

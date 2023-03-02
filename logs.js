@@ -73,8 +73,7 @@ function checkLogs(){
             console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
             console.log(players);
 
-            //save data in local storage
-            localStorage.setItem('players', JSON.stringify(players));
+            localStorage.setItem('players', JSON.stringify(players)); //save
         }
 
         //system cmd
@@ -84,8 +83,8 @@ function checkLogs(){
                 muted.push(_);
                 console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
                 play();
-                //save data in local storage
-                localStorage.setItem('muted', JSON.stringify(muted));
+
+                localStorage.setItem('muted', JSON.stringify(muted)); //save
 
                 return;
             }
@@ -95,8 +94,8 @@ function checkLogs(){
                 phrases.push(_);
                 console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
                 play();
-                //save data in local storage
-                localStorage.setItem('phrases', JSON.stringify(phrases));
+
+                localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
@@ -287,4 +286,4 @@ function autoConfig(){
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
 }
-//1.03.0203.1 added ^start command
+//1.03.0203.2 added save of phrases and mutes
