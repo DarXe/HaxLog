@@ -24,3 +24,4 @@
 1.03.0120.1 dodano statystyki strzelców i asyst oraz komendę ^top, by wyświetlić ich w konsoli
 1.03.0202.1 dodano statystyki ELO, gdy gracz wpisze !rank
 1.03.0203 dodano statystyki o żółtych i czerwonych kartkach
+1.03.0203.1 dodano komendę ^start, do uruchomienia skryptu po zmianie rooma

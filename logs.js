@@ -102,8 +102,7 @@ function checkLogs(){
 
                 return;
             }
-        }
-        else if(newLog.indexOf("^console") !== -1){
+        }else if(newLog.indexOf("^console") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 consoleChat = consoleChat ? 0 : 1;
 
@@ -129,10 +128,17 @@ function checkLogs(){
 
                 return;
             }
-        }else if(newLog.indexOf("^top") !== -1){
+        } else if (newLog.indexOf("^top") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
                 topScore();
+                play();
+
+                return;
+            }
+        } else if (newLog.indexOf("^start") !== -1) {
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                start();
                 play();
 
                 return;
@@ -285,4 +291,4 @@ function autoConfig(){
 
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
-//1.03.0203 added stats on yellow and red cards
+//1.03.0203.1 added ^start command
