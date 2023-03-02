@@ -39,11 +39,11 @@ function checkLogs(){
         }
 
         //statistics
-        if (isServerMessage && isRanked && newLog.includes(" 🟨 ")) { //yellow card
+        if (isServerMessage && isRanked && newLog.includes(" 🟨 Żółta")) { //yellow card
             const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerYellowCard);
             players[playerIndex].yellowCard++;
-        } else if (isServerMessage && isRanked && newLog.includes(" 🟥 ")) { //red card
+        } else if (isServerMessage && isRanked && newLog.includes(" 🟥 Czerwona")) { //red card
             const playerRedCard = newLog.split(" kartka dla ")[1].split("!")[0];
             const playerIndex = addPlayer(playerRedCard);
             players[playerIndex].redCard++;
@@ -84,6 +84,8 @@ function checkLogs(){
                 muted.push(_);
                 console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
                 play();
+                //save data in local storage
+                localStorage.setItem('muted', JSON.stringify(muted));
 
                 return;
             }
@@ -93,6 +95,8 @@ function checkLogs(){
                 phrases.push(_);
                 console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
                 play();
+                //save data in local storage
+                localStorage.setItem('phrases', JSON.stringify(phrases));
 
                 return;
             }
@@ -231,9 +235,15 @@ function start(){
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 
     //import data
-    const jsonData = localStorage.getItem('players');
+    let jsonData = localStorage.getItem('players');
     players = JSON.parse(jsonData);
+    jsonData = localStorage.getItem('phrases');
+    phrases = JSON.parse(jsonData);
+    jsonData = localStorage.getItem('muted');
+    muted = JSON.parse(jsonData);
     playerNickname = localStorage['player_name'];
+    console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
+    
     playerNickname = playerNickname.toLowerCase();
 } 
 function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
@@ -276,19 +286,5 @@ function autoConfig(){
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
-
-    //dodaj frazy, na które chcesz powiadomienia dodając do szufladek odpowiednie dane
-    phrases[0] = "darxe"; //wielkosc liter nie ma znaczenia!
-    phrases[1] = "jakastamwiadomosc";
-    phrases[2] = "[Server] Rusz się!";
-    phrases[3] = "jakastamwiadomosc";
-    phrases[4] = "jakastamwiadomosc";
-
-    //możesz z góry dodać frazy, które chcesz wyciszać na czacie
-    muted[0] = "hb.jakjus.com"; //wielkość liter ma znadzenie przy mute!
-    muted[1] = "jakastamwiadomosc"
-    muted[2] = "jakastamwiadomosc"
-
-    console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
 }
 //1.03.0203.1 added ^start command
