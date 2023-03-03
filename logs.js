@@ -3,11 +3,8 @@
 const logs = ["null"];
 let push_logs;
 let phrases = [];
-let debugMess = false;
 const notifications = [];
 let muted = ["spam"];
-let interval;
-let lastLog = "";
 let newLog = "";
 let time;
 let playerNickname;
@@ -18,6 +15,7 @@ let players = [];
 let isRanked = false;
 let isServerMessage = false;
 let autoSave = true;
+let consoleChatMuted = true;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 const savePlayers = () => {
@@ -191,7 +189,7 @@ function checkLogs(){
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
                 chat.removeChild(chat.lastElementChild);
-                console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
+                if(consoleChatMuted) console.log(`👑 HAXLOG 👑 Wyciszona wiadomość: ${newLog}`);
                 setTimeout(() => {
                     if(chat.scrollTop === 0){
                         chat.scrollTop = chat.scrollHeight;
@@ -327,6 +325,7 @@ function autoConfig(){
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
+    consoleChatMuted = true; //włączone pokazywanie wyciszonych wiadmości w konsoli przeglądarki
     autoSave = true;
 }
 //1.03.0303 added on/off autosave options
