@@ -38,6 +38,7 @@ function checkLogs(){
 
         if(isServerMessage && newLog.includes("Tryb rankingowy.")) {//game is ranked?
             isRanked = true;
+            savePlayers();
         } else if(isServerMessage && newLog.includes("Tryb rozgrzewki (")) {
             isRanked = false;
         }
@@ -49,13 +50,15 @@ function checkLogs(){
                     const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
                     const playerIndex = addPlayer(playerYellowCard);
                     players[playerIndex].yellowCard++; 
-                    players[playerIndex].lastAction = getFullTime(); savePlayers();
+                    players[playerIndex].lastAction = getFullTime(); 
+                    if (autoSave) {savePlayers();}
                 } else if (newLog.includes(" 🟥 Czerwona")) { //red card
                     const playerRedCard = newLog.split(" kartka dla ")[1].split("!")[0];
                     const playerIndex = addPlayer(playerRedCard);
                     players[playerIndex].redCard++; 
-                    players[playerIndex].lastAction = getFullTime();savePlayers();
-        
+                    players[playerIndex].lastAction = getFullTime();
+                    if (autoSave) {savePlayers();}
+
                 } else if (newLog.includes("GOAL!")){ 
                     if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
                         const playerOwnGoal = newLog.split("🐸 ")[1].split(" (")[0];
@@ -76,14 +79,15 @@ function checkLogs(){
                     }
                     console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
                     console.log(players);
-                    savePlayers();
+                    if (autoSave) {savePlayers();}
                 }
             } else {
                 if (newLog.includes(" kartka dla ")) { //yellow card
                     const playerCard = newLog.split(" kartka dla ")[1].split("!")[0];
                     const playerIndex = addPlayer(playerCard);
-                    players[playerIndex].unrankedCards++; savePlayers();
+                    players[playerIndex].unrankedCards++;
                     players[playerIndex].lastAction = getFullTime();
+                    if (autoSave) {savePlayers();}
         
                 } else if (newLog.includes("GOAL!")){ 
                     if(newLog.includes("OWN") && newLog.includes("🐸")){ //own goal
@@ -99,15 +103,15 @@ function checkLogs(){
                     }
                     console.log("👑 HAXLOG 👑 TABLICA GRACZY:")
                     console.log(players);
-                    savePlayers();
+                    if (autoSave) {savePlayers();}
                 }
             }
             if (newLog.includes("ELO.")) { //player elo
                 const playerELO = newLog.split(" ")[1];
                 const playerIndex = addPlayer(playerELO);
                 players[playerIndex].elo = newLog.split(" ")[3];
-                players[playerIndex].lastAction = getFullTime(); savePlayers();
-    
+                players[playerIndex].lastAction = getFullTime();
+                if (autoSave) {savePlayers();}
             }
         }
 
@@ -323,5 +327,6 @@ function autoConfig(){
     push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
     timestamp = true; //domyślnie włączona godzina obok wiadomości
     consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
+    autoSave = true;
 }
-//1.03.0302 clear code, optimization
+//1.03.0303 added on/off autosave options
