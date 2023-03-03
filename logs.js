@@ -4,7 +4,7 @@ const logs = ["null"];
 let push_logs;
 let phrases = [];
 const notifications = [];
-let muted = ["spam"];
+let muted = ["spamm"];
 let newLog = "";
 let time;
 let playerNickname;
@@ -21,6 +21,13 @@ getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsa
 const savePlayers = () => {
     localStorage.setItem('players', JSON.stringify(players));
 }
+let config = {
+    push_logs: false, //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
+    timestamp: true, //domyślnie włączona godzina obok wiadomości
+    consoleChat: true, //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
+    consoleChatMuted: true, //włączone pokazywanie wyciszonych wiadmości w konsoli przeglądarki
+    autoSave: true //automatyczne zapisywanie statystyk, przy wartości false statystyki zapisują się tylko, gdy rozpocznie się gra rankingowa
+};
 
 //main
 function checkLogs(){
@@ -139,12 +146,16 @@ function checkLogs(){
         }else if(newLog.indexOf("^time") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 timestamp = timestamp ? 0 : 1;
+                config.timestamp  = timestamp;
+                localStorage.setItem('config', JSON.stringify(config));
 
                 return;
             }
         }else if(newLog.indexOf("^console") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 consoleChat = consoleChat ? 0 : 1;
+                config.consoleChat = consoleChat;
+                localStorage.setItem('config', JSON.stringify(config));
 
                 return;
             }
@@ -274,12 +285,29 @@ function start(){
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 
     //import data
-    let jsonData = localStorage.getItem('players');
-    players = JSON.parse(jsonData);
-    jsonData = localStorage.getItem('phrases');
-    phrases = JSON.parse(jsonData);
-    jsonData = localStorage.getItem('muted');
-    muted = JSON.parse(jsonData);
+    players = JSON.parse(localStorage.getItem('players'));
+    if (players === null) {
+        players = [];
+    }
+    phrases = JSON.parse(localStorage.getItem('phrases'));
+    if (phrases === null) {
+        phrases = [];
+    }
+    muted = JSON.parse(localStorage.getItem('muted'));
+    if (muted === null) {
+        muted = [];
+    }
+    config = JSON.parse(localStorage.getItem('config'));
+    if (config === null) {
+        config = {
+            push_logs: false,
+            timestamp: true,
+            consoleChat: true,
+            consoleChatMuted: true,
+            autoSave: true
+        };
+    }
+    
     playerNickname = localStorage['player_name'];
     console.log(`👑 HAXLOG 👑 Witaj ponownie ${playerNickname}! Załadowano ustawienia :)`);
     
@@ -321,11 +349,11 @@ function topScore(){
     });
 }
 
-function autoConfig(){
-    push_logs = false; //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
-    timestamp = true; //domyślnie włączona godzina obok wiadomości
-    consoleChat = true; //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
-    consoleChatMuted = true; //włączone pokazywanie wyciszonych wiadmości w konsoli przeglądarki
-    autoSave = true;
+function autoConfig() {
+    push_logs = config.push_logs;
+    timestamp = config.timestamp;
+    consoleChat = config.consoleChat;
+    consoleChatMuted = config.consoleChatMuted;
+    autoSave = config.autoSave;
 }
-//1.03.0303 added on/off autosave options
+//1.03.0305 added config
