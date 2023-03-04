@@ -123,7 +123,7 @@ function checkLogs(){
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                let _ = newLog.substring(newLog.indexOf("^mute")+6)
+                let _ = newLog.substring(newLog.indexOf("^mute")+5).trim()
                 muted.push(_);
                 console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
                 play();
@@ -134,18 +134,17 @@ function checkLogs(){
             }
         }else if(newLog.indexOf("^add") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                let _ = newLog.substring(newLog.indexOf("^add")+5)
+                let _ = newLog.substring(newLog.indexOf("^add")+4).trim()
                 phrases.push(_);
                 console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
                 play();
-
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
         }else if(newLog.indexOf("^time") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                timestamp = timestamp ? 0 : 1;
+                timestamp = timestamp ? false : true;
                 config.timestamp  = timestamp;
                 localStorage.setItem('config', JSON.stringify(config));
 
@@ -161,21 +160,23 @@ function checkLogs(){
             }
         }else if(newLog.indexOf("^del") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                let _ = newLog.substring(newLog.indexOf("^del")+5)
+                let _ = newLog.substring(newLog.indexOf("^del")+4).trim()
                 phrases = phrases.filter(phrase => !phrase.includes(_));
                 console.log(`👑 HAXLOG 👑 USUNĄŁEŚ Z POWIADOMIEŃ FRAZĘ: ${_}`);
                 console.log("👑 Aktualne zapisane frazy: ", phrases);
                 play();
+                localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
         }else if(newLog.indexOf("^unmute") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                let _ = newLog.substring(newLog.indexOf("^unmute")+8)
+                let _ = newLog.substring(newLog.indexOf("^unmute")+7).trim()
                 muted = muted.filter(mute => !mute.includes(_));
                 console.log(`👑 HAXLOG 👑 ODCISZYŁEŚ GRACZA: ${_}`);
                 console.log("👑 Aktualne wyciszeni: ", muted);
                 play();
+                localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
@@ -356,4 +357,4 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.03.0305 added config
+//1.03.0404 fix commands
