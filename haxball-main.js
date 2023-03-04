@@ -20,6 +20,7 @@ getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 const savePlayers = () => {
     localStorage.setItem('players', JSON.stringify(players));
+    console.log("[AUTOSAVE] Dane o graczach zostały zapisane!");
 }
 let config = {
     push_logs: false, //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
@@ -373,4 +374,4 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.03.0405 + command ^stats for player statistics
+//1.03.0412 autosave info
