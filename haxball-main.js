@@ -180,6 +180,11 @@ function checkLogs(){
 
                 return;
             }
+        } else if (newLog.indexOf("^stats") !== -1) {
+            const nickname = newLog.substring(newLog.indexOf("^stats")+6).trim();
+            showPlayerInfo(nickname);
+
+            return;
         } else if (newLog.indexOf("^top") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
@@ -274,10 +279,21 @@ function addPlayer(playerName){
             unrankedCards: 0
         });
         playerIndex = players.findIndex(player => player.name === playerName);
+        console.log(`👑 HAXLOG 👑 Dodano nowego gracza do bazy! To ${players[playerIndex].name} :)`)
     }
 
     return playerIndex;
 }
+function showPlayerInfo(playerName) {
+    const playerIndex = players.findIndex(player => player.name === playerName);
+    if (playerIndex !== -1) {
+        console.log(`👑 HAXLOG 👑 Gracz ${players[playerIndex].name} ma ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst.`);
+        console.log("👑 Pełne dane: ");
+        console.log(players[playerIndex]);
+    } else {
+        console.log(`👑 HAXLOG 👑 Nie ma jeszcze danych o graczu ${playerName} :/`);
+    }
+  }
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
@@ -357,4 +373,4 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.03.0404 fix commands
+//1.03.0405 + command ^stats for player statistics
