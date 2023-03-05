@@ -144,8 +144,6 @@ function checkLogs(){
 
                 return;
             }
-
-            return;
         }
 
         //system cmd
@@ -368,7 +366,7 @@ function start(){
     
     playerNickname = playerNickname.toLowerCase();
 } 
-function stop(){savePlayers(); chat.removeEventListener("DOMNodeInserted", checkLogs);}
+function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 autoConfig();
 
@@ -411,4 +409,10 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.3.0515 fix bug elo (!rank)
+
+function dataExp(){
+    savePlayers();
+    return localStorage.getItem('players')
+}
+
+//1.3.0520 fix bugs, data export f() - dataExp()
