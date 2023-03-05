@@ -47,12 +47,12 @@ function checkLogs(){
         if(isServerMessage && newLog.includes("Tryb rankingowy.")) {//game is ranked?
             isRanked = true;
             savePlayers();
-            if(dbm) console.log("⭐️Debug Message⭐️ Gra rankingowa!");
+            if(dbm) console.log(`⭐️Debug Message⭐️ Gra rankingowa! Log:${newLog}`);
 
             return;
         } else if(isServerMessage && newLog.includes("Tryb rozgrzewki (")) {
             isRanked = false;
-            if(dbm) console.log("⭐️Debug Message⭐️ Gra w trybie rozgrzewki!");
+            if(dbm) console.log(`⭐️Debug Message⭐️ Gra w trybie rozgrzewki! Log:${newLog}`);
 
             return;
         }
@@ -66,7 +66,7 @@ function checkLogs(){
                     players[playerIndex].yellowCard++; 
                     players[playerIndex].lastAction = getFullTime(); 
                     if (autoSave) {savePlayers();}
-                    if(dbm) console.log(`⭐️Debug Message⭐️ Żółta kartka dla ${players[playerIndex].name}`);
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Żółta kartka dla ${players[playerIndex].name} Log:${newLog}`);
 
                     return;
                 } else if (newLog.includes(" 🟥 Czerwona")) { //red card
@@ -75,7 +75,7 @@ function checkLogs(){
                     players[playerIndex].redCard++; 
                     players[playerIndex].lastAction = getFullTime();
                     if (autoSave) {savePlayers();}
-                    if(dbm) console.log(`⭐️Debug Message⭐️ Czerwona kartka dla ${players[playerIndex].name}`);
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Czerwona kartka dla ${players[playerIndex].name} Log:${newLog}`);
 
                     return;
                 } else if (newLog.includes("GOAL!")){ 
@@ -84,20 +84,20 @@ function checkLogs(){
                         const playerIndex = addPlayer(playerOwnGoal);
                         players[playerIndex].ownGoals++;
                         players[playerIndex].lastAction = getFullTime();
-                        if(dbm) console.log(`⭐️Debug Message⭐️ ${players[playerIndex].name} - gol samobójczy!`);
+                        if(dbm) console.log(`⭐️Debug Message⭐️ ${players[playerIndex].name} - gol samobójczy! Log:${newLog}`);
 
                     }else{
                         const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
                         const playerIndex = addPlayer(playerGoal);
                         players[playerIndex].goals++;
                         players[playerIndex].lastAction = getFullTime();
-                        if(dbm) console.log(`⭐️Debug Message⭐️ GOOOL! ${players[playerIndex].name}`);
+                        if(dbm) console.log(`⭐️Debug Message⭐️ GOOOL! ${players[playerIndex].name} Log:${newLog}`);
                         if (newLog.includes("Assist:")){  //assist
                             const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
                             const playerIndex = addPlayer(playerAssist);
                             players[playerIndex].assists++;
                             players[playerIndex].lastAction = getFullTime();
-                            if(dbm) console.log(`⭐️Debug Message⭐️ Dodatkowo asysta zaliczona przez ${players[playerIndex].name}!`);
+                            if(dbm) console.log(`⭐️Debug Message⭐️ Dodatkowo asysta zaliczona przez ${players[playerIndex].name}! Log:${newLog}`);
                         }
                     }
                     if (autoSave) {savePlayers();}
@@ -111,7 +111,7 @@ function checkLogs(){
                     players[playerIndex].unrankedCards++;
                     players[playerIndex].lastAction = getFullTime();
                     if (autoSave) {savePlayers();}
-                    if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Kartka dla ${players[playerIndex].name}`);
+                    if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Kartka dla ${players[playerIndex].name} Log:${newLog}`);
         
                     return;
                 } else if (newLog.includes("GOAL!")){ 
@@ -120,14 +120,14 @@ function checkLogs(){
                         const playerIndex = addPlayer(playerOwnGoal);
                         players[playerIndex].unrankedGoals++;
                         players[playerIndex].lastAction = getFullTime();
-                        if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Samobójczy gol strzelony przez ${players[playerIndex].name}`);
+                        if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Samobójczy gol strzelony przez ${players[playerIndex].name} Log:${newLog}`);
 
                     }else{
                         const playerGoal = newLog.split("⚽ ")[1].split(" (")[0]; //goal
                         const playerIndex = addPlayer(playerGoal);
                         players[playerIndex].unrankedGoals++;
                         players[playerIndex].lastAction = getFullTime();
-                        if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Gol strzelony przez ${players[playerIndex].name}`);
+                        if(dbm) console.log(`⭐️Debug Message⭐️ [UNRANKED] Gol strzelony przez ${players[playerIndex].name} Log:${newLog}`);
                     }
                     if (autoSave) {savePlayers();}
 
@@ -140,7 +140,7 @@ function checkLogs(){
                 players[playerIndex].elo = newLog.split(" ")[3];
                 players[playerIndex].lastAction = getFullTime();
                 if (autoSave) {savePlayers();}
-                if(dbm) console.log(`⭐️Debug Message⭐️ ${players[playerIndex].name} ma ${players[playerIndex].elo} ELO.`);
+                if(dbm) console.log(`⭐️Debug Message⭐️ ${players[playerIndex].name} ma ${players[playerIndex].elo} ELO. Log:${newLog}`);
 
                 return;
             }
