@@ -37,8 +37,9 @@ function checkLogs(){
     newLog = chat.lastElementChild.innerText;
     isServerMessage = false;
 
-    if(newLog.at(2) !== ":"){
+    if(newLog.charAt(2) !== ':' && newLog.charAt(0) !== '\uD83D'){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
+        if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
 
         if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]")//is server message
             isServerMessage = true;
@@ -143,16 +144,16 @@ function checkLogs(){
 
                 return;
             }
+
+            return;
         }
 
         //system cmd
         if(newLog.indexOf("^mute") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                let _ = newLog.substring(newLog.indexOf("^mute")+5).trim()
+                let _ = newLog.substring(newLog.indexOf("^mute")+5).trim();
                 muted.push(_);
-                console.log(`👑 HAXLOG 👑 WYCISZYŁEŚ GRACZA: ${_}`);
-                play();
-
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Wyciszyłeś gracza ${_}.`;
                 localStorage.setItem('muted', JSON.stringify(muted)); //save
 
                 return;
@@ -161,15 +162,20 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^add")+4).trim()
                 phrases.push(_);
-                console.log(`👑 HAXLOG 👑 DODAŁEŚ DO POWIADOMIEŃ FRAZĘ: ${_}`);
-                play();
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Dodałeś do powiadomień frazę '${_}'`;
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
         }else if(newLog.indexOf("^time") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                timestamp = timestamp ? false : true;
+                if (timestamp) {
+                    timestamp = false;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Wyłączyłeś godzinę obok wiadomości.`;
+                } else {
+                    timestamp = true;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Włączyłeś godzinę obok wiadomości.`;
+                }
                 config.timestamp  = timestamp;
                 localStorage.setItem('config', JSON.stringify(config));
 
@@ -177,7 +183,13 @@ function checkLogs(){
             }
         }else if(newLog.indexOf("^console") !== -1){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                consoleChat = consoleChat ? 0 : 1;
+                if (consoleChat) {
+                    consoleChat = false;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Wyłączyłeś czat w konsoli.`;
+                } else {
+                    consoleChat = true;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Włączyłeś czat w konsoli.`;
+                }
                 config.consoleChat = consoleChat;
                 localStorage.setItem('config', JSON.stringify(config));
 
@@ -187,9 +199,8 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^del")+4).trim()
                 phrases = phrases.filter(phrase => !phrase.includes(_));
-                console.log(`👑 HAXLOG 👑 USUNĄŁEŚ Z POWIADOMIEŃ FRAZĘ: ${_}`);
                 console.log("👑 Aktualne zapisane frazy: ", phrases);
-                play();
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Usunąłeś z powiadomień frazę '${_}', lista fraz w konsoli.`;
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
@@ -198,23 +209,22 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^unmute")+7).trim()
                 muted = muted.filter(mute => !mute.includes(_));
-                console.log(`👑 HAXLOG 👑 ODCISZYŁEŚ GRACZA: ${_}`);
                 console.log("👑 Aktualne wyciszeni: ", muted);
-                play();
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Odciszyłeś gracza ${_}, lista wyciszonych w konsoli.`;
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
             }
         } else if (newLog.indexOf("^stats") !== -1) {
             const nickname = newLog.substring(newLog.indexOf("^stats")+6).trim();
-            showPlayerInfo(nickname);
+            chat.lastChild.innerText = showPlayerInfo(nickname);
 
             return;
         } else if (newLog.indexOf("^top") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
                 topScore();
-                play();
+                chat.lastChild.innerText = `👑 HAXLOG 👑 TOP strzelców i asystentów wyświetlono w konsoli.`;
 
                 return;
             }
@@ -244,8 +254,8 @@ function checkLogs(){
                 return;
             }
         }
-        
-        if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
+
+        //timestamp 00:00:00 player: text
         if(timestamp) chat.lastChild.innerText = `${time} ${newLog}`;
         
         //system sprawdzający powiadomienia na frazy
@@ -311,14 +321,17 @@ function addPlayer(playerName){
 }
 function showPlayerInfo(playerName) {
     const playerIndex = players.findIndex(player => player.name === playerName);
+    let _ = ``;
     if (playerIndex !== -1) {
-        console.log(`👑 HAXLOG 👑 Gracz ${players[playerIndex].name} ma ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst.`);
+        _ = `👑 HAXLOG 👑 Gracz ${players[playerIndex].name} ma ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst. Pełne dane w konsoli ->`;
+        console.log(_);
         console.log("👑 Pełne dane: ");
         console.log(players[playerIndex]);
     } else {
-        console.log(`👑 HAXLOG 👑 Nie ma jeszcze danych o graczu ${playerName} :/`);
+        _ = `👑 HAXLOG 👑 Nie ma jeszcze danych o graczu ${playerName} :/`;
     }
-  }
+    return _;
+}
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
@@ -355,7 +368,7 @@ function start(){
     
     playerNickname = playerNickname.toLowerCase();
 } 
-function stop(){chat.removeEventListener("DOMNodeInserted", checkLogs);}
+function stop(){savePlayers(); chat.removeEventListener("DOMNodeInserted", checkLogs);}
 start();
 autoConfig();
 
@@ -398,4 +411,4 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.03.0412 autosave info
+//1.3.0504 better system cmd and console.log fix
