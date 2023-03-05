@@ -134,10 +134,10 @@ function checkLogs(){
                     return;
                 }
             }
-            if (newLog.includes("ELO.")) { //player elo
-                const playerELO = newLog.split(" ")[1];
+            if (newLog.includes("ELO.") && !newLog.includes("Straciłeś")) { //player elo
+                const playerELO = newLog.split(" ma ")[0].split("] ")[1];
                 const playerIndex = addPlayer(playerELO);
-                players[playerIndex].elo = newLog.split(" ")[3];
+                players[playerIndex].elo = newLog.split(" ma ")[1].split(" p")[0]
                 players[playerIndex].lastAction = getFullTime();
                 if (autoSave) {savePlayers();}
                 if(dbm) console.log(`⭐️Debug Message⭐️ ${players[playerIndex].name} ma ${players[playerIndex].elo} ELO. Log:${newLog}`);
@@ -153,7 +153,7 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^mute")+5).trim();
                 muted.push(_);
-                chat.lastChild.innerText = `👑 HAXLOG 👑 Wyciszyłeś gracza ${_}.`;
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Wyciszyłeś gracza/frazę '${_}'.`;
                 localStorage.setItem('muted', JSON.stringify(muted)); //save
 
                 return;
@@ -210,7 +210,7 @@ function checkLogs(){
                 let _ = newLog.substring(newLog.indexOf("^unmute")+7).trim()
                 muted = muted.filter(mute => !mute.includes(_));
                 console.log("👑 Aktualne wyciszeni: ", muted);
-                chat.lastChild.innerText = `👑 HAXLOG 👑 Odciszyłeś gracza ${_}, lista wyciszonych w konsoli.`;
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Odciszyłeś gracza/frazę '${_}', lista wyciszonych w konsoli.`;
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
@@ -411,4 +411,4 @@ function autoConfig() {
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
 }
-//1.3.0504 better system cmd and console.log fix
+//1.3.0515 fix bug elo (!rank)
