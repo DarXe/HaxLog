@@ -415,4 +415,98 @@ function dataExp(){
     return localStorage.getItem('players')
 }
 
-//1.3.0520 fix bugs, data export f() - dataExp()
+let players2 = []; //players2 = JSON.parse(string_import_data)
+function joinArrays() {
+    let newPlayers = 0;
+    let actions = 0;
+    players2.forEach(player2 => {
+        const index = players.findIndex(player => player.name === player2.name);
+
+        if (index === -1) {
+            players.push(player2);
+            console.log(`${++newPlayers}. Przeniesiono gracza ${player2.name} do players`)
+        } else {
+            if(player2.goals > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].goals} oraz ${player2.goals} bramek`);
+                players[index].goals += player2.goals;
+                console.log(`Przeniesiono ${player2.goals} bramki gracza ${player2.name} do players, teraz ma ${players[index].goals}`);
+                player2.goals = 0;
+                actions++;
+            }
+            if(player2.assists > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].assists} oraz ${player2.assists} asyst`);
+                players[index].assists += player2.assists;
+                console.log(`Przeniesiono ${player2.assists} asysty gracza ${player2.name} do players, teraz ma ${players[index].assists}`);
+                player2.assists = 0;
+                actions++;
+            }
+            if(player2.ownGoals > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].ownGoals} oraz ${player2.ownGoals} goli samobójczych`);
+                players[index].ownGoals += player2.ownGoals;
+                console.log(`Przeniesiono ${player2.ownGoals} bramki samobójcze gracza ${player2.name} do players, teraz ma ${players[index].ownGoals}`);
+                player2.ownGoals = 0;
+                actions++;
+            }
+            if(player2.yellowCard > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].yellowCard} oraz ${player2.yellowCard} żółtych kartek`);
+                players[index].yellowCard += player2.yellowCard;
+                console.log(`Przeniesiono ${player2.yellowCard} żółte kartki gracza ${player2.name} do players, teraz ma ${players[index].yellowCard}`);
+                player2.yellowCard = 0;
+                actions++;
+            }
+            if(player2.redCard > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].redCard} oraz ${player2.redCard} czerwonych kartek`);
+                players[index].redCard += player2.redCard;
+                console.log(`Przeniesiono ${player2.redCard} czerwone kartki gracza ${player2.name} do players, teraz ma ${players[index].redCard}`);
+                player2.redCard = 0;
+                actions++;
+            }
+            if(player2.unrankedGoals > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].unrankedGoals} oraz ${player2.unrankedGoals} [unranked] bramkek`);
+                players[index].unrankedGoals += player2.unrankedGoals;
+                console.log(`Przeniesiono ${player2.unrankedGoals} [unranked] bramki gracza ${player2.name} do players, teraz ma ${players[index].unrankedGoals}`);
+                player2.unrankedGoals = 0;
+                actions++;
+            }
+            if(player2.unrankedCards > 0) {
+                console.log(`Gracz ${players[index].name} ma ${players[index].unrankedCards} oraz ${player2.unrankedCards} [unranked] kartek`);
+                players[index].unrankedCards += player2.unrankedCards;
+                console.log(`Przeniesiono ${player2.unrankedCards} [unranked] kartki gracza ${player2.name} do players, teraz ma ${players[index].unrankedCards}`);
+                player2.unrankedCards = 0;
+                actions++;
+            }
+            if(player2.elo > players[index].elo) {
+                console.log(`Elo [${player2.elo}] gracza ${player2.name} jest większe niż ELO [${players[index].elo}] w players '${players[index].elo}'`)
+                players[index].elo = player2.elo;
+                actions++;
+            }
+
+            const lastAction = new Date(player2.lastAction);
+            if (lastAction > new Date(players[index].lastAction)) {
+                console.log(`Data ${player2.lastAction} jest aktualniejsza niż ${players[index].lastAction}`)
+                players[index].lastAction = player2.lastAction;
+                actions++;
+            }
+        }
+    });
+    console.log(`👑 HAXLOG 👑 Wykonano import z innej bazy do bazy players! Dodano ${newPlayers} nowych graczy oraz wykonano ${actions} przeniesień`);
+  //localStorage.setItem('players', JSON.stringify(players));
+}
+
+const playersNew = players.map(player => {
+    return {
+        n: player.name,
+        g: player.goals,
+        a: player.assists,
+        oG: player.ownGoals,
+        yC: player.yellowCard,
+        rC: player.redCard,
+        e: player.elo,
+        uG: player.unrankedGoals,
+        uC: player.unrankedCards,
+        //lA: new Date(player.lastAction),
+        //add: new Date(player.added)
+    }
+})
+
+//1.3.0604 added joinArrays function to import data
