@@ -510,4 +510,9 @@ const playersNew = players.map(player => {
     }
 })
 
-//1.3.0711 players Change Counter added
+function clearPlayers() {
+    players = [];
+    savePlayers();
+}
+
+//1.3.0804 clear players function
