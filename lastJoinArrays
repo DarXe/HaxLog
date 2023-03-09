@@ -1,635 +1,812 @@
-VM5406:33 Gracz SpiderPL ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza SpiderPL do players, teraz ma 1
-VM5406:54 Gracz SpiderPL ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza SpiderPL do players, teraz ma 1
-VM5406:61 Elo [1087] gracza SpiderPL jest większe niż ELO [0] w players '0'
-VM5406:12 Gracz Joséliñho ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza Joséliñho do players, teraz ma 1
-VM5406:19 Gracz Joséliñho ma 2 oraz 2 asyst
-VM5406:21 Przeniesiono 2 asysty gracza Joséliñho do players, teraz ma 4
-VM5406:33 Gracz Joséliñho ma 18 oraz 11 żółtych kartek
-VM5406:35 Przeniesiono 11 żółte kartki gracza Joséliñho do players, teraz ma 29
-VM5406:40 Gracz Joséliñho ma 12 oraz 11 czerwonych kartek
-VM5406:42 Przeniesiono 11 czerwone kartki gracza Joséliñho do players, teraz ma 23
-VM5406:54 Gracz Joséliñho ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza Joséliñho do players, teraz ma 1
-VM5406:9 1. Przeniesiono gracza winiu do players
-VM5406:9 2. Przeniesiono gracza MertFK do players
-VM5406:19 Gracz Sushi ma 2 oraz 2 asyst
-VM5406:21 Przeniesiono 2 asysty gracza Sushi do players, teraz ma 4
-VM5406:26 Gracz Sushi ma 2 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza Sushi do players, teraz ma 3
-VM5406:33 Gracz Sushi ma 9 oraz 8 żółtych kartek
-VM5406:35 Przeniesiono 8 żółte kartki gracza Sushi do players, teraz ma 17
-VM5406:40 Gracz Sushi ma 16 oraz 4 czerwonych kartek
-VM5406:42 Przeniesiono 4 czerwone kartki gracza Sushi do players, teraz ma 20
-VM5406:54 Gracz Sushi ma 0 oraz 4 [unranked] kartek
-VM5406:56 Przeniesiono 4 [unranked] kartki gracza Sushi do players, teraz ma 4
-VM5406:61 Elo [1182] gracza Sushi jest większe niż ELO [1171] w players '1171'
-VM5406:68 Data 5.03.2023, 23:59:26 jest aktualniejsza niż 5.03.2023, 23:58:29
-VM5406:9 3. Przeniesiono gracza skrzydłowy kwara united do players
-VM5406:9 4. Przeniesiono gracza Gavi do players
-VM5406:33 Gracz Klitorchenko ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Klitorchenko do players, teraz ma 1
-VM5406:9 5. Przeniesiono gracza antoni do players
-VM5406:33 Gracz Krychowiak ma 0 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza Krychowiak do players, teraz ma 2
-VM5406:9 6. Przeniesiono gracza DEGA PRO  do players
-VM5406:9 7. Przeniesiono gracza Kasper Schmeichel GK do players
-VM5406:9 8. Przeniesiono gracza Lebron James do players
-VM5406:9 9. Przeniesiono gracza Wykop.pl do players
-VM5406:9 10. Przeniesiono gracza napastnik kwara united do players
-VM5406:9 11. Przeniesiono gracza pomocnik kwara united do players
-VM5406:9 12. Przeniesiono gracza LuCroat Modrić do players
-VM5406:9 13. Przeniesiono gracza ddddd do players
-VM5406:9 14. Przeniesiono gracza W. Fabianski | BUR do players
-VM5406:33 Gracz Yaya Touré ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Yaya Touré do players, teraz ma 1
-VM5406:9 15. Przeniesiono gracza dupa do players
-VM5406:12 Gracz Babyls ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza Babyls do players, teraz ma 1
-VM5406:33 Gracz Babyls ma 0 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza Babyls do players, teraz ma 2
-VM5406:40 Gracz Babyls ma 0 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza Babyls do players, teraz ma 2
-VM5406:9 16. Przeniesiono gracza pulok do players
-VM5406:9 17. Przeniesiono gracza Leonel Messi 10 do players
-VM5406:9 18. Przeniesiono gracza ali do players
-VM5406:47 Gracz oppp ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza oppp do players, teraz ma 1
-VM5406:54 Gracz oppp ma 0 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza oppp do players, teraz ma 2
-VM5406:9 19. Przeniesiono gracza :) do players
-VM5406:54 Gracz Paypik ma 2 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza Paypik do players, teraz ma 4
-VM5406:9 20. Przeniesiono gracza   do players
-VM5406:33 Gracz wq ma 3 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza wq do players, teraz ma 5
-VM5406:40 Gracz wq ma 3 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza wq do players, teraz ma 5
-VM5406:47 Gracz wq ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza wq do players, teraz ma 1
-VM5406:9 21. Przeniesiono gracza Kowex do players
-VM5406:33 Gracz ALison ma 3 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza ALison do players, teraz ma 5
-VM5406:47 Gracz ALison ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza ALison do players, teraz ma 2
-VM5406:54 Gracz ALison ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza ALison do players, teraz ma 1
-VM5406:54 Gracz anan xd ma 4 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza anan xd do players, teraz ma 5
-VM5406:26 Gracz enepene ma 0 oraz 2 goli samobójczych
-VM5406:28 Przeniesiono 2 bramki samobójcze gracza enepene do players, teraz ma 2
-VM5406:33 Gracz enepene ma 3 oraz 4 żółtych kartek
-VM5406:35 Przeniesiono 4 żółte kartki gracza enepene do players, teraz ma 7
-VM5406:40 Gracz enepene ma 4 oraz 4 czerwonych kartek
-VM5406:42 Przeniesiono 4 czerwone kartki gracza enepene do players, teraz ma 8
-VM5406:47 Gracz enepene ma 0 oraz 12 [unranked] bramkek
-VM5406:49 Przeniesiono 12 [unranked] bramki gracza enepene do players, teraz ma 12
-VM5406:54 Gracz enepene ma 0 oraz 21 [unranked] kartek
-VM5406:56 Przeniesiono 21 [unranked] kartki gracza enepene do players, teraz ma 21
-VM5406:9 22. Przeniesiono gracza Vład  do players
-VM5406:47 Gracz niker ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza niker do players, teraz ma 1
-VM5406:54 Gracz niker ma 0 oraz 3 [unranked] kartek
-VM5406:56 Przeniesiono 3 [unranked] kartki gracza niker do players, teraz ma 3
-VM5406:9 23. Przeniesiono gracza Asking Alexandria  do players
-VM5406:9 24. Przeniesiono gracza Czikita do players
-VM5406:12 Gracz asd ma 8 oraz 5 bramek
-VM5406:14 Przeniesiono 5 bramki gracza asd do players, teraz ma 13
-VM5406:33 Gracz asd ma 5 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza asd do players, teraz ma 6
-VM5406:40 Gracz asd ma 9 oraz 6 czerwonych kartek
-VM5406:42 Przeniesiono 6 czerwone kartki gracza asd do players, teraz ma 15
-VM5406:47 Gracz asd ma 12 oraz 6 [unranked] bramkek
-VM5406:49 Przeniesiono 6 [unranked] bramki gracza asd do players, teraz ma 18
-VM5406:54 Gracz asd ma 9 oraz 12 [unranked] kartek
-VM5406:56 Przeniesiono 12 [unranked] kartki gracza asd do players, teraz ma 21
-VM5406:9 25. Przeniesiono gracza Sup3rC00l do players
-VM5406:9 26. Przeniesiono gracza EmKo do players
-VM5406:9 27. Przeniesiono gracza Jebie ci  Starego do players
-VM5406:9 28. Przeniesiono gracza wujek do players
-VM5406:9 29. Przeniesiono gracza KAKA do players
-VM5406:9 30. Przeniesiono gracza Emilano Martinez GK do players
-VM5406:9 31. Przeniesiono gracza Nie wiem jak sie w to gra do players
-VM5406:9 32. Przeniesiono gracza 77yuki do players
-VM5406:9 33. Przeniesiono gracza d do players
-VM5406:9 34. Przeniesiono gracza qwerty do players
-VM5406:9 35. Przeniesiono gracza Silfverberg do players
-VM5406:9 36. Przeniesiono gracza Drogba do players
-VM5406:9 37. Przeniesiono gracza <> do players
-VM5406:9 38. Przeniesiono gracza gringo do players
-VM5406:12 Gracz rrr ma 5 oraz 4 bramek
-VM5406:14 Przeniesiono 4 bramki gracza rrr do players, teraz ma 9
-VM5406:19 Gracz rrr ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza rrr do players, teraz ma 1
-VM5406:33 Gracz rrr ma 3 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza rrr do players, teraz ma 4
-VM5406:54 Gracz rrr ma 0 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza rrr do players, teraz ma 2
-VM5406:61 Elo [1292] gracza rrr jest większe niż ELO [0] w players '0'
-VM5406:9 39. Przeniesiono gracza Michammad Ali Jackson Jr do players
-VM5406:9 40. Przeniesiono gracza Marko Podlecić do players
-VM5406:19 Gracz Lukito ma 2 oraz 4 asyst
-VM5406:21 Przeniesiono 4 asysty gracza Lukito do players, teraz ma 6
-VM5406:33 Gracz Lukito ma 0 oraz 3 żółtych kartek
-VM5406:35 Przeniesiono 3 żółte kartki gracza Lukito do players, teraz ma 3
-VM5406:47 Gracz Lukito ma 0 oraz 6 [unranked] bramkek
-VM5406:49 Przeniesiono 6 [unranked] bramki gracza Lukito do players, teraz ma 6
-VM5406:54 Gracz Lukito ma 0 oraz 4 [unranked] kartek
-VM5406:56 Przeniesiono 4 [unranked] kartki gracza Lukito do players, teraz ma 4
-VM5406:9 41. Przeniesiono gracza Fan K-popu do players
-VM5406:12 Gracz Eplik ma 3 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Eplik do players, teraz ma 5
-VM5406:19 Gracz Eplik ma 10 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Eplik do players, teraz ma 11
-VM5406:26 Gracz Eplik ma 0 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza Eplik do players, teraz ma 1
-VM5406:33 Gracz Eplik ma 3 oraz 4 żółtych kartek
-VM5406:35 Przeniesiono 4 żółte kartki gracza Eplik do players, teraz ma 7
-VM5406:40 Gracz Eplik ma 3 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza Eplik do players, teraz ma 6
-VM5406:61 Elo [1194] gracza Eplik jest większe niż ELO [1146] w players '1146'
-VM5406:68 Data 6.03.2023, 02:15:34 jest aktualniejsza niż 6.03.2023, 01:45:25
-VM5406:9 42. Przeniesiono gracza Szkarłatny Pumpernikiel do players
-VM5406:9 43. Przeniesiono gracza PKS ŁYSZKOWICE do players
-VM5406:9 44. Przeniesiono gracza KaroliQ do players
-VM5406:40 Gracz Tomson ma 14 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza Tomson do players, teraz ma 15
-VM5406:12 Gracz Pizza ma 0 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Pizza do players, teraz ma 2
-VM5406:26 Gracz Pizza ma 4 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza Pizza do players, teraz ma 5
-VM5406:47 Gracz Pizza ma 0 oraz 3 [unranked] bramkek
-VM5406:49 Przeniesiono 3 [unranked] bramki gracza Pizza do players, teraz ma 3
-VM5406:68 Data 5.03.2023, 20:17:51 jest aktualniejsza niż 5.03.2023, 20:09:32
-VM5406:9 45. Przeniesiono gracza Andrea Pirlo do players
-VM5406:12 Gracz Di María ma 16 oraz 4 bramek
-VM5406:14 Przeniesiono 4 bramki gracza Di María do players, teraz ma 20
-VM5406:19 Gracz Di María ma 2 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Di María do players, teraz ma 3
-VM5406:33 Gracz Di María ma 9 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza Di María do players, teraz ma 11
-VM5406:40 Gracz Di María ma 4 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza Di María do players, teraz ma 6
-VM5406:61 Elo [1109] gracza Di María jest większe niż ELO [1059] w players '1059'
-VM5406:9 46. Przeniesiono gracza RUCHAM CI RODZINE do players
-VM5406:61 Elo [1162] gracza sebastianGK jest większe niż ELO [1148] w players '1148'
-VM5406:9 47. Przeniesiono gracza G.Hagi do players
-VM5406:26 Gracz Jutra_Nie_Bedzie ma 0 oraz 2 goli samobójczych
-VM5406:28 Przeniesiono 2 bramki samobójcze gracza Jutra_Nie_Bedzie do players, teraz ma 2
-VM5406:33 Gracz Jutra_Nie_Bedzie ma 4 oraz 12 żółtych kartek
-VM5406:35 Przeniesiono 12 żółte kartki gracza Jutra_Nie_Bedzie do players, teraz ma 16
-VM5406:40 Gracz Jutra_Nie_Bedzie ma 0 oraz 8 czerwonych kartek
-VM5406:42 Przeniesiono 8 czerwone kartki gracza Jutra_Nie_Bedzie do players, teraz ma 8
-VM5406:47 Gracz Jutra_Nie_Bedzie ma 0 oraz 11 [unranked] bramkek
-VM5406:49 Przeniesiono 11 [unranked] bramki gracza Jutra_Nie_Bedzie do players, teraz ma 11
-VM5406:54 Gracz Jutra_Nie_Bedzie ma 0 oraz 5 [unranked] kartek
-VM5406:56 Przeniesiono 5 [unranked] kartki gracza Jutra_Nie_Bedzie do players, teraz ma 5
-VM5406:68 Data 5.03.2023, 22:53:41 jest aktualniejsza niż 5.03.2023, 21:12:58
-VM5406:9 48. Przeniesiono gracza J4rzyk do players
-VM5406:12 Gracz Garnacho ma 2 oraz 3 bramek
-VM5406:14 Przeniesiono 3 bramki gracza Garnacho do players, teraz ma 5
-VM5406:26 Gracz Garnacho ma 0 oraz 2 goli samobójczych
-VM5406:28 Przeniesiono 2 bramki samobójcze gracza Garnacho do players, teraz ma 2
-VM5406:33 Gracz Garnacho ma 4 oraz 4 żółtych kartek
-VM5406:35 Przeniesiono 4 żółte kartki gracza Garnacho do players, teraz ma 8
-VM5406:47 Gracz Garnacho ma 0 oraz 6 [unranked] bramkek
-VM5406:49 Przeniesiono 6 [unranked] bramki gracza Garnacho do players, teraz ma 6
-VM5406:54 Gracz Garnacho ma 4 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza Garnacho do players, teraz ma 6
-VM5406:33 Gracz fan_lady_pank ma 4 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza fan_lady_pank do players, teraz ma 5
-VM5406:9 49. Przeniesiono gracza Jarosław Kaczyński do players
-VM5406:12 Gracz bawuanga ma 8 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza bawuanga do players, teraz ma 9
-VM5406:9 50. Przeniesiono gracza Patrick do players
-VM5406:26 Gracz   ma 0 oraz 6 goli samobójczych
-VM5406:28 Przeniesiono 6 bramki samobójcze gracza   do players, teraz ma 6
-VM5406:33 Gracz   ma 8 oraz 3 żółtych kartek
-VM5406:35 Przeniesiono 3 żółte kartki gracza   do players, teraz ma 11
-VM5406:47 Gracz   ma 2 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza   do players, teraz ma 3
-VM5406:54 Gracz   ma 4 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza   do players, teraz ma 6
-VM5406:61 Elo [1200] gracza   jest większe niż ELO [0] w players '0'
-VM5406:68 Data 5.03.2023, 23:48:09 jest aktualniejsza niż 5.03.2023, 22:44:49
-VM5406:9 51. Przeniesiono gracza Pascal do players
-VM5406:33 Gracz borys 1 (trolujący) ma 3 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza borys 1 (trolujący) do players, teraz ma 5
-VM5406:40 Gracz borys 1 (trolujący) ma 12 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza borys 1 (trolujący) do players, teraz ma 15
-VM5406:54 Gracz borys 1 (trolujący) ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza borys 1 (trolujący) do players, teraz ma 1
-VM5406:9 52. Przeniesiono gracza CzasPohaxić do players
-VM5406:33 Gracz borys 3 ma 10 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza borys 3 do players, teraz ma 11
-VM5406:40 Gracz borys 3 ma 10 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza borys 3 do players, teraz ma 13
-VM5406:9 53. Przeniesiono gracza borys 2 do players
-VM5406:9 54. Przeniesiono gracza blackout do players
-VM5406:26 Gracz borys 1 ma 2 oraz 3 goli samobójczych
-VM5406:28 Przeniesiono 3 bramki samobójcze gracza borys 1 do players, teraz ma 5
-VM5406:12 Gracz Jeżyk ma 10 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza Jeżyk do players, teraz ma 11
-VM5406:33 Gracz Jeżyk ma 2 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Jeżyk do players, teraz ma 3
-VM5406:9 55. Przeniesiono gracza John do players
-VM5406:9 56. Przeniesiono gracza PIZDANI do players
-VM5406:9 57. Przeniesiono gracza Melnjak do players
-VM5406:12 Gracz TRZASKOWSKI CHAD ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza TRZASKOWSKI CHAD do players, teraz ma 1
-VM5406:33 Gracz TRZASKOWSKI CHAD ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza TRZASKOWSKI CHAD do players, teraz ma 1
-VM5406:40 Gracz TRZASKOWSKI CHAD ma 0 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza TRZASKOWSKI CHAD do players, teraz ma 2
-VM5406:47 Gracz TRZASKOWSKI CHAD ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza TRZASKOWSKI CHAD do players, teraz ma 2
-VM5406:54 Gracz TRZASKOWSKI CHAD ma 0 oraz 4 [unranked] kartek
-VM5406:56 Przeniesiono 4 [unranked] kartki gracza TRZASKOWSKI CHAD do players, teraz ma 4
-VM5406:9 58. Przeniesiono gracza 2:8 do players
-VM5406:9 59. Przeniesiono gracza ronaldo do players
-VM5406:9 60. Przeniesiono gracza ishak do players
-VM5406:12 Gracz waligóra ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza waligóra do players, teraz ma 1
-VM5406:54 Gracz waligóra ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza waligóra do players, teraz ma 1
-VM5406:9 61. Przeniesiono gracza lewandowski do players
-VM5406:19 Gracz Kiler ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Kiler do players, teraz ma 1
-VM5406:12 Gracz Dani ma 10 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Dani do players, teraz ma 12
-VM5406:19 Gracz Dani ma 2 oraz 3 asyst
-VM5406:21 Przeniesiono 3 asysty gracza Dani do players, teraz ma 5
-VM5406:26 Gracz Dani ma 4 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza Dani do players, teraz ma 5
-VM5406:33 Gracz Dani ma 13 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza Dani do players, teraz ma 15
-VM5406:40 Gracz Dani ma 0 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza Dani do players, teraz ma 2
-VM5406:9 62. Przeniesiono gracza Boooom do players
-VM5406:9 63. Przeniesiono gracza Sanch09 do players
-VM5406:9 64. Przeniesiono gracza nikt do players
-VM5406:19 Gracz hasper11 ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza hasper11 do players, teraz ma 1
-VM5406:33 Gracz hasper11 ma 3 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza hasper11 do players, teraz ma 4
-VM5406:68 Data 5.03.2023, 20:40:09 jest aktualniejsza niż 5.03.2023, 20:28:27
-VM5406:9 65. Przeniesiono gracza Grande Strategia do players
-VM5406:9 66. Przeniesiono gracza Tuchów, Małopolskie do players
-VM5406:26 Gracz zekutor ma 0 oraz 3 goli samobójczych
-VM5406:28 Przeniesiono 3 bramki samobójcze gracza zekutor do players, teraz ma 3
-VM5406:40 Gracz zekutor ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza zekutor do players, teraz ma 1
-VM5406:68 Data 5.03.2023, 21:01:27 jest aktualniejsza niż 5.03.2023, 20:55:25
-VM5406:9 67. Przeniesiono gracza omario do players
-VM5406:9 68. Przeniesiono gracza Tich do players
-VM5406:26 Gracz borys 5 ma 10 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza borys 5 do players, teraz ma 11
-VM5406:33 Gracz borys 5 ma 10 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza borys 5 do players, teraz ma 11
-VM5406:40 Gracz borys 5 ma 4 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza borys 5 do players, teraz ma 5
-VM5406:9 69. Przeniesiono gracza Sportomen do players
-VM5406:9 70. Przeniesiono gracza baby do players
-VM5406:26 Gracz ‎ ma 4 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza ‎ do players, teraz ma 5
-VM5406:33 Gracz ‎ ma 0 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza ‎ do players, teraz ma 2
-VM5406:40 Gracz ‎ ma 0 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza ‎ do players, teraz ma 3
-VM5406:47 Gracz ‎ ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza ‎ do players, teraz ma 2
-VM5406:54 Gracz ‎ ma 0 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza ‎ do players, teraz ma 2
-VM5406:68 Data 6.03.2023, 00:07:31 jest aktualniejsza niż 5.03.2023, 20:49:00
-VM5406:12 Gracz EL POLAKO ma 6 oraz 7 bramek
-VM5406:14 Przeniesiono 7 bramki gracza EL POLAKO do players, teraz ma 13
-VM5406:19 Gracz EL POLAKO ma 6 oraz 4 asyst
-VM5406:21 Przeniesiono 4 asysty gracza EL POLAKO do players, teraz ma 10
-VM5406:33 Gracz EL POLAKO ma 10 oraz 4 żółtych kartek
-VM5406:35 Przeniesiono 4 żółte kartki gracza EL POLAKO do players, teraz ma 14
-VM5406:40 Gracz EL POLAKO ma 8 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza EL POLAKO do players, teraz ma 11
-VM5406:47 Gracz EL POLAKO ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza EL POLAKO do players, teraz ma 1
-VM5406:61 Elo [1212] gracza EL POLAKO jest większe niż ELO [0] w players '0'
-VM5406:19 Gracz Bošnjo ma 0 oraz 3 asyst
-VM5406:21 Przeniesiono 3 asysty gracza Bošnjo do players, teraz ma 3
-VM5406:33 Gracz Bošnjo ma 3 oraz 4 żółtych kartek
-VM5406:35 Przeniesiono 4 żółte kartki gracza Bošnjo do players, teraz ma 7
-VM5406:40 Gracz Bošnjo ma 0 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza Bošnjo do players, teraz ma 2
-VM5406:33 Gracz fan zekutora ma 2 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza fan zekutora do players, teraz ma 3
-VM5406:40 Gracz fan zekutora ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza fan zekutora do players, teraz ma 1
-VM5406:9 71. Przeniesiono gracza lex do players
-VM5406:9 72. Przeniesiono gracza psikuta do players
-VM5406:9 73. Przeniesiono gracza W̶e̶e̶d̶l̶n̶ do players
-VM5406:9 74. Przeniesiono gracza arek do players
-VM5406:12 Gracz bmw e39 ma 0 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza bmw e39 do players, teraz ma 2
-VM5406:19 Gracz bmw e39 ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza bmw e39 do players, teraz ma 1
-VM5406:33 Gracz bmw e39 ma 3 oraz 5 żółtych kartek
-VM5406:35 Przeniesiono 5 żółte kartki gracza bmw e39 do players, teraz ma 8
-VM5406:40 Gracz bmw e39 ma 3 oraz 3 czerwonych kartek
-VM5406:42 Przeniesiono 3 czerwone kartki gracza bmw e39 do players, teraz ma 6
-VM5406:61 Elo [1050] gracza bmw e39 jest większe niż ELO [0] w players '0'
-VM5406:68 Data 5.03.2023, 22:07:24 jest aktualniejsza niż 5.03.2023, 20:51:10
-VM5406:33 Gracz TUAREG ma 0 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza TUAREG do players, teraz ma 2
-VM5406:40 Gracz TUAREG ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza TUAREG do players, teraz ma 1
-VM5406:68 Data 5.03.2023, 21:42:23 jest aktualniejsza niż 5.03.2023, 21:27:29
-VM5406:12 Gracz Velu ma 2 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza Velu do players, teraz ma 3
-VM5406:19 Gracz Velu ma 0 oraz 2 asyst
-VM5406:21 Przeniesiono 2 asysty gracza Velu do players, teraz ma 2
-VM5406:26 Gracz Velu ma 0 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza Velu do players, teraz ma 1
-VM5406:33 Gracz Velu ma 9 oraz 5 żółtych kartek
-VM5406:35 Przeniesiono 5 żółte kartki gracza Velu do players, teraz ma 14
-VM5406:40 Gracz Velu ma 8 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza Velu do players, teraz ma 9
-VM5406:19 Gracz Wosayu ma 6 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Wosayu do players, teraz ma 7
-VM5406:40 Gracz Wosayu ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza Wosayu do players, teraz ma 1
-VM5406:68 Data 5.03.2023, 21:46:44 jest aktualniejsza niż 5.03.2023, 20:44:58
-VM5406:9 75. Przeniesiono gracza .oskar do players
-VM5406:12 Gracz Ninho ma 4 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Ninho do players, teraz ma 6
-VM5406:19 Gracz Ninho ma 6 oraz 2 asyst
-VM5406:21 Przeniesiono 2 asysty gracza Ninho do players, teraz ma 8
-VM5406:33 Gracz Ninho ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Ninho do players, teraz ma 1
-VM5406:9 76. Przeniesiono gracza Beren do players
-VM5406:26 Gracz keri ma 0 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza keri do players, teraz ma 1
-VM5406:40 Gracz keri ma 4 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza keri do players, teraz ma 5
-VM5406:12 Gracz qurejek ma 6 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza qurejek do players, teraz ma 8
-VM5406:9 77. Przeniesiono gracza audi a4 do players
-VM5406:9 78. Przeniesiono gracza Hunter do players
-VM5406:9 79. Przeniesiono gracza O.s.t.r.o.l do players
-VM5406:9 80. Przeniesiono gracza Tajson do players
-VM5406:12 Gracz Harutya ma 2 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Harutya do players, teraz ma 4
-VM5406:47 Gracz Harutya ma 0 oraz 6 [unranked] bramkek
-VM5406:49 Przeniesiono 6 [unranked] bramki gracza Harutya do players, teraz ma 6
-VM5406:47 Gracz Liverpool The Best ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza Liverpool The Best do players, teraz ma 1
-VM5406:68 Data 5.03.2023, 22:20:28 jest aktualniejsza niż 5.03.2023, 22:14:32
-VM5406:9 81. Przeniesiono gracza Harry Maguaire do players
-VM5406:12 Gracz boleco ma 4 oraz 3 bramek
-VM5406:14 Przeniesiono 3 bramki gracza boleco do players, teraz ma 7
-VM5406:19 Gracz boleco ma 2 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza boleco do players, teraz ma 3
-VM5406:33 Gracz boleco ma 5 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza boleco do players, teraz ma 7
-VM5406:40 Gracz boleco ma 3 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza boleco do players, teraz ma 4
-VM5406:47 Gracz boleco ma 0 oraz 6 [unranked] bramkek
-VM5406:49 Przeniesiono 6 [unranked] bramki gracza boleco do players, teraz ma 6
-VM5406:54 Gracz boleco ma 1 oraz 6 [unranked] kartek
-VM5406:56 Przeniesiono 6 [unranked] kartki gracza boleco do players, teraz ma 7
-VM5406:9 82. Przeniesiono gracza gacus do players
-VM5406:9 83. Przeniesiono gracza LIOO do players
-VM5406:9 84. Przeniesiono gracza karius do players
-VM5406:19 Gracz Spucha ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Spucha do players, teraz ma 1
-VM5406:54 Gracz Spucha ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza Spucha do players, teraz ma 1
-VM5406:68 Data 5.03.2023, 23:03:53 jest aktualniejsza niż 5.03.2023, 21:15:39
-VM5406:9 85. Przeniesiono gracza fabi do players
-VM5406:9 86. Przeniesiono gracza cu cu cumshot aeeeeee do players
-VM5406:9 87. Przeniesiono gracza DEMBULANCE do players
-VM5406:9 88. Przeniesiono gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players
-VM5406:47 Gracz trypek ma 5 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza trypek do players, teraz ma 6
-VM5406:54 Gracz trypek ma 14 oraz 3 [unranked] kartek
-VM5406:56 Przeniesiono 3 [unranked] kartki gracza trypek do players, teraz ma 17
-VM5406:19 Gracz Stanley69 ma 0 oraz 2 asyst
-VM5406:21 Przeniesiono 2 asysty gracza Stanley69 do players, teraz ma 2
-VM5406:33 Gracz Stanley69 ma 9 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza Stanley69 do players, teraz ma 11
-VM5406:47 Gracz Stanley69 ma 3 oraz 7 [unranked] bramkek
-VM5406:49 Przeniesiono 7 [unranked] bramki gracza Stanley69 do players, teraz ma 10
-VM5406:54 Gracz Stanley69 ma 0 oraz 3 [unranked] kartek
-VM5406:56 Przeniesiono 3 [unranked] kartki gracza Stanley69 do players, teraz ma 3
-VM5406:33 Gracz madarona ma 0 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza madarona do players, teraz ma 2
-VM5406:40 Gracz madarona ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza madarona do players, teraz ma 1
-VM5406:54 Gracz madarona ma 0 oraz 5 [unranked] kartek
-VM5406:56 Przeniesiono 5 [unranked] kartki gracza madarona do players, teraz ma 5
-VM5406:68 Data 6.03.2023, 00:02:51 jest aktualniejsza niż 5.03.2023, 19:59:53
-VM5406:9 89. Przeniesiono gracza PanMobPL do players
-VM5406:9 90. Przeniesiono gracza  do players
-VM5406:9 91. Przeniesiono gracza Wypierdalać do players
-VM5406:9 92. Przeniesiono gracza bomba do players
-VM5406:9 93. Przeniesiono gracza datsi do players
-VM5406:9 94. Przeniesiono gracza барыла do players
-VM5406:47 Gracz ?  ma 0 oraz 4 [unranked] bramkek
-VM5406:49 Przeniesiono 4 [unranked] bramki gracza ?  do players, teraz ma 4
-VM5406:54 Gracz ?  ma 3 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza ?  do players, teraz ma 5
-VM5406:68 Data 6.03.2023, 01:06:16 jest aktualniejsza niż 5.03.2023, 21:36:40
-VM5406:9 95. Przeniesiono gracza Jabollo do players
-VM5406:9 96. Przeniesiono gracza |𝓠𝓾𝓪𝓷𝓽𝓾𝓶| do players
-VM5406:9 97. Przeniesiono gracza Niue do players
-VM5406:9 98. Przeniesiono gracza RegoNim do players
-VM5406:9 99. Przeniesiono gracza Maks Luburic do players
-VM5406:9 100. Przeniesiono gracza Konstantinopol do players
-VM5406:9 101. Przeniesiono gracza Kapi do players
-VM5406:54 Gracz Tramwaj ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza Tramwaj do players, teraz ma 1
-VM5406:9 102. Przeniesiono gracza Ronald Araujo OBR do players
-VM5406:9 103. Przeniesiono gracza Neymaah do players
-VM5406:9 104. Przeniesiono gracza EmKoTHEGOAT do players
-VM5406:9 105. Przeniesiono gracza LoLoS do players
-VM5406:9 106. Przeniesiono gracza macker do players
-VM5406:9 107. Przeniesiono gracza t_n_deniks  burnley do players
-VM5406:9 108. Przeniesiono gracza Felix Leeds do players
-VM5406:9 109. Przeniesiono gracza Felix do players
-VM5406:9 110. Przeniesiono gracza Sonny do players
-VM5406:12 Gracz KoVolt ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza KoVolt do players, teraz ma 1
-VM5406:19 Gracz KoVolt ma 4 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza KoVolt do players, teraz ma 5
-VM5406:47 Gracz KoVolt ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza KoVolt do players, teraz ma 2
-VM5406:9 111. Przeniesiono gracza ZeneKapuczinho do players
-VM5406:9 112. Przeniesiono gracza Japk0 do players
-VM5406:9 113. Przeniesiono gracza benzen do players
-VM5406:9 114. Przeniesiono gracza acab do players
-VM5406:9 115. Przeniesiono gracza Atos do players
-VM5406:40 Gracz Bounty ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza Bounty do players, teraz ma 1
-VM5406:47 Gracz Bounty ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza Bounty do players, teraz ma 2
-VM5406:61 Elo [1177] gracza Bounty jest większe niż ELO [0] w players '0'
-VM5406:9 116. Przeniesiono gracza CampingTrip do players
-VM5406:54 Gracz jeziorko ma 13 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza jeziorko do players, teraz ma 15
-VM5406:47 Gracz Kostic ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza Kostic do players, teraz ma 1
-VM5406:54 Gracz Kostic ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza Kostic do players, teraz ma 1
-VM5406:61 Elo [1083] gracza Kostic jest większe niż ELO [0] w players '0'
-VM5406:68 Data 5.03.2023, 23:39:52 jest aktualniejsza niż 5.03.2023, 20:09:30
-VM5406:26 Gracz hóbert ma 3 oraz 5 goli samobójczych
-VM5406:28 Przeniesiono 5 bramki samobójcze gracza hóbert do players, teraz ma 8
-VM5406:33 Gracz hóbert ma 3 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza hóbert do players, teraz ma 4
-VM5406:47 Gracz hóbert ma 12 oraz 23 [unranked] bramkek
-VM5406:49 Przeniesiono 23 [unranked] bramki gracza hóbert do players, teraz ma 35
-VM5406:54 Gracz hóbert ma 0 oraz 8 [unranked] kartek
-VM5406:56 Przeniesiono 8 [unranked] kartki gracza hóbert do players, teraz ma 8
-VM5406:68 Data 6.03.2023, 00:21:24 jest aktualniejsza niż 5.03.2023, 21:03:32
-VM5406:33 Gracz filowa ma 3 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza filowa do players, teraz ma 5
-VM5406:40 Gracz filowa ma 0 oraz 1 czerwonych kartek
-VM5406:42 Przeniesiono 1 czerwone kartki gracza filowa do players, teraz ma 1
-VM5406:54 Gracz filowa ma 3 oraz 6 [unranked] kartek
-VM5406:56 Przeniesiono 6 [unranked] kartki gracza filowa do players, teraz ma 9
-VM5406:54 Gracz d4mi4n ma 0 oraz 3 [unranked] kartek
-VM5406:56 Przeniesiono 3 [unranked] kartki gracza d4mi4n do players, teraz ma 3
-VM5406:9 117. Przeniesiono gracza PatKozinioGaucho do players
-VM5406:9 118. Przeniesiono gracza JL99 do players
-VM5406:9 119. Przeniesiono gracza Kamil do players
-VM5406:54 Gracz e ma 0 oraz 4 [unranked] kartek
-VM5406:56 Przeniesiono 4 [unranked] kartki gracza e do players, teraz ma 4
-VM5406:9 120. Przeniesiono gracza De GEA do players
-VM5406:9 121. Przeniesiono gracza James Igbekeme do players
-VM5406:9 122. Przeniesiono gracza Lewandisney do players
-VM5406:9 123. Przeniesiono gracza VAN do players
-VM5406:9 124. Przeniesiono gracza Sniper441 do players
-VM5406:9 125. Przeniesiono gracza Kimo do players
-VM5406:9 126. Przeniesiono gracza Magnate do players
-VM5406:9 127. Przeniesiono gracza VAN DIJK do players
-VM5406:9 128. Przeniesiono gracza mati do players
-VM5406:9 129. Przeniesiono gracza gwałciciel niemowląt do players
-VM5406:9 130. Przeniesiono gracza Lapointe do players
-VM5406:9 131. Przeniesiono gracza Orient Bambino do players
-VM5406:9 132. Przeniesiono gracza lewy do players
-VM5406:9 133. Przeniesiono gracza Pewien Urugwajczyk do players
-VM5406:12 Gracz CO TAM ma 4 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza CO TAM do players, teraz ma 5
-VM5406:9 134. Przeniesiono gracza kłapouszek do players
-VM5406:9 135. Przeniesiono gracza Tuchów, do players
-VM5406:19 Gracz Chicken19 ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Chicken19 do players, teraz ma 1
-VM5406:9 136. Przeniesiono gracza Hexe do players
-VM5406:9 137. Przeniesiono gracza Foxner do players
-VM5406:33 Gracz salut ma 2 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza salut do players, teraz ma 3
-VM5406:9 138. Przeniesiono gracza maska do players
-VM5406:33 Gracz Greenwood ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Greenwood do players, teraz ma 1
-VM5406:54 Gracz Greenwood ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza Greenwood do players, teraz ma 1
-VM5406:9 139. Przeniesiono gracza Zack do players
-VM5406:12 Gracz Allame ma 0 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Allame do players, teraz ma 2
-VM5406:19 Gracz Allame ma 4 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Allame do players, teraz ma 5
-VM5406:47 Gracz Allame ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza Allame do players, teraz ma 1
-VM5406:9 140. Przeniesiono gracza Dominic Toretto do players
-VM5406:12 Gracz Eldogga ma 0 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Eldogga do players, teraz ma 2
-VM5406:19 Gracz Eldogga ma 2 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza Eldogga do players, teraz ma 3
-VM5406:9 141. Przeniesiono gracza gigaczad67 do players
-VM5406:26 Gracz pscok ma 0 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza pscok do players, teraz ma 1
-VM5406:26 Gracz antyrasista ma 0 oraz 1 goli samobójczych
-VM5406:28 Przeniesiono 1 bramki samobójcze gracza antyrasista do players, teraz ma 1
-VM5406:33 Gracz antyrasista ma 5 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza antyrasista do players, teraz ma 7
-VM5406:40 Gracz antyrasista ma 7 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza antyrasista do players, teraz ma 9
-VM5406:47 Gracz antyrasista ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza antyrasista do players, teraz ma 1
-VM5406:54 Gracz antyrasista ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza antyrasista do players, teraz ma 1
-VM5406:9 142. Przeniesiono gracza Bareth Gale do players
-VM5406:9 143. Przeniesiono gracza slava ukraini do players
-VM5406:9 144. Przeniesiono gracza melonconpelo do players
-VM5406:9 145. Przeniesiono gracza melonsito con flow do players
-VM5406:54 Gracz ABC ma 0 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza ABC do players, teraz ma 2
-VM5406:68 Data 5.03.2023, 23:25:09 jest aktualniejsza niż 5.03.2023, 22:33:21
-VM5406:9 146. Przeniesiono gracza taaa do players
-VM5406:9 147. Przeniesiono gracza Kacperinio  do players
-VM5406:9 148. Przeniesiono gracza janusz tracz do players
-VM5406:33 Gracz weeknd ma 3 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza weeknd do players, teraz ma 4
-VM5406:47 Gracz weeknd ma 0 oraz 5 [unranked] bramkek
-VM5406:49 Przeniesiono 5 [unranked] bramki gracza weeknd do players, teraz ma 5
-VM5406:54 Gracz weeknd ma 3 oraz 5 [unranked] kartek
-VM5406:56 Przeniesiono 5 [unranked] kartki gracza weeknd do players, teraz ma 8
-VM5406:9 149. Przeniesiono gracza Jan Gwałciciel do players
-VM5406:47 Gracz Motyl ma 6 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza Motyl do players, teraz ma 8
-VM5406:9 150. Przeniesiono gracza soco do players
-VM5406:9 151. Przeniesiono gracza mvp do players
-VM5406:9 152. Przeniesiono gracza bezrobotny do players
-VM5406:47 Gracz Lionelmakhs52 ma 0 oraz 2 [unranked] bramkek
-VM5406:49 Przeniesiono 2 [unranked] bramki gracza Lionelmakhs52 do players, teraz ma 2
-VM5406:54 Gracz Lionelmakhs52 ma 4 oraz 12 [unranked] kartek
-VM5406:56 Przeniesiono 12 [unranked] kartki gracza Lionelmakhs52 do players, teraz ma 16
-VM5406:68 Data 6.03.2023, 01:13:00 jest aktualniejsza niż 6.03.2023, 00:41:35
-VM5406:47 Gracz XaviGigga ma 0 oraz 9 [unranked] bramkek
-VM5406:49 Przeniesiono 9 [unranked] bramki gracza XaviGigga do players, teraz ma 9
-VM5406:54 Gracz XaviGigga ma 5 oraz 12 [unranked] kartek
-VM5406:56 Przeniesiono 12 [unranked] kartki gracza XaviGigga do players, teraz ma 17
-VM5406:68 Data 6.03.2023, 01:12:40 jest aktualniejsza niż 6.03.2023, 00:42:24
-VM5406:9 153. Przeniesiono gracza niiga do players
-VM5406:9 154. Przeniesiono gracza UltimoDeiMieiCani do players
-VM5406:9 155. Przeniesiono gracza Sassy do players
-VM5406:12 Gracz Josue ma 0 oraz 2 bramek
-VM5406:14 Przeniesiono 2 bramki gracza Josue do players, teraz ma 2
-VM5406:47 Gracz Josue ma 2 oraz 11 [unranked] bramkek
-VM5406:49 Przeniesiono 11 [unranked] bramki gracza Josue do players, teraz ma 13
-VM5406:54 Gracz Josue ma 0 oraz 2 [unranked] kartek
-VM5406:56 Przeniesiono 2 [unranked] kartki gracza Josue do players, teraz ma 2
-VM5406:9 156. Przeniesiono gracza dresio do players
-VM5406:9 157. Przeniesiono gracza haaland do players
-VM5406:47 Gracz ojciec zekutora ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza ojciec zekutora do players, teraz ma 1
-VM5406:9 158. Przeniesiono gracza młody pele do players
-VM5406:12 Gracz JACK ma 0 oraz 1 bramek
-VM5406:14 Przeniesiono 1 bramki gracza JACK do players, teraz ma 1
-VM5406:47 Gracz JACK ma 0 oraz 1 [unranked] bramkek
-VM5406:49 Przeniesiono 1 [unranked] bramki gracza JACK do players, teraz ma 1
-VM5406:68 Data 6.03.2023, 01:59:34 jest aktualniejsza niż 6.03.2023, 01:29:02
-VM5406:9 159. Przeniesiono gracza młody pele2 do players
-VM5406:19 Gracz MJ ma 0 oraz 1 asyst
-VM5406:21 Przeniesiono 1 asysty gracza MJ do players, teraz ma 1
-VM5406:33 Gracz MJ ma 12 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza MJ do players, teraz ma 13
-VM5406:54 Gracz MJ ma 0 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza MJ do players, teraz ma 1
-VM5406:68 Data 6.03.2023, 01:59:34 jest aktualniejsza niż 6.03.2023, 01:00:39
-VM5406:9 160. Przeniesiono gracza Dainty do players
-VM5406:9 161. Przeniesiono gracza Clean do players
-VM5406:33 Gracz N1EDZIELA ma 4 oraz 2 żółtych kartek
-VM5406:35 Przeniesiono 2 żółte kartki gracza N1EDZIELA do players, teraz ma 6
-VM5406:40 Gracz N1EDZIELA ma 12 oraz 2 czerwonych kartek
-VM5406:42 Przeniesiono 2 czerwone kartki gracza N1EDZIELA do players, teraz ma 14
-VM5406:54 Gracz N1EDZIELA ma 6 oraz 1 [unranked] kartek
-VM5406:56 Przeniesiono 1 [unranked] kartki gracza N1EDZIELA do players, teraz ma 7
-VM5406:33 Gracz arpaci ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza arpaci do players, teraz ma 1
-VM5406:33 Gracz MP ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza MP do players, teraz ma 1
-VM5406:33 Gracz MARG ma 0 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza MARG do players, teraz ma 1
-VM5406:9 162. Przeniesiono gracza PsychaSiada do players
-VM5406:33 Gracz Kukiel ma 2 oraz 1 żółtych kartek
-VM5406:35 Przeniesiono 1 żółte kartki gracza Kukiel do players, teraz ma 3
+VM90:466 Gracz Ronaldo ma 3 oraz 1 [unranked] bramkekGracz Ronaldo ma 3 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Ronaldo do players, teraz ma 4
+VM90:466 Gracz xwwmq ma 0 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza xwwmq do players, teraz ma 2
+VM90:473 Gracz xwwmq ma 1 oraz 3 [unranked] kartek
+VM90:475 Przeniesiono 3 [unranked] kartki gracza xwwmq do players, teraz ma 4
+VM90:487 Data 8.03.2023, 14:57:37 jest aktualniejsza niż 8.03.2023, 13:05:58
+VM90:473 Gracz Timo Werner ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Timo Werner do players, teraz ma 2
+VM90:438 Gracz Nwm ma 2 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Nwm do players, teraz ma 4
+VM90:445 Gracz Nwm ma 0 oraz 3 goli samobójczych
+VM90:447 Przeniesiono 3 bramki samobójcze gracza Nwm do players, teraz ma 3
+VM90:452 Gracz Nwm ma 0 oraz 4 żółtych kartek
+VM90:454 Przeniesiono 4 żółte kartki gracza Nwm do players, teraz ma 4
+VM90:459 Gracz Nwm ma 0 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza Nwm do players, teraz ma 2
+VM90:466 Gracz Nwm ma 3 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza Nwm do players, teraz ma 5
+VM90:480 Elo [1275] gracza Nwm jest większe niż ELO [1221] w players '1221'
+VM90:487 Data 9.03.2023, 02:16:36 jest aktualniejsza niż 8.03.2023, 13:13:03
+VM90:466 Gracz CR7 ma 1 oraz 3 [unranked] bramkek
+VM90:468 Przeniesiono 3 [unranked] bramki gracza CR7 do players, teraz ma 4
+VM90:487 Data 8.03.2023, 13:17:26 jest aktualniejsza niż 8.03.2023, 13:08:00
+VM90:452 Gracz ディック ma 2 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza ディック do players, teraz ma 3
+VM90:466 Gracz ディック ma 1 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza ディック do players, teraz ma 2
+VM90:473 Gracz ディック ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza ディック do players, teraz ma 1
+VM90:487 Data 8.03.2023, 21:27:28 jest aktualniejsza niż 8.03.2023, 13:08:50
+VM90:466 Gracz Xerox ma 5 oraz 3 [unranked] bramkek
+VM90:468 Przeniesiono 3 [unranked] bramki gracza Xerox do players, teraz ma 8
+VM90:473 Gracz Xerox ma 10 oraz 6 [unranked] kartek
+VM90:475 Przeniesiono 6 [unranked] kartki gracza Xerox do players, teraz ma 16
+VM90:487 Data 8.03.2023, 13:18:53 jest aktualniejsza niż 8.03.2023, 13:16:41
+VM90:466 Gracz Kostic ma 3 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Kostic do players, teraz ma 4
+VM90:487 Data 8.03.2023, 16:03:22 jest aktualniejsza niż 8.03.2023, 13:11:58
+VM90:431 Gracz N1EDZIELA ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza N1EDZIELA do players, teraz ma 1
+VM90:438 Gracz N1EDZIELA ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza N1EDZIELA do players, teraz ma 2
+VM90:445 Gracz N1EDZIELA ma 0 oraz 2 goli samobójczych
+VM90:447 Przeniesiono 2 bramki samobójcze gracza N1EDZIELA do players, teraz ma 2
+VM90:452 Gracz N1EDZIELA ma 6 oraz 12 żółtych kartek
+VM90:454 Przeniesiono 12 żółte kartki gracza N1EDZIELA do players, teraz ma 18
+VM90:459 Gracz N1EDZIELA ma 14 oraz 6 czerwonych kartek
+VM90:461 Przeniesiono 6 czerwone kartki gracza N1EDZIELA do players, teraz ma 20
+VM90:473 Gracz N1EDZIELA ma 13 oraz 12 [unranked] kartek
+VM90:475 Przeniesiono 12 [unranked] kartki gracza N1EDZIELA do players, teraz ma 25
+VM90:480 Elo [1047] gracza N1EDZIELA jest większe niż ELO [0] w players '0'
+VM90:487 Data 9.03.2023, 02:19:42 jest aktualniejsza niż 8.03.2023, 13:12:00
+VM90:428 1. Przeniesiono gracza xxx do players
+VM90:473 Gracz xD ma 15 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza xD do players, teraz ma 16
+VM90:487 Data 8.03.2023, 13:20:52 jest aktualniejsza niż 7.03.2023, 12:48:01
+VM90:452 Gracz Harry Maguaire ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Harry Maguaire do players, teraz ma 1
+VM90:466 Gracz Harry Maguaire ma 6 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza Harry Maguaire do players, teraz ma 8
+VM90:473 Gracz Harry Maguaire ma 3 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Harry Maguaire do players, teraz ma 4
+VM90:487 Data 8.03.2023, 16:55:02 jest aktualniejsza niż 8.03.2023, 12:36:39
+VM90:473 Gracz JAJA ma 3 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza JAJA do players, teraz ma 5
+VM90:487 Data 8.03.2023, 13:25:25 jest aktualniejsza niż 7.03.2023, 12:35:43
+VM90:466 Gracz Ojciec ma 2 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza Ojciec do players, teraz ma 4
+VM90:473 Gracz Ojciec ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Ojciec do players, teraz ma 1
+VM90:487 Data 8.03.2023, 13:29:17 jest aktualniejsza niż 7.03.2023, 12:05:22
+VM90:445 Gracz   ma 6 oraz 3 goli samobójczych
+VM90:447 Przeniesiono 3 bramki samobójcze gracza   do players, teraz ma 9
+VM90:452 Gracz   ma 12 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza   do players, teraz ma 13
+VM90:459 Gracz   ma 11 oraz 3 czerwonych kartek
+VM90:461 Przeniesiono 3 czerwone kartki gracza   do players, teraz ma 14
+VM90:473 Gracz   ma 8 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza   do players, teraz ma 9
+VM90:487 Data 8.03.2023, 21:37:01 jest aktualniejsza niż 7.03.2023, 12:20:25
+VM90:473 Gracz oppp ma 2 oraz 3 [unranked] kartek
+VM90:475 Przeniesiono 3 [unranked] kartki gracza oppp do players, teraz ma 5
+VM90:487 Data 8.03.2023, 13:30:31 jest aktualniejsza niż 6.03.2023, 00:24:27
+VM90:473 Gracz jj ma 2 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza jj do players, teraz ma 3
+VM90:487 Data 8.03.2023, 13:28:58 jest aktualniejsza niż 5.03.2023, 21:38:44
+VM90:428 2. Przeniesiono gracza TiMo do players
+VM90:428 3. Przeniesiono gracza укьеуок do players
+VM90:428 4. Przeniesiono gracza Harry Kane do players
+VM90:466 Gracz tera ma 0 oraz 4 [unranked] bramkek
+VM90:468 Przeniesiono 4 [unranked] bramki gracza tera do players, teraz ma 4
+VM90:487 Data 8.03.2023, 13:46:32 jest aktualniejsza niż 7.03.2023, 12:07:23
+VM90:473 Gracz Foxner ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Foxner do players, teraz ma 1
+VM90:487 Data 8.03.2023, 13:39:54 jest aktualniejsza niż 5.03.2023, 15:46:30
+VM90:466 Gracz hóbert ma 35 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza hóbert do players, teraz ma 37
+VM90:473 Gracz hóbert ma 8 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza hóbert do players, teraz ma 9
+VM90:487 Data 8.03.2023, 13:51:35 jest aktualniejsza niż 6.03.2023, 00:21:24
+VM90:428 5. Przeniesiono gracza nalesnik do players
+VM90:428 6. Przeniesiono gracza mexicano tv do players
+VM90:466 Gracz sii ma 1 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza sii do players, teraz ma 2
+VM90:473 Gracz sii ma 1 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza sii do players, teraz ma 3
+VM90:487 Data 8.03.2023, 13:49:48 jest aktualniejsza niż 6.03.2023, 13:12:49
+VM90:466 Gracz Gibraltar ma 0 oraz 3 [unranked] bramkek
+VM90:468 Przeniesiono 3 [unranked] bramki gracza Gibraltar do players, teraz ma 3
+VM90:473 Gracz Gibraltar ma 0 oraz 4 [unranked] kartek
+VM90:475 Przeniesiono 4 [unranked] kartki gracza Gibraltar do players, teraz ma 4
+VM90:487 Data 8.03.2023, 14:07:20 jest aktualniejsza niż 5.03.2023, 20:34:23
+VM90:473 Gracz Andrea Pirlo ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Andrea Pirlo do players, teraz ma 1
+VM90:487 Data 8.03.2023, 13:52:53 jest aktualniejsza niż 5.03.2023, 19:48:34
+VM90:473 Gracz Bożydar ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Bożydar do players, teraz ma 1
+VM90:487 Data 8.03.2023, 13:53:25 jest aktualniejsza niż 7.03.2023, 13:10:59
+VM90:466 Gracz LIO ma 1 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza LIO do players, teraz ma 2
+VM90:473 Gracz LIO ma 1 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza LIO do players, teraz ma 3
+VM90:487 Data 8.03.2023, 13:59:17 jest aktualniejsza niż 8.03.2023, 12:23:19
+VM90:473 Gracz Sup3rC00l ma 7 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Sup3rC00l do players, teraz ma 8
+VM90:487 Data 8.03.2023, 13:53:40 jest aktualniejsza niż 6.03.2023, 12:34:14
+VM90:431 Gracz W̶e̶e̶d̶l̶n̶ ma 1 oraz 3 bramek
+VM90:433 Przeniesiono 3 bramki gracza W̶e̶e̶d̶l̶n̶ do players, teraz ma 4
+VM90:438 Gracz W̶e̶e̶d̶l̶n̶ ma 1 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza W̶e̶e̶d̶l̶n̶ do players, teraz ma 2
+VM90:459 Gracz W̶e̶e̶d̶l̶n̶ ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza W̶e̶e̶d̶l̶n̶ do players, teraz ma 1
+VM90:473 Gracz W̶e̶e̶d̶l̶n̶ ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza W̶e̶e̶d̶l̶n̶ do players, teraz ma 2
+VM90:487 Data 8.03.2023, 16:15:44 jest aktualniejsza niż 8.03.2023, 12:58:54
+VM90:473 Gracz KariusTheGoatkeeper ma 0 oraz 5 [unranked] kartek
+VM90:475 Przeniesiono 5 [unranked] kartki gracza KariusTheGoatkeeper do players, teraz ma 5
+VM90:487 Data 8.03.2023, 14:18:03 jest aktualniejsza niż 6.03.2023, 12:37:48
+VM90:466 Gracz Sportomen ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Sportomen do players, teraz ma 1
+VM90:487 Data 8.03.2023, 13:59:32 jest aktualniejsza niż 5.03.2023, 20:54:18
+VM90:428 7. Przeniesiono gracza Peo do players
+VM90:428 8. Przeniesiono gracza cumshot do players
+VM90:473 Gracz Selin Öz ma 7 oraz 5 [unranked] kartek
+VM90:475 Przeniesiono 5 [unranked] kartki gracza Selin Öz do players, teraz ma 12
+VM90:487 Data 8.03.2023, 14:14:20 jest aktualniejsza niż 8.03.2023, 13:07:42
+VM90:428 9. Przeniesiono gracza WujekSamoGówno do players
+VM90:466 Gracz Jacob ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Jacob do players, teraz ma 1
+VM90:473 Gracz Jacob ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Jacob do players, teraz ma 2
+VM90:487 Data 8.03.2023, 14:09:45 jest aktualniejsza niż 7.03.2023, 13:05:59
+VM90:466 Gracz Liverpool The Best ma 5 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Liverpool The Best do players, teraz ma 6
+VM90:487 Data 8.03.2023, 14:09:27 jest aktualniejsza niż 7.03.2023, 13:00:18
+VM90:428 10. Przeniesiono gracza Xavinho do players
+VM90:428 11. Przeniesiono gracza dfdg do players
+VM90:428 12. Przeniesiono gracza maciekVR do players
+VM90:473 Gracz MertFK ma 18 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza MertFK do players, teraz ma 20
+VM90:480 Elo [1200] gracza MertFK jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 16:21:24 jest aktualniejsza niż 7.03.2023, 11:44:43
+VM90:428 13. Przeniesiono gracza gownosiemaelonigor do players
+VM90:428 14. Przeniesiono gracza Occéan do players
+VM90:431 Gracz P4J4SL0C4S ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza P4J4SL0C4S do players, teraz ma 2
+VM90:459 Gracz P4J4SL0C4S ma 0 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza P4J4SL0C4S do players, teraz ma 2
+VM90:473 Gracz P4J4SL0C4S ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza P4J4SL0C4S do players, teraz ma 2
+VM90:487 Data 8.03.2023, 16:54:27 jest aktualniejsza niż 8.03.2023, 12:55:29
+VM90:428 15. Przeniesiono gracza Edwin do players
+VM90:431 Gracz KAKA ma 6 oraz 3 bramek
+VM90:433 Przeniesiono 3 bramki gracza KAKA do players, teraz ma 9
+VM90:438 Gracz KAKA ma 2 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza KAKA do players, teraz ma 4
+VM90:445 Gracz KAKA ma 1 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza KAKA do players, teraz ma 2
+VM90:452 Gracz KAKA ma 7 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza KAKA do players, teraz ma 9
+VM90:459 Gracz KAKA ma 2 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza KAKA do players, teraz ma 4
+VM90:487 Data 8.03.2023, 14:45:18 jest aktualniejsza niż 7.03.2023, 11:25:14
+VM90:428 16. Przeniesiono gracza Billy Bob Kid do players
+VM90:431 Gracz kłapouszek ma 3 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza kłapouszek do players, teraz ma 5
+VM90:438 Gracz kłapouszek ma 1 oraz 3 asyst
+VM90:440 Przeniesiono 3 asysty gracza kłapouszek do players, teraz ma 4
+VM90:452 Gracz kłapouszek ma 0 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza kłapouszek do players, teraz ma 2
+VM90:459 Gracz kłapouszek ma 0 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza kłapouszek do players, teraz ma 2
+VM90:487 Data 8.03.2023, 16:02:20 jest aktualniejsza niż 6.03.2023, 12:12:58
+VM90:431 Gracz Stiven3 ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Stiven3 do players, teraz ma 1
+VM90:438 Gracz Stiven3 ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Stiven3 do players, teraz ma 2
+VM90:452 Gracz Stiven3 ma 1 oraz 5 żółtych kartek
+VM90:454 Przeniesiono 5 żółte kartki gracza Stiven3 do players, teraz ma 6
+VM90:459 Gracz Stiven3 ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza Stiven3 do players, teraz ma 1
+VM90:466 Gracz Stiven3 ma 4 oraz 3 [unranked] bramkek
+VM90:468 Przeniesiono 3 [unranked] bramki gracza Stiven3 do players, teraz ma 7
+VM90:473 Gracz Stiven3 ma 5 oraz 5 [unranked] kartek
+VM90:475 Przeniesiono 5 [unranked] kartki gracza Stiven3 do players, teraz ma 10
+VM90:487 Data 8.03.2023, 16:36:09 jest aktualniejsza niż 7.03.2023, 13:13:43
+VM90:452 Gracz Kvaratskhelia ma 0 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza Kvaratskhelia do players, teraz ma 2
+VM90:487 Data 8.03.2023, 14:34:29 jest aktualniejsza niż 8.03.2023, 12:55:40
+VM90:431 Gracz JD ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza JD do players, teraz ma 1
+VM90:438 Gracz JD ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza JD do players, teraz ma 2
+VM90:473 Gracz JD ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza JD do players, teraz ma 1
+VM90:480 Elo [1042] gracza JD jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 15:01:56 jest aktualniejsza niż 8.03.2023, 12:31:21
+VM90:431 Gracz BMW M4 ma 2 oraz 5 bramek
+VM90:433 Przeniesiono 5 bramki gracza BMW M4 do players, teraz ma 7
+VM90:438 Gracz BMW M4 ma 1 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza BMW M4 do players, teraz ma 3
+VM90:452 Gracz BMW M4 ma 0 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza BMW M4 do players, teraz ma 3
+VM90:466 Gracz BMW M4 ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza BMW M4 do players, teraz ma 1
+VM90:473 Gracz BMW M4 ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza BMW M4 do players, teraz ma 2
+VM90:480 Elo [1208] gracza BMW M4 jest większe niż ELO [1167] w players '1167'
+VM90:487 Data 8.03.2023, 20:21:32 jest aktualniejsza niż 8.03.2023, 13:01:41
+VM90:431 Gracz MKowalski180 ma 5 oraz 5 bramek
+VM90:433 Przeniesiono 5 bramki gracza MKowalski180 do players, teraz ma 10
+VM90:438 Gracz MKowalski180 ma 2 oraz 3 asyst
+VM90:440 Przeniesiono 3 asysty gracza MKowalski180 do players, teraz ma 5
+VM90:445 Gracz MKowalski180 ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza MKowalski180 do players, teraz ma 1
+VM90:452 Gracz MKowalski180 ma 2 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza MKowalski180 do players, teraz ma 5
+VM90:459 Gracz MKowalski180 ma 0 oraz 5 czerwonych kartek
+VM90:461 Przeniesiono 5 czerwone kartki gracza MKowalski180 do players, teraz ma 5
+VM90:487 Data 8.03.2023, 21:49:27 jest aktualniejsza niż 7.03.2023, 12:19:30
+VM90:428 17. Przeniesiono gracza nd do players
+VM90:428 18. Przeniesiono gracza Michu do players
+VM90:480 Elo [1071] gracza Kimo jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 14:42:57 jest aktualniejsza niż 5.03.2023, 15:34:45
+VM90:431 Gracz .oskar ma 2 oraz 3 bramek
+VM90:433 Przeniesiono 3 bramki gracza .oskar do players, teraz ma 5
+VM90:438 Gracz .oskar ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza .oskar do players, teraz ma 2
+VM90:452 Gracz .oskar ma 0 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza .oskar do players, teraz ma 2
+VM90:459 Gracz .oskar ma 0 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza .oskar do players, teraz ma 2
+VM90:480 Elo [1182] gracza .oskar jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 16:09:09 jest aktualniejsza niż 5.03.2023, 21:48:00
+VM90:428 19. Przeniesiono gracza Jezus Chrystus do players
+VM90:428 20. Przeniesiono gracza Setrox do players
+VM90:428 21. Przeniesiono gracza Wojciech Szczęsny do players
+VM90:428 22. Przeniesiono gracza HerCu do players
+VM90:473 Gracz Kacperinio  ma 0 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza Kacperinio  do players, teraz ma 2
+VM90:480 Elo [973] gracza Kacperinio  jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 15:05:03 jest aktualniejsza niż 5.03.2023, 23:39:19
+VM90:428 23. Przeniesiono gracza Eldorado wpierdolator do players
+VM90:466 Gracz Leonel Messi 10 ma 1 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Leonel Messi 10 do players, teraz ma 2
+VM90:473 Gracz Leonel Messi 10 ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Leonel Messi 10 do players, teraz ma 1
+VM90:487 Data 8.03.2023, 15:07:59 jest aktualniejsza niż 5.03.2023, 18:12:14
+VM90:473 Gracz baby ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza baby do players, teraz ma 1
+VM90:487 Data 8.03.2023, 15:05:14 jest aktualniejsza niż 5.03.2023, 21:28:27
+VM90:466 Gracz Boooom ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Boooom do players, teraz ma 1
+VM90:473 Gracz Boooom ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Boooom do players, teraz ma 1
+VM90:487 Data 8.03.2023, 15:28:14 jest aktualniejsza niż 5.03.2023, 20:55:46
+VM90:428 24. Przeniesiono gracza jon do players
+VM90:428 25. Przeniesiono gracza Brunex do players
+VM90:428 26. Przeniesiono gracza Romelu Lukaku do players
+VM90:428 27. Przeniesiono gracza nd13 do players
+VM90:428 28. Przeniesiono gracza sardynka do players
+VM90:428 29. Przeniesiono gracza Spalony | Leeds do players
+VM90:428 30. Przeniesiono gracza cumcock do players
+VM90:428 31. Przeniesiono gracza TYLKO ŁKS do players
+VM90:452 Gracz Sushi ma 17 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza Sushi do players, teraz ma 19
+VM90:459 Gracz Sushi ma 20 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza Sushi do players, teraz ma 22
+VM90:473 Gracz Sushi ma 4 oraz 3 [unranked] kartek
+VM90:475 Przeniesiono 3 [unranked] kartki gracza Sushi do players, teraz ma 7
+VM90:480 Elo [1236] gracza Sushi jest większe niż ELO [1182] w players '1182'
+VM90:487 Data 8.03.2023, 22:37:01 jest aktualniejsza niż 5.03.2023, 23:59:26
+VM90:473 Gracz ALison ma 5 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza ALison do players, teraz ma 6
+VM90:487 Data 8.03.2023, 15:33:16 jest aktualniejsza niż 8.03.2023, 13:03:52
+VM90:428 32. Przeniesiono gracza Terapia do players
+VM90:431 Gracz // ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza // do players, teraz ma 1
+VM90:452 Gracz // ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza // do players, teraz ma 1
+VM90:487 Data 8.03.2023, 15:41:37 jest aktualniejsza niż 8.03.2023, 12:54:43
+VM90:431 Gracz  Haaland ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza  Haaland do players, teraz ma 1
+VM90:452 Gracz  Haaland ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza  Haaland do players, teraz ma 2
+VM90:459 Gracz  Haaland ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza  Haaland do players, teraz ma 1
+VM90:480 Elo [933] gracza  Haaland jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 15:46:06 jest aktualniejsza niż 7.03.2023, 13:10:18
+VM90:431 Gracz zekutor ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza zekutor do players, teraz ma 1
+VM90:438 Gracz zekutor ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza zekutor do players, teraz ma 1
+VM90:445 Gracz zekutor ma 3 oraz 2 goli samobójczych
+VM90:447 Przeniesiono 2 bramki samobójcze gracza zekutor do players, teraz ma 5
+VM90:452 Gracz zekutor ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza zekutor do players, teraz ma 1
+VM90:459 Gracz zekutor ma 1 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza zekutor do players, teraz ma 2
+VM90:473 Gracz zekutor ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza zekutor do players, teraz ma 1
+VM90:487 Data 8.03.2023, 16:24:38 jest aktualniejsza niż 5.03.2023, 21:01:27
+VM90:431 Gracz KoVolt ma 1 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza KoVolt do players, teraz ma 2
+VM90:438 Gracz KoVolt ma 5 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza KoVolt do players, teraz ma 6
+VM90:466 Gracz KoVolt ma 2 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza KoVolt do players, teraz ma 3
+VM90:473 Gracz KoVolt ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza KoVolt do players, teraz ma 1
+VM90:487 Data 8.03.2023, 16:46:01 jest aktualniejsza niż 5.03.2023, 20:14:30
+VM90:431 Gracz mati ma 5 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza mati do players, teraz ma 6
+VM90:438 Gracz mati ma 0 oraz 3 asyst
+VM90:440 Przeniesiono 3 asysty gracza mati do players, teraz ma 3
+VM90:452 Gracz mati ma 1 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza mati do players, teraz ma 3
+VM90:459 Gracz mati ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza mati do players, teraz ma 1
+VM90:473 Gracz mati ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza mati do players, teraz ma 1
+VM90:480 Elo [1249] gracza mati jest większe niż ELO [1238] w players '1238'
+VM90:487 Data 8.03.2023, 19:52:02 jest aktualniejsza niż 7.03.2023, 13:03:17
+VM90:428 33. Przeniesiono gracza Mou do players
+VM90:428 34. Przeniesiono gracza Saka do players
+VM90:438 Gracz antoni ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza antoni do players, teraz ma 3
+VM90:452 Gracz antoni ma 0 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza antoni do players, teraz ma 2
+VM90:459 Gracz antoni ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza antoni do players, teraz ma 1
+VM90:480 Elo [1239] gracza antoni jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 16:16:00 jest aktualniejsza niż 5.03.2023, 17:45:16
+VM90:452 Gracz Orient Bambino ma 3 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Orient Bambino do players, teraz ma 4
+VM90:459 Gracz Orient Bambino ma 3 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza Orient Bambino do players, teraz ma 4
+VM90:487 Data 8.03.2023, 16:13:33 jest aktualniejsza niż 8.03.2023, 12:40:01
+VM90:452 Gracz psikuta ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza psikuta do players, teraz ma 1
+VM90:459 Gracz psikuta ma 1 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza psikuta do players, teraz ma 2
+VM90:473 Gracz psikuta ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza psikuta do players, teraz ma 1
+VM90:480 Elo [1315] gracza psikuta jest większe niż ELO [1308] w players '1308'
+VM90:487 Data 8.03.2023, 22:13:01 jest aktualniejsza niż 5.03.2023, 21:42:15
+VM90:428 35. Przeniesiono gracza lech kaczynski do players
+VM90:480 Elo [1228] gracza J4rzyk jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 16:15:47 jest aktualniejsza niż 5.03.2023, 19:40:35
+VM90:428 36. Przeniesiono gracza Takuto Oshima do players
+VM90:428 37. Przeniesiono gracza HimoLuj do players
+VM90:428 38. Przeniesiono gracza Flashback do players
+VM90:445 Gracz PODAJ_DEBILU ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza PODAJ_DEBILU do players, teraz ma 1
+VM90:459 Gracz PODAJ_DEBILU ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza PODAJ_DEBILU do players, teraz ma 1
+VM90:487 Data 8.03.2023, 16:20:58 jest aktualniejsza niż 8.03.2023, 12:53:19
+VM90:473 Gracz Atashk ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Atashk do players, teraz ma 1
+VM90:487 Data 8.03.2023, 16:25:06 jest aktualniejsza niż 7.03.2023, 13:11:25
+VM90:428 39. Przeniesiono gracza avi do players
+VM90:428 40. Przeniesiono gracza prytu do players
+VM90:428 41. Przeniesiono gracza Marcel  do players
+VM90:466 Gracz borys 5 ma 0 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza borys 5 do players, teraz ma 2
+VM90:473 Gracz borys 5 ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza borys 5 do players, teraz ma 1
+VM90:487 Data 8.03.2023, 16:36:09 jest aktualniejsza niż 5.03.2023, 20:53:34
+VM90:466 Gracz PanMobPL ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza PanMobPL do players, teraz ma 1
+VM90:473 Gracz PanMobPL ma 1 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza PanMobPL do players, teraz ma 3
+VM90:487 Data 8.03.2023, 16:44:01 jest aktualniejsza niż 5.03.2023, 13:10:51
+VM90:428 42. Przeniesiono gracza Poseudon do players
+VM90:466 Gracz ali ma 2 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza ali do players, teraz ma 3
+VM90:487 Data 8.03.2023, 16:40:42 jest aktualniejsza niż 6.03.2023, 11:53:29
+VM90:428 43. Przeniesiono gracza Milan Borjan do players
+VM90:438 Gracz POPE ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza POPE do players, teraz ma 2
+VM90:445 Gracz POPE ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza POPE do players, teraz ma 1
+VM90:452 Gracz POPE ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza POPE do players, teraz ma 2
+VM90:473 Gracz POPE ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza POPE do players, teraz ma 1
+VM90:487 Data 8.03.2023, 23:30:45 jest aktualniejsza niż 8.03.2023, 12:49:33
+VM90:431 Gracz maska ma 1 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza maska do players, teraz ma 2
+VM90:438 Gracz maska ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza maska do players, teraz ma 3
+VM90:480 Elo [1199] gracza maska jest większe niż ELO [1177] w players '1177'
+VM90:487 Data 8.03.2023, 17:02:11 jest aktualniejsza niż 5.03.2023, 19:24:28
+VM90:452 Gracz Szkielet Strzelec ma 5 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Szkielet Strzelec do players, teraz ma 6
+VM90:480 Elo [1271] gracza Szkielet Strzelec jest większe niż ELO [1210] w players '1210'
+VM90:487 Data 8.03.2023, 17:02:49 jest aktualniejsza niż 6.03.2023, 00:23:50
+VM90:428 44. Przeniesiono gracza Wizard do players
+VM90:431 Gracz Jarosław Kaczyński ma 2 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Jarosław Kaczyński do players, teraz ma 3
+VM90:438 Gracz Jarosław Kaczyński ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza Jarosław Kaczyński do players, teraz ma 1
+VM90:459 Gracz Jarosław Kaczyński ma 3 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza Jarosław Kaczyński do players, teraz ma 5
+VM90:480 Elo [1194] gracza Jarosław Kaczyński jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 17:02:22 jest aktualniejsza niż 6.03.2023, 12:42:22
+VM90:428 45. Przeniesiono gracza FILIPE SANTOSZ do players
+VM90:428 46. Przeniesiono gracza heroindealer17 do players
+VM90:428 47. Przeniesiono gracza weeedz do players
+VM90:452 Gracz Jabollo ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Jabollo do players, teraz ma 2
+VM90:487 Data 8.03.2023, 16:56:56 jest aktualniejsza niż 5.03.2023, 13:51:56
+VM90:459 Gracz ‎ ma 3 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza ‎ do players, teraz ma 4
+VM90:487 Data 8.03.2023, 17:02:08 jest aktualniejsza niż 6.03.2023, 00:07:31
+VM90:438 Gracz blackout ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza blackout do players, teraz ma 1
+VM90:487 Data 8.03.2023, 17:02:11 jest aktualniejsza niż 8.03.2023, 12:35:39
+VM90:431 Gracz Cissé ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza Cissé do players, teraz ma 2
+VM90:438 Gracz Cissé ma 1 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Cissé do players, teraz ma 3
+VM90:487 Data 9.03.2023, 00:14:02 jest aktualniejsza niż 6.03.2023, 12:32:54
+VM90:452 Gracz Silfverberg ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Silfverberg do players, teraz ma 1
+VM90:473 Gracz Silfverberg ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Silfverberg do players, teraz ma 1
+VM90:487 Data 8.03.2023, 19:54:06 jest aktualniejsza niż 5.03.2023, 19:13:46
+VM90:431 Gracz qurejek ma 8 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza qurejek do players, teraz ma 10
+VM90:438 Gracz qurejek ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza qurejek do players, teraz ma 3
+VM90:445 Gracz qurejek ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza qurejek do players, teraz ma 1
+VM90:452 Gracz qurejek ma 5 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza qurejek do players, teraz ma 8
+VM90:459 Gracz qurejek ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza qurejek do players, teraz ma 1
+VM90:487 Data 8.03.2023, 23:12:33 jest aktualniejsza niż 5.03.2023, 23:36:40
+VM90:428 48. Przeniesiono gracza DeemZy  do players
+VM90:431 Gracz Eplik ma 5 oraz 5 bramek
+VM90:433 Przeniesiono 5 bramki gracza Eplik do players, teraz ma 10
+VM90:438 Gracz Eplik ma 11 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Eplik do players, teraz ma 13
+VM90:452 Gracz Eplik ma 7 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza Eplik do players, teraz ma 9
+VM90:487 Data 9.03.2023, 02:24:35 jest aktualniejsza niż 8.03.2023, 01:53:55
+VM90:428 49. Przeniesiono gracza Jan PAwe ł  do players
+VM90:431 Gracz Velu ma 3 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza Velu do players, teraz ma 5
+VM90:438 Gracz Velu ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza Velu do players, teraz ma 3
+VM90:452 Gracz Velu ma 14 oraz 6 żółtych kartek
+VM90:454 Przeniesiono 6 żółte kartki gracza Velu do players, teraz ma 20
+VM90:459 Gracz Velu ma 9 oraz 4 czerwonych kartek
+VM90:461 Przeniesiono 4 czerwone kartki gracza Velu do players, teraz ma 13
+VM90:487 Data 8.03.2023, 23:58:02 jest aktualniejsza niż 5.03.2023, 22:58:59
+VM90:438 Gracz Dani ma 5 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Dani do players, teraz ma 7
+VM90:445 Gracz Dani ma 5 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza Dani do players, teraz ma 6
+VM90:452 Gracz Dani ma 15 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza Dani do players, teraz ma 18
+VM90:487 Data 8.03.2023, 21:00:22 jest aktualniejsza niż 6.03.2023, 00:00:22
+VM90:431 Gracz Chicken19 ma 0 oraz 6 bramek
+VM90:433 Przeniesiono 6 bramki gracza Chicken19 do players, teraz ma 6
+VM90:438 Gracz Chicken19 ma 1 oraz 5 asyst
+VM90:440 Przeniesiono 5 asysty gracza Chicken19 do players, teraz ma 6
+VM90:466 Gracz Chicken19 ma 0 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza Chicken19 do players, teraz ma 2
+VM90:480 Elo [1208] gracza Chicken19 jest większe niż ELO [1085] w players '1085'
+VM90:487 Data 8.03.2023, 21:07:59 jest aktualniejsza niż 5.03.2023, 23:46:56
+VM90:480 Elo [1085] gracza Lebron James jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 19:49:09 jest aktualniejsza niż 7.03.2023, 12:40:47
+VM90:428 50. Przeniesiono gracza Wygrałeś. Zdobyłeś 23 punktów ELO. do players
+VM90:428 51. Przeniesiono gracza nightmaregamer do players
+VM90:428 52. Przeniesiono gracza bb do players
+VM90:428 53. Przeniesiono gracza Pietrucha do players
+VM90:431 Gracz 2𝓞𝓞6 ma 0 oraz 4 bramek
+VM90:433 Przeniesiono 4 bramki gracza 2𝓞𝓞6 do players, teraz ma 4
+VM90:452 Gracz 2𝓞𝓞6 ma 5 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza 2𝓞𝓞6 do players, teraz ma 6
+VM90:480 Elo [1161] gracza 2𝓞𝓞6 jest większe niż ELO [1154] w players '1154'
+VM90:487 Data 8.03.2023, 21:04:42 jest aktualniejsza niż 5.03.2023, 23:20:11
+VM90:431 Gracz Oscar Reigns Kurwa Jebana ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Oscar Reigns Kurwa Jebana do players, teraz ma 1
+VM90:438 Gracz Oscar Reigns Kurwa Jebana ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza Oscar Reigns Kurwa Jebana do players, teraz ma 1
+VM90:487 Data 8.03.2023, 21:59:58 jest aktualniejsza niż 6.03.2023, 12:55:53
+VM90:428 54. Przeniesiono gracza Pucio do players
+VM90:452 Gracz Pascal ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Pascal do players, teraz ma 1
+VM90:487 Data 8.03.2023, 20:24:43 jest aktualniejsza niż 5.03.2023, 19:56:57
+VM90:431 Gracz BlackShadow ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza BlackShadow do players, teraz ma 1
+VM90:487 Data 8.03.2023, 20:26:28 jest aktualniejsza niż 5.03.2023, 21:34:19
+VM90:431 Gracz lex ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza lex do players, teraz ma 2
+VM90:438 Gracz lex ma 2 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza lex do players, teraz ma 4
+VM90:452 Gracz lex ma 1 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza lex do players, teraz ma 3
+VM90:466 Gracz lex ma 1 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza lex do players, teraz ma 3
+VM90:473 Gracz lex ma 0 oraz 3 [unranked] kartek
+VM90:475 Przeniesiono 3 [unranked] kartki gracza lex do players, teraz ma 3
+VM90:487 Data 8.03.2023, 22:04:04 jest aktualniejsza niż 8.03.2023, 03:45:07
+VM90:428 55. Przeniesiono gracza niqht do players
+VM90:445 Gracz Kasper Schmeichel GK ma 3 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza Kasper Schmeichel GK do players, teraz ma 4
+VM90:487 Data 8.03.2023, 20:44:27 jest aktualniejsza niż 5.03.2023, 18:31:29
+VM90:431 Gracz Garnacho ma 5 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Garnacho do players, teraz ma 6
+VM90:438 Gracz Garnacho ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza Garnacho do players, teraz ma 1
+VM90:452 Gracz Garnacho ma 8 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza Garnacho do players, teraz ma 10
+VM90:459 Gracz Garnacho ma 4 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza Garnacho do players, teraz ma 5
+VM90:480 Elo [1108] gracza Garnacho jest większe niż ELO [0] w players '0'
+VM90:487 Data 8.03.2023, 23:22:14 jest aktualniejsza niż 5.03.2023, 23:45:47
+VM90:428 56. Przeniesiono gracza Artemis do players
+VM90:428 57. Przeniesiono gracza PARYS PLATYNOV do players
+VM90:428 58. Przeniesiono gracza Darwin do players
+VM90:438 Gracz hasper11 ma 1 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza hasper11 do players, teraz ma 2
+VM90:445 Gracz hasper11 ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza hasper11 do players, teraz ma 1
+VM90:452 Gracz hasper11 ma 4 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza hasper11 do players, teraz ma 5
+VM90:466 Gracz hasper11 ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza hasper11 do players, teraz ma 1
+VM90:473 Gracz hasper11 ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza hasper11 do players, teraz ma 1
+VM90:487 Data 8.03.2023, 21:52:02 jest aktualniejsza niż 5.03.2023, 20:40:09
+VM90:445 Gracz Galatasaray ma 2 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza Galatasaray do players, teraz ma 3
+VM90:487 Data 8.03.2023, 21:05:39 jest aktualniejsza niż 5.03.2023, 21:24:52
+VM90:428 59. Przeniesiono gracza kaká do players
+VM90:428 60. Przeniesiono gracza franzicz do players
+VM90:428 61. Przeniesiono gracza ttyysd do players
+VM90:466 Gracz Atos ma 0 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza Atos do players, teraz ma 2
+VM90:473 Gracz Atos ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Atos do players, teraz ma 1
+VM90:487 Data 8.03.2023, 21:14:09 jest aktualniejsza niż 5.03.2023, 14:33:24
+VM90:428 62. Przeniesiono gracza zaza do players
+VM90:466 Gracz JL99 ma 1 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza JL99 do players, teraz ma 3
+VM90:487 Data 8.03.2023, 21:19:44 jest aktualniejsza niż 5.03.2023, 15:01:50
+VM90:431 Gracz Greenwood ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Greenwood do players, teraz ma 1
+VM90:452 Gracz Greenwood ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Greenwood do players, teraz ma 2
+VM90:487 Data 8.03.2023, 21:52:28 jest aktualniejsza niż 5.03.2023, 19:43:23
+VM90:431 Gracz 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players, teraz ma 2
+VM90:438 Gracz 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players, teraz ma 1
+VM90:452 Gracz 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 ma 0 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players, teraz ma 2
+VM90:459 Gracz 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players, teraz ma 1
+VM90:466 Gracz 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 ma 1 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza 𓂀𝕂𝕒𝕞𝕞𝕤𝕠𝕟𓂀 do players, teraz ma 2
+VM90:487 Data 8.03.2023, 22:02:20 jest aktualniejsza niż 5.03.2023, 13:09:13
+VM90:428 63. Przeniesiono gracza Ozil do players
+VM90:428 64. Przeniesiono gracza Pizza Boy 🧢 do players
+VM90:431 Gracz salut ma 6 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza salut do players, teraz ma 7
+VM90:445 Gracz salut ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza salut do players, teraz ma 1
+VM90:459 Gracz salut ma 4 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza salut do players, teraz ma 6
+VM90:487 Data 9.03.2023, 01:41:52 jest aktualniejsza niż 6.03.2023, 01:48:01
+VM90:428 65. Przeniesiono gracza boberek do players
+VM90:431 Gracz EL POLAKO ma 13 oraz 3 bramek
+VM90:433 Przeniesiono 3 bramki gracza EL POLAKO do players, teraz ma 16
+VM90:438 Gracz EL POLAKO ma 10 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza EL POLAKO do players, teraz ma 11
+VM90:466 Gracz EL POLAKO ma 1 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza EL POLAKO do players, teraz ma 3
+VM90:487 Data 8.03.2023, 22:08:10 jest aktualniejsza niż 5.03.2023, 22:51:04
+VM90:428 66. Przeniesiono gracza Balde do players
+VM90:431 Gracz asd ma 13 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza asd do players, teraz ma 15
+VM90:452 Gracz asd ma 6 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza asd do players, teraz ma 8
+VM90:459 Gracz asd ma 15 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza asd do players, teraz ma 16
+VM90:466 Gracz asd ma 19 oraz 2 [unranked] bramkek
+VM90:468 Przeniesiono 2 [unranked] bramki gracza asd do players, teraz ma 21
+VM90:487 Data 9.03.2023, 01:56:00 jest aktualniejsza niż 8.03.2023, 01:40:58
+VM90:431 Gracz CO TAM ma 5 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza CO TAM do players, teraz ma 6
+VM90:438 Gracz CO TAM ma 4 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza CO TAM do players, teraz ma 5
+VM90:487 Data 8.03.2023, 21:59:04 jest aktualniejsza niż 6.03.2023, 01:43:03
+VM90:466 Gracz waligóra ma 0 oraz 4 [unranked] bramkek
+VM90:468 Przeniesiono 4 [unranked] bramki gracza waligóra do players, teraz ma 4
+VM90:473 Gracz waligóra ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza waligóra do players, teraz ma 2
+VM90:487 Data 8.03.2023, 22:15:12 jest aktualniejsza niż 5.03.2023, 22:54:46
+VM90:466 Gracz Jeżyk ma 0 oraz 5 [unranked] bramkek
+VM90:468 Przeniesiono 5 [unranked] bramki gracza Jeżyk do players, teraz ma 5
+VM90:473 Gracz Jeżyk ma 0 oraz 2 [unranked] kartek
+VM90:475 Przeniesiono 2 [unranked] kartki gracza Jeżyk do players, teraz ma 2
+VM90:487 Data 8.03.2023, 23:04:05 jest aktualniejsza niż 5.03.2023, 20:44:38
+VM90:466 Gracz Messi ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza Messi do players, teraz ma 1
+VM90:487 Data 8.03.2023, 22:06:17 jest aktualniejsza niż 5.03.2023, 22:26:32
+VM90:473 Gracz niiga ma 1 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza niiga do players, teraz ma 2
+VM90:487 Data 8.03.2023, 22:11:50 jest aktualniejsza niż 6.03.2023, 01:02:01
+VM90:428 67. Przeniesiono gracza Aristo do players
+VM90:428 68. Przeniesiono gracza Zizo do players
+VM90:428 69. Przeniesiono gracza RIDSLK do players
+VM90:428 70. Przeniesiono gracza Jeffrey do players
+VM90:466 Gracz weeknd ma 5 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza weeknd do players, teraz ma 6
+VM90:487 Data 8.03.2023, 22:41:59 jest aktualniejsza niż 6.03.2023, 01:12:01
+VM90:428 71. Przeniesiono gracza Christian Pulisic do players
+VM90:431 Gracz Sandurek ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza Sandurek do players, teraz ma 2
+VM90:438 Gracz Sandurek ma 0 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza Sandurek do players, teraz ma 2
+VM90:445 Gracz Sandurek ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza Sandurek do players, teraz ma 1
+VM90:452 Gracz Sandurek ma 0 oraz 4 żółtych kartek
+VM90:454 Przeniesiono 4 żółte kartki gracza Sandurek do players, teraz ma 4
+VM90:459 Gracz Sandurek ma 0 oraz 2 czerwonych kartek
+VM90:461 Przeniesiono 2 czerwone kartki gracza Sandurek do players, teraz ma 2
+VM90:466 Gracz Sandurek ma 1 oraz 4 [unranked] bramkek
+VM90:468 Przeniesiono 4 [unranked] bramki gracza Sandurek do players, teraz ma 5
+VM90:473 Gracz Sandurek ma 0 oraz 1 [unranked] kartek
+VM90:475 Przeniesiono 1 [unranked] kartki gracza Sandurek do players, teraz ma 1
+VM90:487 Data 9.03.2023, 01:21:09 jest aktualniejsza niż 8.03.2023, 03:56:18
+VM90:428 72. Przeniesiono gracza pn do players
+VM90:431 Gracz winiu ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza winiu do players, teraz ma 2
+VM90:438 Gracz winiu ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza winiu do players, teraz ma 1
+VM90:466 Gracz winiu ma 0 oraz 1 [unranked] bramkek
+VM90:468 Przeniesiono 1 [unranked] bramki gracza winiu do players, teraz ma 1
+VM90:473 Gracz winiu ma 1 oraz 3 [unranked] kartek
+VM90:475 Przeniesiono 3 [unranked] kartki gracza winiu do players, teraz ma 4
+VM90:487 Data 8.03.2023, 23:43:42 jest aktualniejsza niż 5.03.2023, 17:37:04
+VM90:428 73. Przeniesiono gracza hajduszoboszlo do players
+VM90:431 Gracz filowa ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza filowa do players, teraz ma 1
+VM90:452 Gracz filowa ma 5 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza filowa do players, teraz ma 8
+VM90:459 Gracz filowa ma 1 oraz 4 czerwonych kartek
+VM90:461 Przeniesiono 4 czerwone kartki gracza filowa do players, teraz ma 5
+VM90:487 Data 8.03.2023, 23:26:22 jest aktualniejsza niż 5.03.2023, 21:19:04
+VM90:431 Gracz ROKOKO ma 12 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza ROKOKO do players, teraz ma 14
+VM90:438 Gracz ROKOKO ma 11 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza ROKOKO do players, teraz ma 12
+VM90:459 Gracz ROKOKO ma 0 oraz 1 czerwonych kartek
+VM90:461 Przeniesiono 1 czerwone kartki gracza ROKOKO do players, teraz ma 1
+VM90:487 Data 8.03.2023, 23:39:18 jest aktualniejsza niż 8.03.2023, 12:53:01
+VM90:452 Gracz Midżelajto ma 2 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Midżelajto do players, teraz ma 3
+VM90:487 Data 8.03.2023, 23:07:03 jest aktualniejsza niż 5.03.2023, 22:26:14
+VM90:431 Gracz redpoweredd ma 10 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza redpoweredd do players, teraz ma 12
+VM90:438 Gracz redpoweredd ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza redpoweredd do players, teraz ma 3
+VM90:452 Gracz redpoweredd ma 0 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza redpoweredd do players, teraz ma 3
+VM90:487 Data 9.03.2023, 00:51:20 jest aktualniejsza niż 6.03.2023, 01:51:18
+VM90:428 74. Przeniesiono gracza Conder do players
+VM90:428 75. Przeniesiono gracza HaxThePlayer do players
+VM90:431 Gracz Harutya ma 4 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza Harutya do players, teraz ma 6
+VM90:452 Gracz Harutya ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Harutya do players, teraz ma 1
+VM90:487 Data 8.03.2023, 23:31:49 jest aktualniejsza niż 5.03.2023, 22:22:23
+VM90:428 76. Przeniesiono gracza Mbappé do players
+VM90:428 77. Przeniesiono gracza ᴳᴬᴿᴮᵁ do players
+VM90:428 78. Przeniesiono gracza Yozgatlı66 do players
+VM90:431 Gracz EN7, ma 1 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza EN7, do players, teraz ma 2
+VM90:438 Gracz EN7, ma 1 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza EN7, do players, teraz ma 2
+VM90:452 Gracz EN7, ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza EN7, do players, teraz ma 1
+VM90:487 Data 8.03.2023, 23:36:48 jest aktualniejsza niż 7.03.2023, 13:03:15
+VM90:428 79. Przeniesiono gracza bonk do players
+VM90:428 80. Przeniesiono gracza PLC do players
+VM90:431 Gracz Di$oR ma 6 oraz 10 bramek
+VM90:433 Przeniesiono 10 bramki gracza Di$oR do players, teraz ma 16
+VM90:438 Gracz Di$oR ma 4 oraz 3 asyst
+VM90:440 Przeniesiono 3 asysty gracza Di$oR do players, teraz ma 7
+VM90:445 Gracz Di$oR ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza Di$oR do players, teraz ma 1
+VM90:452 Gracz Di$oR ma 5 oraz 2 żółtych kartek
+VM90:454 Przeniesiono 2 żółte kartki gracza Di$oR do players, teraz ma 7
+VM90:480 Elo [1174] gracza Di$oR jest większe niż ELO [0] w players '0'
+VM90:487 Data 9.03.2023, 02:16:32 jest aktualniejsza niż 6.03.2023, 00:27:39
+VM90:431 Gracz Eldogga ma 2 oraz 3 bramek
+VM90:433 Przeniesiono 3 bramki gracza Eldogga do players, teraz ma 5
+VM90:438 Gracz Eldogga ma 3 oraz 3 asyst
+VM90:440 Przeniesiono 3 asysty gracza Eldogga do players, teraz ma 6
+VM90:452 Gracz Eldogga ma 0 oraz 4 żółtych kartek
+VM90:454 Przeniesiono 4 żółte kartki gracza Eldogga do players, teraz ma 4
+VM90:487 Data 9.03.2023, 00:53:21 jest aktualniejsza niż 6.03.2023, 03:14:05
+VM90:431 Gracz arpaci ma 0 oraz 7 bramek
+VM90:433 Przeniesiono 7 bramki gracza arpaci do players, teraz ma 7
+VM90:438 Gracz arpaci ma 0 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza arpaci do players, teraz ma 1
+VM90:452 Gracz arpaci ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza arpaci do players, teraz ma 2
+VM90:480 Elo [1197] gracza arpaci jest większe niż ELO [0] w players '0'
+VM90:487 Data 9.03.2023, 01:18:09 jest aktualniejsza niż 6.03.2023, 04:24:54
+VM90:431 Gracz bomba ma 0 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza bomba do players, teraz ma 1
+VM90:438 Gracz bomba ma 1 oraz 2 asyst
+VM90:440 Przeniesiono 2 asysty gracza bomba do players, teraz ma 3
+VM90:480 Elo [1136] gracza bomba jest większe niż ELO [1099] w players '1099'
+VM90:487 Data 9.03.2023, 00:36:03 jest aktualniejsza niż 5.03.2023, 13:14:59
+VM90:428 81. Przeniesiono gracza dupek do players
+VM90:431 Gracz mana ma 2 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza mana do players, teraz ma 3
+VM90:480 Elo [1133] gracza mana jest większe niż ELO [1103] w players '1103'
+VM90:487 Data 9.03.2023, 00:49:28 jest aktualniejsza niż 6.03.2023, 00:22:35
+VM90:438 Gracz Pr0t0n ma 3 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza Pr0t0n do players, teraz ma 4
+VM90:487 Data 9.03.2023, 00:07:48 jest aktualniejsza niż 8.03.2023, 12:25:19
+VM90:445 Gracz jeziorko ma 0 oraz 1 goli samobójczych
+VM90:447 Przeniesiono 1 bramki samobójcze gracza jeziorko do players, teraz ma 1
+VM90:452 Gracz jeziorko ma 0 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza jeziorko do players, teraz ma 1
+VM90:480 Elo [1173] gracza jeziorko jest większe niż ELO [0] w players '0'
+VM90:487 Data 9.03.2023, 00:21:26 jest aktualniejsza niż 5.03.2023, 22:01:38
+VM90:487 Data 9.03.2023, 00:24:58 jest aktualniejsza niż 5.03.2023, 22:49:43
+VM90:431 Gracz Yaya Touré ma 0 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza Yaya Touré do players, teraz ma 2
+VM90:438 Gracz Yaya Touré ma 0 oraz 5 asyst
+VM90:440 Przeniesiono 5 asysty gracza Yaya Touré do players, teraz ma 5
+VM90:452 Gracz Yaya Touré ma 1 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza Yaya Touré do players, teraz ma 2
+VM90:480 Elo [1095] gracza Yaya Touré jest większe niż ELO [0] w players '0'
+VM90:487 Data 9.03.2023, 02:13:02 jest aktualniejsza niż 6.03.2023, 02:53:56
+VM90:428 82. Przeniesiono gracza HaPolako do players
+VM90:428 83. Przeniesiono gracza Cyprian do players
+VM90:431 Gracz Carlos Vela ma 1 oraz 1 bramek
+VM90:433 Przeniesiono 1 bramki gracza Carlos Vela do players, teraz ma 2
+VM90:487 Data 9.03.2023, 01:09:20 jest aktualniejsza niż 6.03.2023, 13:02:24
+VM90:428 84. Przeniesiono gracza Wygrałeś. Zdobyłeś 25 punktów ELO. do players
+VM90:428 85. Przeniesiono gracza Kris do players
+VM90:428 86. Przeniesiono gracza Wygrałeś. Zdobyłeś 24 punktów ELO. do players
+VM90:428 87. Przeniesiono gracza Julián Álvarez do players
+VM90:428 88. Przeniesiono gracza Leo Messi do players
+VM90:428 89. Przeniesiono gracza nikola do players
+VM90:452 Gracz Wisnia577 ma 0 oraz 3 żółtych kartek
+VM90:454 Przeniesiono 3 żółte kartki gracza Wisnia577 do players, teraz ma 3
+VM90:466 Gracz Wisnia577 ma 1 oraz 4 [unranked] bramkek
+VM90:468 Przeniesiono 4 [unranked] bramki gracza Wisnia577 do players, teraz ma 5
+VM90:473 Gracz Wisnia577 ma 0 oraz 4 [unranked] kartek
+VM90:475 Przeniesiono 4 [unranked] kartki gracza Wisnia577 do players, teraz ma 4
+VM90:487 Data 9.03.2023, 02:45:45 jest aktualniejsza niż 8.03.2023, 02:06:47
+VM90:428 90. Przeniesiono gracza qop do players
+VM90:428 91. Przeniesiono gracza Wygrałeś. Zdobyłeś 21 punktów ELO. do players
+VM90:428 92. Przeniesiono gracza deer do players
+VM90:431 Gracz islay ma 21 oraz 2 bramek
+VM90:433 Przeniesiono 2 bramki gracza islay do players, teraz ma 23
+VM90:438 Gracz islay ma 10 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza islay do players, teraz ma 11
+VM90:452 Gracz islay ma 7 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza islay do players, teraz ma 8
+VM90:487 Data 9.03.2023, 02:16:32 jest aktualniejsza niż 7.03.2023, 12:56:10
+VM90:428 93. Przeniesiono gracza Wygrałeś. Zdobyłeś 20 punktów ELO. do players
+VM90:428 94. Przeniesiono gracza nie pierdol polej bo umre do players
+VM90:438 Gracz e ma 2 oraz 1 asyst
+VM90:440 Przeniesiono 1 asysty gracza e do players, teraz ma 3
+VM90:452 Gracz e ma 3 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza e do players, teraz ma 4
+VM90:487 Data 9.03.2023, 01:57:35 jest aktualniejsza niż 5.03.2023, 19:56:32
+VM90:428 95. Przeniesiono gracza Kraken do players
+VM90:452 Gracz ESEM1K ma 9 oraz 1 żółtych kartek
+VM90:454 Przeniesiono 1 żółte kartki gracza ESEM1K do players, teraz ma 10
+VM90:487 Data 9.03.2023, 02:18:03 jest aktualniejsza niż 5.03.2023, 20:29:13
+VM90:428 96. Przeniesiono gracza bongo z kutasa do players
+VM90:487 Data 9.03.2023, 02:18:32 jest aktualniejsza niż 8.03.2023, 02:07:05
+VM90:428 97. Przeniesiono gracza bongo z soczystego kutasa do players
+VM90:428 98. Przeniesiono gracza mateo do players
+VM90:428 99. Przeniesiono gracza aaa do players
+
+VM90:493 👑 HAXLOG 👑 Wykonano import z innej bazy do bazy players! Dodano 99 nowych graczy oraz wykonano 429 przeniesień
