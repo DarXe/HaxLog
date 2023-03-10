@@ -135,7 +135,7 @@ function checkLogs(){
                     return;
                 }
             }
-            if (newLog.includes("ELO.") && !newLog.includes("Straciłeś")) { //player elo
+            if (newLog.includes("ELO.") && !newLog.includes("Straciłeś") && !newLog.includes("Wygrałeś")) { //player elo
                 const playerELO = newLog.split(" ma ")[0].split("] ")[1];
                 const playerIndex = addPlayer(playerELO);
                 players[playerIndex].elo = newLog.split(" ma ")[1].split(" p")[0];
