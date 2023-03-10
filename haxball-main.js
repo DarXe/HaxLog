@@ -29,7 +29,8 @@ let config = {
     timestamp: true, //domyślnie włączona godzina obok wiadomości
     consoleChat: true, //włączony czat w konsoli przeglądarki, ustawienie na fałsz nie wyłącza podglądu wyciszonych wiadomości
     consoleChatMuted: true, //włączone pokazywanie wyciszonych wiadmości w konsoli przeglądarki
-    autoSave: true //automatyczne zapisywanie statystyk, przy wartości false statystyki zapisują się tylko, gdy rozpocznie się gra rankingowa
+    autoSave: true, //automatyczne zapisywanie statystyk, przy wartości false statystyki zapisują się tylko, gdy rozpocznie się gra rankingowa
+    debugMessage: false
 };
 
 //main
@@ -351,6 +352,7 @@ function start(){
     if (muted === null) {
         muted = [];
     }
+
     config = JSON.parse(localStorage.getItem('config'));
     if (config === null) {
         config = {
@@ -360,6 +362,9 @@ function start(){
             consoleChatMuted: true,
             autoSave: true
         };
+    }
+    if (config.debugMessage === undefined) {
+        config.debugMessage = false;
     }
     
     playerNickname = localStorage['player_name'];
@@ -409,6 +414,7 @@ function autoConfig() {
     consoleChat = config.consoleChat;
     consoleChatMuted = config.consoleChatMuted;
     autoSave = config.autoSave;
+    dbm = config.debugMessage;
 }
 
 function dataExp(){
