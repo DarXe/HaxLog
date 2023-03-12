@@ -24,6 +24,8 @@ let consoleChatMuted = true;
 let dbm = false; //debug message;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
+document.getElementsByClassName("ps__rail-y")[0].style.color = "transparent";
+document.getElementsByClassName("ps__rail-x")[0].style.color = "transparent";
 const savePlayers = () => {
     localStorage.setItem('players', JSON.stringify(players));
     console.log("[AUTOSAVE] Dane o graczach zostały zapisane!");
@@ -570,4 +572,4 @@ function clearPlayers() {
     savePlayers();
 }
 
-//1.3.1203 new cmd: ^clearP //clear players
+//1.3.1203 bug fix with white text
