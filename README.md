@@ -3,8 +3,8 @@ HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 
 # JAK URUCHOMIĆ SKRYPT?
 1. Klikamy prawym przyciskiem myszki na okno haxballa, wybieramy "Zbadaj", "Zbadaj element", bądź "Wykonaj inspekcję"
-2. https://github.com/DarXe/HaxLog/blob/main/haxball-main.js kopiujemy kod (zaznacz od 1 do ostatniej linii i Ctrl+C)
-3. Wybieramy konsole "Console", wklejamy tam cały kod z pliku logs.js (wklej do konsoli Ctrl+V)
+2. https://raw.githubusercontent.com/DarXe/HaxLog/main/haxball-main.js kopiujemy kod (zaznacz Ctrl+A, kopiuj Ctrl+C)
+3. Wybieramy konsole "Console", wklejamy tam cały kod z pliku wyżej (wklej do konsoli Ctrl+V)
 4. Program uruchomi się automatycznie, w konsoli powinniśmy dostać informację "Pomyślnie zainicjowano HaxLog!"
 
 # KOMENDY
@@ -12,6 +12,7 @@ HaxBall Logus - program do powiadomień dźwiękowych z czatu gry HaxBall.com
 * ^add test - dodaje frazę 'test' do powiadomień dźwiękowych
 * ^time - włącza/wyłącza godzinę obok wiadomości
 * ^console - włącza/wyłącza logi z czatu w konsoli przeglądarki (wyciszone zawsze się tam pokazują)
+
 
 # Usuwanie ostatnio dodanej frazy: 
 **phrases.pop();**  (konsola)
