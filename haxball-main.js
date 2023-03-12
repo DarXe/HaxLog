@@ -338,7 +338,7 @@ function checkLogs(){
 
                 return;
             }
-        } else if (newLog.indexOf("^pLen") !== -1) {
+        } else if (newLog.indexOf("^dataLen") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Info:`;
                 const m = `${players.length}, ${playerFouls.length}, v: ,${ver}`; out(m);
