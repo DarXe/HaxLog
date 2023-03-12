@@ -261,10 +261,10 @@ function checkLogs(){
 
                 return;
             }
-        } else if (newLog.indexOf("^start") !== -1) {
+        } else if (newLog.indexOf("^clearP") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
-                start();
-                play();
+                clearPlayers();
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Wyczyszczono! :-)`;
 
                 return;
             }
@@ -570,4 +570,4 @@ function clearPlayers() {
     savePlayers();
 }
 
-//1.3.0804 clear players function
+//1.3.1203 new cmd: ^clearP //clear players
