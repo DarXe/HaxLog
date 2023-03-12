@@ -9,12 +9,16 @@ let newLog = "";
 let time;
 let playerNickname;
 let chat = document.getElementsByClassName("log ps ps--active-y")[0];
+let inEl = document.querySelector('[data-hook="input"]');
+let outEl = document.querySelector('button[data-hook="send"]');
 let timestamp;
 let consoleChat;
 let players = [];
+let playerFouls = [];
 let pChangeCounter = 0;
 let isRanked = false;
 let isServerMessage = false;
+let isServerInfo = false;
 let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
@@ -38,13 +42,17 @@ function checkLogs(){
     time = getTime();
     newLog = chat.lastElementChild.innerText;
     isServerMessage = false;
+    isServerInfo = false;
 
     if(newLog.charAt(2) !== ':' && newLog.charAt(0) !== '\uD83D'){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
         if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
 
-        if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]")//is server message
+        if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]") {//is server message
             isServerMessage = true;
+        } else if (newLog.charAt(0) === '[' && newLog.charAt(2) === 'S' && newLog.charAt(3) === ' ') {
+            isServerInfo = true;
+        }
 
         if(isServerMessage && newLog.includes("Tryb rankingowy.")) {//game is ranked?
             isRanked = true;
@@ -59,8 +67,33 @@ function checkLogs(){
             return;
         }
 
-        //statistics
-        if (isServerMessage) {
+        //statistics - fouls
+        if (isServerInfo) {
+            if (1) {
+                if (newLog.includes(" sfaulował ")) { //foul
+                    const playerFoul = newLog.split(" sfaulował ")[0].split("ssion] ")[1];
+                    const playerIndex = addPlayerFoul(playerFoul);
+                    let playerHasFouled;
+                    if (newLog.split(" sfaulował ")[1].split("!").length === 3) {
+                        playerHasFouled = `${newLog.split(" sfaulował ")[1].split("!")[0]}!`;
+                    } else {
+                        playerHasFouled = newLog.split(" sfaulował ")[1].split("!")[0];
+                    }                  
+                    const playerFouledIndex = addPlayerFoul(playerHasFouled);
+                    playerFouls[playerIndex].f++; pChangeCounter++;
+                    playerFouls[playerIndex].lF = getFullTime(); 
+                    playerFouls[playerFouledIndex].hF++; pChangeCounter++;
+                    if (autoSave) {savePlayers();}
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Gracz ${playerFouls[playerIndex].n} sfaulował gracza ${playerFouls[playerFouledIndex].n} Log:${newLog}`);
+
+                    return;
+                } //else if ()
+            } else {
+                ;
+            }
+        }
+        //statistics - goals, cards
+        else if (isServerMessage) {
             if (isRanked) {
                 if (newLog.includes(" 🟨 Żółta")) { //yellow card
                     const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
@@ -95,7 +128,7 @@ function checkLogs(){
                         players[playerIndex].lastAction = getFullTime();
                         if(dbm) console.log(`⭐️Debug Message⭐️ GOOOL! ${players[playerIndex].name} Log:${newLog}`);
                         if (newLog.includes("Assist:")){  //assist
-                            const playerAssist = newLog.split("⚽ ")[1].split(" (")[1].split(": ")[1].split(")")[0]
+                            const playerAssist = newLog.split("⚽ ")[1].split("Assist: ")[1].split(")")[0];
                             const playerIndex = addPlayer(playerAssist);
                             players[playerIndex].assists++; pChangeCounter++;
                             players[playerIndex].lastAction = getFullTime();
@@ -319,6 +352,22 @@ function addPlayer(playerName){
 
     return playerIndex;
 }
+function addPlayerFoul(playerName){
+    let playerIndex = playerFouls.findIndex(player => player.n === playerName);
+    
+    if (playerIndex === -1){
+        playerFouls.push({
+            n: playerName, //name
+            f: 0, //fouls
+            hF: 0, //has fouled
+            lF: getFullTime() //last foul
+        });
+        playerIndex = playerFouls.findIndex(player => player.n === playerName);
+        console.log(`👑 HAXLOG 👑 Dodano nowego gracza do bazy fauli! To ${playerFouls[playerIndex].n} :)`)
+    }
+
+    return playerIndex;
+}
 function showPlayerInfo(playerName) {
     const playerIndex = players.findIndex(player => player.name === playerName);
     let _ = ``;
@@ -511,7 +560,7 @@ const playersNew = players.map(player => {
         e: player.elo,
         uG: player.unrankedGoals,
         uC: player.unrankedCards,
-        //lA: new Date(player.lastAction),
+        //lA: player.lastAction,
         //add: new Date(player.added)
     }
 })
