@@ -22,13 +22,27 @@ let isServerInfo = false;
 let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
+let cd = true;
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 document.getElementsByClassName("ps__rail-y")[0].style.color = "transparent";
 document.getElementsByClassName("ps__rail-x")[0].style.color = "transparent";
 const savePlayers = () => {
     localStorage.setItem('players', JSON.stringify(players));
+    localStorage.setItem('playerFouls', JSON.stringify(playerFouls));
     console.log("[AUTOSAVE] Dane o graczach zostały zapisane!");
+}
+const out = (value) => {
+    inEl.value = value;
+    outEl.dispatchEvent(new MouseEvent('click'));
+}
+const remLog = () => {
+    chat.removeChild(chat.lastElementChild)
+    setTimeout(() => {
+        if(chat.scrollTop === 0) {
+        chat.scrollTop = chat.scrollHeight;
+        }
+    }, 2);
 }
 let config = {
     push_logs: false, //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
@@ -48,6 +62,18 @@ function checkLogs(){
 
     if(newLog.charAt(2) !== ':' && newLog.charAt(0) !== '\uD83D'){
         if(push_logs) logs.push(`${time} ${newLog}`); //do tablicy
+        if(newLog.indexOf("%$") !== -1 && cd) {
+            remLog();
+            if (newLog.toLowerCase().indexOf(playerNickname) === -1) {
+                if (newLog.includes("!")) {     
+                    let _ = newLog.substring(newLog.indexOf("$!")+2).trim();
+                    out(_);
+                }
+    
+                return;
+            }
+        }
+
         if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
 
         if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]") {//is server message
@@ -84,12 +110,33 @@ function checkLogs(){
                     const playerFouledIndex = addPlayerFoul(playerHasFouled);
                     playerFouls[playerIndex].f++; pChangeCounter++;
                     playerFouls[playerIndex].lF = getFullTime(); 
-                    playerFouls[playerFouledIndex].hF++; pChangeCounter++;
+                    playerFouls[playerFouledIndex].hF++;
                     if (autoSave) {savePlayers();}
                     if(dbm) console.log(`⭐️Debug Message⭐️ Gracz ${playerFouls[playerIndex].n} sfaulował gracza ${playerFouls[playerFouledIndex].n} Log:${newLog}`);
+                    
+                    return;
+                } else if (newLog.includes(" Niesportowy faul ")) { //unsportsmanlike foul
+                    let playerUnsportsmanlikeFoul;
+                    if (newLog.split("y faul wykonany przez ")[1].split("!").length === 3) {
+                        playerUnsportsmanlikeFoul = `${newLog.split("y faul wykonany przez ")[1].split("!")[0]}!`;
+                    } else {
+                        playerUnsportsmanlikeFoul = newLog.split("y faul wykonany przez ")[1].split("!")[0];
+                    }                  
+                    const playerUnsportsmanlikeFoulIndex = addPlayerFoul(playerUnsportsmanlikeFoul);
+                    playerFouls[playerUnsportsmanlikeFoulIndex].unsF++; pChangeCounter++;
+                    if (autoSave) {savePlayers();}
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Gracz ${playerFouls[playerUnsportsmanlikeFoulIndex].n} wykonał niesportowy faul! Log:${newLog}`);
 
                     return;
-                } //else if ()
+                } else if (newLog.includes(" nie wywołał faulu.")) { //not call a foul
+                    const playerNotCallFoul = newLog.split("ssion] ")[1].split(" nie wywołał faulu.")[0];
+                    const playerNotCallFoulIndex = addPlayerFoul(playerNotCallFoul);    
+                    playerFouls[playerNotCallFoulIndex].nC++; pChangeCounter++;
+                    if (autoSave) {savePlayers();}
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Gracz ${playerFouls[playerNotCallFoulIndex].n} nie wywołał faulu! Log:${newLog}`);
+
+                    return;
+                }
             } else {
                 ;
             }
@@ -362,6 +409,9 @@ function addPlayerFoul(playerName){
             n: playerName, //name
             f: 0, //fouls
             hF: 0, //has fouled
+            unsF: 0, //unsportsmanlike foul
+            bF: 0, //brutal foul
+            nC: 0, //not call a foul
             lF: getFullTime() //last foul
         });
         playerIndex = playerFouls.findIndex(player => player.n === playerName);
@@ -394,6 +444,10 @@ function start(){
     players = JSON.parse(localStorage.getItem('players'));
     if (players === null) {
         players = [];
+    }
+    playerFouls = JSON.parse(localStorage.getItem('playerFouls'));
+    if (playerFouls === null) {
+        playerFouls = [];
     }
     phrases = JSON.parse(localStorage.getItem('phrases'));
     if (phrases === null) {
@@ -572,4 +626,4 @@ function clearPlayers() {
     savePlayers();
 }
 
-//1.3.1203 bug fix with white text
+//1.3.1205 added fouls of other type & faul not call
