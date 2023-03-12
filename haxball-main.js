@@ -541,9 +541,12 @@ function autoConfig() {
     dbm = config.debugMessage;
 }
 
-function dataExp(){
+function dataExp(i = 0){
     savePlayers();
-    return localStorage.getItem('players')
+    if (i === 2) {
+        return localStorage.getItem('playerFouls');
+    }
+    return localStorage.getItem('players');
 }
 
 let players2 = []; //players2 = JSON.parse(string_import_data)
@@ -645,4 +648,4 @@ function clearPlayers() {
     savePlayers();
 }
 
-//1.3.1205 ranked & unranked fouls
+//1.3.1207 new dataExp()
