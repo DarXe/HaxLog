@@ -315,10 +315,13 @@ function checkLogs(){
                 return;
             }
         } else if (newLog.indexOf("^stats") !== -1) {
-            const nickname = newLog.substring(newLog.indexOf("^stats")+6).trim();
-            chat.lastChild.innerText = showPlayerInfo(nickname);
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1) {
+                const nickname = newLog.substring(newLog.indexOf("^stats")+6).trim();
+                chat.lastChild.innerText = showPlayerInfo(nickname);
 
-            return;
+                return;
+            }
+            
         } else if (newLog.indexOf("^top") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
@@ -331,6 +334,13 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 clearPlayers();
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Wyczyszczono! :-)`;
+
+                return;
+            }
+        } else if (newLog.indexOf("^pLen") !== -1) {
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                chat.lastChild.innerText = `👑 HAXLOG 👑 Info:`;
+                const m = `${players.length}, ${playerFouls.length}`; out(m);
 
                 return;
             }
