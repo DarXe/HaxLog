@@ -645,6 +645,7 @@ const playersNew = players.map(player => {
 
 function clearPlayers() {
     players = [];
+    playerFouls = [];
     savePlayers();
 }
 
