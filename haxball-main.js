@@ -23,7 +23,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1218.1"; //added version info
+let ver = "1.3.1218.2"; //fix bug
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 document.getElementsByClassName("ps__rail-y")[0].style.color = "transparent";
@@ -87,6 +87,9 @@ function checkLogs(){
             isRanked = true;
             savePlayers();
             if(dbm) console.log(`⭐️Debug Message⭐️ Gra rankingowa! Log:${newLog}`);
+            //fix bug
+            document.getElementsByClassName("ps__rail-x")[0].innerText = "";
+            document.getElementsByClassName("ps__rail-y")[0].innerText = "";
 
             return;
         } else if(isServerMessage && newLog.includes("Tryb rozgrzewki (")) {
@@ -355,9 +358,6 @@ function checkLogs(){
                 setTimeout(() => {
                     if(chat.scrollTop === 0){
                         chat.scrollTop = chat.scrollHeight;
-                        //fix bug
-                        document.getElementsByClassName("ps__rail-x")[0].innerText = "";
-                        document.getElementsByClassName("ps__rail-y")[0].innerText = "";
                     }
                 }, 2);
 
