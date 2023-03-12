@@ -97,7 +97,7 @@ function checkLogs(){
 
         //statistics - fouls
         if (isServerInfo) {
-            if (1) {
+            if (isRanked) {
                 if (newLog.includes(" sfaulował ")) { //foul
                     const playerFoul = newLog.split(" sfaulował ")[0].split("ssion] ")[1];
                     const playerIndex = addPlayerFoul(playerFoul);
@@ -138,7 +138,24 @@ function checkLogs(){
                     return;
                 }
             } else {
-                ;
+                if (newLog.includes(" sfaulował ")) { //unranked foul
+                    const playerFoul = newLog.split(" sfaulował ")[0].split("ssion] ")[1];
+                    const playerIndex = addPlayerFoul(playerFoul);
+                    let playerHasFouled;
+                    if (newLog.split(" sfaulował ")[1].split("!").length === 3) {
+                        playerHasFouled = `${newLog.split(" sfaulował ")[1].split("!")[0]}!`;
+                    } else {
+                        playerHasFouled = newLog.split(" sfaulował ")[1].split("!")[0];
+                    }                  
+                    const playerFouledIndex = addPlayerFoul(playerHasFouled); //unranked has fouled
+                    playerFouls[playerIndex].uF++; pChangeCounter++;
+                    playerFouls[playerIndex].lF = getFullTime(); 
+                    playerFouls[playerFouledIndex].uhF++;
+                    if (autoSave) {savePlayers();}
+                    if(dbm) console.log(`⭐️Debug Message⭐️ Gracz ${playerFouls[playerIndex].n} sfaulował gracza ${playerFouls[playerFouledIndex].n} Log:${newLog}`);
+                    
+                    return;
+                }
             }
         }
         //statistics - goals, cards
@@ -412,6 +429,8 @@ function addPlayerFoul(playerName){
             unsF: 0, //unsportsmanlike foul
             bF: 0, //brutal foul
             nC: 0, //not call a foul
+            uF: 0, //unranked fouls
+            uhF: 0, //unranked has fouled
             lF: getFullTime() //last foul
         });
         playerIndex = playerFouls.findIndex(player => player.n === playerName);
@@ -626,4 +645,4 @@ function clearPlayers() {
     savePlayers();
 }
 
-//1.3.1205 added fouls of other type & faul not call
+//1.3.1205 ranked & unranked fouls
