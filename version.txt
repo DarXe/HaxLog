@@ -32,3 +32,4 @@
 1.3.0504 dodano informacje na czacie po wywołaniu danej komendy
 1.3.1201 dodano statystyki fauli ranked/unranked razem
 1.3.1205 dodano pozostałe statystyki fauli, w tym liczba niewywołanych fauli
+1.3.1218 dodano komendę ^dataLen na sprawdzenie ilości uzbieranych danych (gracze, faule, info o wersji)
