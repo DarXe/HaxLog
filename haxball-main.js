@@ -23,6 +23,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
+let ver = "1.3.1218.1"; //added version info
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 document.getElementsByClassName("ps__rail-y")[0].style.color = "transparent";
@@ -340,7 +341,7 @@ function checkLogs(){
         } else if (newLog.indexOf("^pLen") !== -1) {
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Info:`;
-                const m = `${players.length}, ${playerFouls.length}`; out(m);
+                const m = `${players.length}, ${playerFouls.length}, v: ,${ver}`; out(m);
 
                 return;
             }
@@ -658,5 +659,5 @@ function clearPlayers() {
     playerFouls = [];
     savePlayers();
 }
-
-//1.3.1207 new dataExp()
+ver = `${ver}.`;
+//
