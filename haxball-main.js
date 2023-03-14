@@ -25,7 +25,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1404"; //fix ^started, added local time info
+let ver = "1.3.1412"; //added info about commands
 const MESSAGE_COOLDOWN = 60000;
 let scriptStarted = new Date().getTime();
 let scriptRestarted = 0;
@@ -50,6 +50,18 @@ const remLog = () => {
         chat.scrollTop = chat.scrollHeight;
         }
     }, 2);
+}
+const isBlockedPlayer = (name) => {
+    const currentTime = new Date().getTime();
+    const timeSinceLastMessage = (currentTime - blockedPlayers[name]);
+    
+    if (timeSinceLastMessage < MESSAGE_COOLDOWN) {
+        if (dbm) console.log(`👑 HAXLOG 👑 Gracz ${name} jest zablokowany. Może wysłać kolejną wiadomość za ${(MESSAGE_COOLDOWN - timeSinceLastMessage)/1000} sekund.`);
+        
+        return 1;
+    }
+
+    return 0;
 }
 let config = {
     push_logs: false, //domyślnie false, zmień na true jeśli chcesz zapisywać logi do tablicy logs
@@ -82,28 +94,24 @@ function checkLogs(){
         }
 
         if (btAnswers) {
-            if(newLog.includes("$")) {
+            if(newLog.includes(": $")) {
                 for(let _ of muted) {
                     if(newLog.indexOf(_) !== -1) {
                         return;
                     }
                 }
-                if(newLog.includes("goals")) {
-                    const name = newLog.split(" (")[0];
-                    
-                    if (blockedPlayers[name]) { //pause in writing commands
-                        const currentTime = new Date().getTime();
-                        const timeSinceLastMessage = (currentTime - blockedPlayers[name]);
-                        
-                        if (timeSinceLastMessage < MESSAGE_COOLDOWN) {
-                            if (dbm) console.log(`👑 HAXLOG 👑 Gracz ${name} jest zablokowany. Może wysłać kolejną wiadomość za ${(MESSAGE_COOLDOWN - timeSinceLastMessage)/1000} sekund.`);
-                            return;
-                        }
-                    }
-                    let _ = showPlayerStats(name);
-                    blockedPlayers[name] = new Date().getTime();
-                    out(_);
+                const name = newLog.split(" (")[0];
+                if(isBlockedPlayer(name)) {
+
+                    return;
                 }
+                if(newLog.includes("goals")) {
+                    let _ = showPlayerStats(name);
+                    out(_);
+                } else {
+                    out("Jak na razie mam tylko jedną komendę, $goals");
+                }
+                blockedPlayers[name] = new Date().getTime();
 
                 return;
             }
@@ -538,7 +546,7 @@ function showPlayerStats(playerName) {
     const playerIndex = players.findIndex(player => player.name === playerName);
     let _ = ``;
     if (playerIndex !== -1) {
-        _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst :D`;
+        _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst!`;
         console.log(players[playerIndex]);
     } else {
         _ = `Nie mam jeszcze danych o graczu ${playerName} :/ Do dzieła, jeszcze wszystko przed Tobą!`;
