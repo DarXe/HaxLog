@@ -418,7 +418,7 @@ function checkLogs(){
                 let current = new Date().getTime();
                 let timeStarted = (current - scriptStarted)/1000/60;
                 let timeRestarted = (current - scriptRestarted)/1000/60;
-                if(timeRestarted) {
+                if(!timeRestarted) {
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted} minut temu.`;
                 } else {
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted} minut temu. Uruchomiony ${timeStarted} minut temu.`;
