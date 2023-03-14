@@ -25,7 +25,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1402"; //added bot answering questions to the database
+let ver = "1.3.1402.1"; //commands fix
 const MESSAGE_COOLDOWN = 60000;
 let blockedPlayers = {};
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
@@ -384,6 +384,31 @@ function checkLogs(){
             elmtFix();
 
             return;
+        } else if (newLog.indexOf("^bot") !== -1) {
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                if (!btAnswers) {
+                    btAnswers = true;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Włączyłeś bota`;
+                } else {
+                    btAnswers = false;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Wyłączyłeś bota`;
+                }
+
+                return;
+            }
+        } else if (newLog.indexOf("^coll3ct") !== -1) {
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                if (!btAnswers) {
+                    btAnswers = true;
+                    collectData = false;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 ON`;
+                } else {
+                    btAnswers = false;
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 OFF`;
+                }
+                
+                return;
+            }
         }
 
         //chat + system mute
