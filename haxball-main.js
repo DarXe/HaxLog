@@ -25,8 +25,10 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1402.1"; //commands fix
+let ver = "1.3.1403"; //new command ^started
 const MESSAGE_COOLDOWN = 60000;
+let scriptStarted = new Date().getTime();
+let scriptRestarted = 0;
 let blockedPlayers = {};
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
@@ -409,6 +411,19 @@ function checkLogs(){
                 
                 return;
             }
+        } else if (newLog.indexOf("^started") !== -1) {
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                let current = new Date().getTime();
+                let timeStarted = (current - scriptStarted)/1000/60;
+                let timeRestarted = (current - scriptRestarted)/1000/60;
+                if(timeRestarted) {
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted} minut temu.`;
+                } else {
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted} minut temu. Uruchomiony ${timeStarted} minut temu.`;
+                }
+                
+                return;
+            }
         }
 
         //chat + system mute
@@ -542,6 +557,7 @@ function elmtFix() {
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
+    scriptRestarted = new Date().getTime();
     isRanked = false;
     chat = document.getElementsByClassName("log ps ps--active-y")[0];
     elmtFix();
