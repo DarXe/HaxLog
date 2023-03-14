@@ -26,7 +26,7 @@ let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
 let ver = "1.3.1412.1"; //added more commands
-const MESSAGE_COOLDOWN = 60000;
+const MESSAGE_COOLDOWN = 30000;
 let scriptStarted = new Date().getTime();
 let scriptRestarted = 0;
 let blockedPlayers = {};
@@ -560,10 +560,10 @@ function showPlayerStats(playerName, action, lang) {
                 {
                     switch (lang) {
                         case 'pl':
-                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek oraz ${players[playerIndex].unrankedGoals} bramek nierankinowych!`;
+                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek oraz ${players[playerIndex].unrankedGoals} bramek nierankinowych! Następna komenda za 30s.`;
                             break;
                         case 'en':
-                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].goals} goals and ${players[playerIndex].unrankedGoals} unranked goals!`;
+                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].goals} goals and ${players[playerIndex].unrankedGoals} unranked goals! Next command for 30sec.`;
                             break;
                     
                         default:
@@ -575,10 +575,10 @@ function showPlayerStats(playerName, action, lang) {
                 {
                     switch (lang) {
                         case 'pl':
-                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} asyst!`;
+                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} asyst! Następna komenda za 30s.`;
                             break;
                         case 'en':
-                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].assists} assists!`;
+                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].assists} assists! Next command for 30sec.`;
                             break;
                     
                         default:
