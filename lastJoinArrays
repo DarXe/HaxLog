@@ -1,810 +1,406 @@
 
-VM1245:687 Gracz nikola ma 19 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza nikola do players, teraz ma 20
-VM1245:694 Gracz nikola ma 9 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza nikola do players, teraz ma 10
-VM1245:687 Gracz xed ma 2 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza xed do players, teraz ma 7
-VM1245:694 Gracz xed ma 3 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza xed do players, teraz ma 5
-VM1245:673 Gracz N1EDZIELA ma 53 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza N1EDZIELA do players, teraz ma 54
-VM1245:680 Gracz N1EDZIELA ma 37 oraz 2 czerwonych kartek
-VM1245:682 Przeniesiono 2 czerwone kartki gracza N1EDZIELA do players, teraz ma 39
-VM1245:687 Gracz N1EDZIELA ma 10 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza N1EDZIELA do players, teraz ma 13
-VM1245:694 Gracz N1EDZIELA ma 104 oraz 9 [unranked] kartek
-VM1245:696 Przeniesiono 9 [unranked] kartki gracza N1EDZIELA do players, teraz ma 113
-VM1245:687 Gracz ​[BOT]DarXe ma 3 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza ​[BOT]DarXe do players, teraz ma 8
-VM1245:694 Gracz ​[BOT]DarXe ma 2 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza ​[BOT]DarXe do players, teraz ma 6
-VM1245:701 Elo [900] gracza ​[BOT]DarXe jest większe niż ELO [0] w players '0'
-VM1245:687 Gracz Bošnjo ma 4 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza Bošnjo do players, teraz ma 9
-VM1245:687 Gracz ojciec zekutora ma 14 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza ojciec zekutora do players, teraz ma 19
-VM1245:694 Gracz ojciec zekutora ma 5 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza ojciec zekutora do players, teraz ma 7
-VM1245:687 Gracz pscok ma 12 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza pscok do players, teraz ma 16
-VM1245:694 Gracz pscok ma 15 oraz 5 [unranked] kartek
-VM1245:696 Przeniesiono 5 [unranked] kartki gracza pscok do players, teraz ma 20
-VM1245:687 Gracz weeknd ma 10 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza weeknd do players, teraz ma 11
-VM1245:694 Gracz weeknd ma 15 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza weeknd do players, teraz ma 16
-VM1245:652 Gracz zekutor ma 2 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza zekutor do players, teraz ma 3
-VM1245:659 Gracz zekutor ma 3 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza zekutor do players, teraz ma 4
-VM1245:666 Gracz zekutor ma 18 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza zekutor do players, teraz ma 19
-VM1245:687 Gracz zekutor ma 25 oraz 10 [unranked] bramkek
-VM1245:689 Przeniesiono 10 [unranked] bramki gracza zekutor do players, teraz ma 35
-VM1245:694 Gracz zekutor ma 37 oraz 6 [unranked] kartek
-VM1245:696 Przeniesiono 6 [unranked] kartki gracza zekutor do players, teraz ma 43
-VM1245:649 1. Przeniesiono gracza HAI do players
-VM1245:649 2. Przeniesiono gracza zekutorek do players
-VM1245:649 3. Przeniesiono gracza Maresciallo non ci prendi do players
-VM1245:649 4. Przeniesiono gracza akinfenwa do players
-VM1245:687 Gracz Ostatni Samograj ma 2 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Ostatni Samograj do players, teraz ma 3
-VM1245:694 Gracz Ostatni Samograj ma 2 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza Ostatni Samograj do players, teraz ma 4
-VM1245:687 Gracz arpaci ma 26 oraz 6 [unranked] bramkek
-VM1245:689 Przeniesiono 6 [unranked] bramki gracza arpaci do players, teraz ma 32
-VM1245:673 Gracz filowa ma 14 oraz 7 żółtych kartek
-VM1245:675 Przeniesiono 7 żółte kartki gracza filowa do players, teraz ma 21
-VM1245:680 Gracz filowa ma 13 oraz 11 czerwonych kartek
-VM1245:682 Przeniesiono 11 czerwone kartki gracza filowa do players, teraz ma 24
-VM1245:687 Gracz filowa ma 0 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza filowa do players, teraz ma 4
-VM1245:694 Gracz filowa ma 28 oraz 32 [unranked] kartek
-VM1245:696 Przeniesiono 32 [unranked] kartki gracza filowa do players, teraz ma 60
-VM1245:687 Gracz iniestabastard ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza iniestabastard do players, teraz ma 4
-VM1245:649 5. Przeniesiono gracza hynek do players
-VM1245:687 Gracz IRAQI.BACKI ma 2 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza IRAQI.BACKI do players, teraz ma 3
-VM1245:687 Gracz heroindealer17 ma 6 oraz 30 [unranked] bramkek
-VM1245:689 Przeniesiono 30 [unranked] bramki gracza heroindealer17 do players, teraz ma 36
-VM1245:694 Gracz heroindealer17 ma 3 oraz 28 [unranked] kartek
-VM1245:696 Przeniesiono 28 [unranked] kartki gracza heroindealer17 do players, teraz ma 31
-VM1245:687 Gracz oio ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza oio do players, teraz ma 4
-VM1245:687 Gracz boleco ma 20 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza boleco do players, teraz ma 25
-VM1245:649 6. Przeniesiono gracza z koziej dupy tromba! do players
-VM1245:649 7. Przeniesiono gracza z koziej dupy tromba do players
-VM1245:649 8. Przeniesiono gracza shazam do players
-VM1245:687 Gracz Clean ma 1 oraz 8 [unranked] bramkek
-VM1245:689 Przeniesiono 8 [unranked] bramki gracza Clean do players, teraz ma 9
-VM1245:694 Gracz Clean ma 1 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Clean do players, teraz ma 5
-VM1245:649 9. Przeniesiono gracza Dupson do players
-VM1245:649 10. Przeniesiono gracza giedroyć do players
-VM1245:649 11. Przeniesiono gracza Koszk do players
-VM1245:649 12. Przeniesiono gracza kto podolki kopie ten zak do players
-VM1245:687 Gracz erowl1 ma 0 oraz 24 [unranked] bramkek
-VM1245:689 Przeniesiono 24 [unranked] bramki gracza erowl1 do players, teraz ma 24
-VM1245:694 Gracz erowl1 ma 4 oraz 8 [unranked] kartek
-VM1245:696 Przeniesiono 8 [unranked] kartki gracza erowl1 do players, teraz ma 12
-VM1245:649 13. Przeniesiono gracza VaminSci do players
-VM1245:649 14. Przeniesiono gracza Heroine lsd hash my dad do players
-VM1245:649 15. Przeniesiono gracza op do players
-VM1245:687 Gracz Adolf... ma 1 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Adolf... do players, teraz ma 3
-VM1245:649 16. Przeniesiono gracza shazam? do players
-VM1245:649 17. Przeniesiono gracza Jaguar do players
-VM1245:694 Gracz fabi ma 19 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza fabi do players, teraz ma 20
-VM1245:649 18. Przeniesiono gracza Vulgar do players
-VM1245:649 19. Przeniesiono gracza savunma do players
-VM1245:649 20. Przeniesiono gracza 🌠𝐵𝒶𝓇𝑜𝓍𝓈𝓎❦ッ do players
-VM1245:649 21. Przeniesiono gracza 𝖓𝖔𝖙𝖔𝖗𝖎𝖔𝖚𝖘 do players
-VM1245:649 22. Przeniesiono gracza mujo raviolli do players
-VM1245:649 23. Przeniesiono gracza Kry do players
-VM1245:649 24. Przeniesiono gracza julion do players
-VM1245:680 Gracz DARWIZZY ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza DARWIZZY do players, teraz ma 1
-VM1245:687 Gracz DARWIZZY ma 1 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza DARWIZZY do players, teraz ma 2
-VM1245:649 25. Przeniesiono gracza Gon Soku do players
-VM1245:687 Gracz Erling Haaland ma 7 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Erling Haaland do players, teraz ma 9
-VM1245:687 Gracz Bjöяn ma 2 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Bjöяn do players, teraz ma 4
-VM1245:694 Gracz Bjöяn ma 3 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Bjöяn do players, teraz ma 4
-VM1245:649 26. Przeniesiono gracza haxbol do players
-VM1245:649 27. Przeniesiono gracza Makélélé do players
-VM1245:649 28. Przeniesiono gracza finno do players
-VM1245:652 Gracz Takuto Oshima ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Takuto Oshima do players, teraz ma 1
-VM1245:687 Gracz Takuto Oshima ma 0 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza Takuto Oshima do players, teraz ma 5
-VM1245:694 Gracz Takuto Oshima ma 0 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza Takuto Oshima do players, teraz ma 2
-VM1245:649 29. Przeniesiono gracza Darius do players
-VM1245:649 30. Przeniesiono gracza Sp3rmolo do players
-VM1245:652 Gracz Harry Maguaire ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Harry Maguaire do players, teraz ma 1
-VM1245:666 Gracz Harry Maguaire ma 1 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza Harry Maguaire do players, teraz ma 2
-VM1245:680 Gracz Harry Maguaire ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Harry Maguaire do players, teraz ma 2
-VM1245:687 Gracz Harry Maguaire ma 11 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza Harry Maguaire do players, teraz ma 15
-VM1245:694 Gracz Harry Maguaire ma 12 oraz 5 [unranked] kartek
-VM1245:696 Przeniesiono 5 [unranked] kartki gracza Harry Maguaire do players, teraz ma 17
-VM1245:694 Gracz sebastianGK ma 0 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza sebastianGK do players, teraz ma 2
-VM1245:649 31. Przeniesiono gracza FUCK SHAPARENKO do players
-VM1245:649 32. Przeniesiono gracza sergiotw17 do players
-VM1245:649 33. Przeniesiono gracza PRZEMEK HUJ do players
-VM1245:649 34. Przeniesiono gracza Joker do players
-VM1245:694 Gracz gratyfikacja ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza gratyfikacja do players, teraz ma 3
-VM1245:687 Gracz lex ma 3 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza lex do players, teraz ma 5
-VM1245:694 Gracz lex ma 3 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza lex do players, teraz ma 5
-VM1245:649 35. Przeniesiono gracza RL9 do players
-VM1245:687 Gracz Paypik ma 5 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Paypik do players, teraz ma 6
-VM1245:694 Gracz Paypik ma 4 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza Paypik do players, teraz ma 7
-VM1245:673 Gracz MISIO ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza MISIO do players, teraz ma 2
-VM1245:687 Gracz MISIO ma 5 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza MISIO do players, teraz ma 6
-VM1245:694 Gracz MISIO ma 7 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza MISIO do players, teraz ma 9
-VM1245:687 Gracz Oscar Reigns|Dulwich ma 0 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza Oscar Reigns|Dulwich do players, teraz ma 4
-VM1245:649 36. Przeniesiono gracza sudo apt get upgrade do players
-VM1245:649 37. Przeniesiono gracza Espargaro do players
-VM1245:659 Gracz dupa ma 5 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza dupa do players, teraz ma 6
-VM1245:673 Gracz dupa ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza dupa do players, teraz ma 7
-VM1245:694 Gracz dupa ma 18 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza dupa do players, teraz ma 20
-VM1245:694 Gracz Szkielet Strzelec ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Szkielet Strzelec do players, teraz ma 3
-VM1245:649 38. Przeniesiono gracza CzystaKrew do players
-VM1245:649 39. Przeniesiono gracza Ninja69 do players
-VM1245:687 Gracz MertFK ma 5 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza MertFK do players, teraz ma 10
-VM1245:694 Gracz MertFK ma 67 oraz 65 [unranked] kartek
-VM1245:696 Przeniesiono 65 [unranked] kartki gracza MertFK do players, teraz ma 132
-VM1245:680 Gracz ROKOKO ma 2 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza ROKOKO do players, teraz ma 3
-VM1245:687 Gracz ROKOKO ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza ROKOKO do players, teraz ma 1
-VM1245:694 Gracz ROKOKO ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ROKOKO do players, teraz ma 2
-VM1245:649 40. Przeniesiono gracza Kylian Mbappé⚽ do players
-VM1245:649 41. Przeniesiono gracza Bronaldinho do players
-VM1245:652 Gracz RG9x ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza RG9x do players, teraz ma 1
-VM1245:687 Gracz RG9x ma 0 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza RG9x do players, teraz ma 3
-VM1245:666 Gracz TheFalcon ma 0 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza TheFalcon do players, teraz ma 1
-VM1245:673 Gracz TheFalcon ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza TheFalcon do players, teraz ma 2
-VM1245:680 Gracz TheFalcon ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza TheFalcon do players, teraz ma 2
-VM1245:687 Gracz TheFalcon ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza TheFalcon do players, teraz ma 1
-VM1245:694 Gracz TheFalcon ma 4 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza TheFalcon do players, teraz ma 6
-VM1245:652 Gracz xD ma 1 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza xD do players, teraz ma 2
-VM1245:673 Gracz xD ma 4 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza xD do players, teraz ma 6
-VM1245:687 Gracz xD ma 5 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza xD do players, teraz ma 9
-VM1245:694 Gracz xD ma 26 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza xD do players, teraz ma 28
-VM1245:673 Gracz ching chong bing bong ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza ching chong bing bong do players, teraz ma 1
-VM1245:694 Gracz ching chong bing bong ma 0 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza ching chong bing bong do players, teraz ma 4
-VM1245:673 Gracz ronaldo ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza ronaldo do players, teraz ma 2
-VM1245:694 Gracz ronaldo ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ronaldo do players, teraz ma 2
-VM1245:649 42. Przeniesiono gracza mów_trzy do players
-VM1245:649 43. Przeniesiono gracza Tayqer do players
-VM1245:649 44. Przeniesiono gracza Kvaradona do players
-VM1245:652 Gracz KAKA ma 13 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza KAKA do players, teraz ma 15
-VM1245:659 Gracz KAKA ma 7 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza KAKA do players, teraz ma 8
-VM1245:666 Gracz KAKA ma 3 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza KAKA do players, teraz ma 4
-VM1245:673 Gracz KAKA ma 25 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza KAKA do players, teraz ma 26
-VM1245:680 Gracz KAKA ma 11 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza KAKA do players, teraz ma 12
-VM1245:687 Gracz KAKA ma 14 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza KAKA do players, teraz ma 16
-VM1245:694 Gracz KAKA ma 19 oraz 12 [unranked] kartek
-VM1245:696 Przeniesiono 12 [unranked] kartki gracza KAKA do players, teraz ma 31
-VM1245:687 Gracz LIO ma 6 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza LIO do players, teraz ma 8
-VM1245:694 Gracz LIO ma 13 oraz 6 [unranked] kartek
-VM1245:696 Przeniesiono 6 [unranked] kartki gracza LIO do players, teraz ma 19
-VM1245:659 Gracz Galatasaray ma 3 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Galatasaray do players, teraz ma 4
-VM1245:673 Gracz Galatasaray ma 2 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza Galatasaray do players, teraz ma 4
-VM1245:680 Gracz Galatasaray ma 5 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Galatasaray do players, teraz ma 6
-VM1245:694 Gracz Galatasaray ma 8 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Galatasaray do players, teraz ma 12
-VM1245:673 Gracz JD ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza JD do players, teraz ma 1
-VM1245:687 Gracz JD ma 2 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza JD do players, teraz ma 4
-VM1245:694 Gracz JD ma 2 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza JD do players, teraz ma 6
-VM1245:659 Gracz Sup3rC00l ma 4 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Sup3rC00l do players, teraz ma 5
-VM1245:680 Gracz Sup3rC00l ma 3 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Sup3rC00l do players, teraz ma 4
-VM1245:687 Gracz Sup3rC00l ma 16 oraz 6 [unranked] bramkek
-VM1245:689 Przeniesiono 6 [unranked] bramki gracza Sup3rC00l do players, teraz ma 22
-VM1245:694 Gracz Sup3rC00l ma 25 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Sup3rC00l do players, teraz ma 26
-VM1245:649 45. Przeniesiono gracza dn pmbok do players
-VM1245:673 Gracz HerCu ma 1 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza HerCu do players, teraz ma 3
-VM1245:694 Gracz HerCu ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza HerCu do players, teraz ma 3
-VM1245:673 Gracz 87 ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza 87 do players, teraz ma 2
-VM1245:687 Gracz 87 ma 0 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza 87 do players, teraz ma 5
-VM1245:694 Gracz 87 ma 4 oraz 12 [unranked] kartek
-VM1245:696 Przeniesiono 12 [unranked] kartki gracza 87 do players, teraz ma 16
-VM1245:652 Gracz Orient Bambino ma 0 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Orient Bambino do players, teraz ma 2
-VM1245:673 Gracz Orient Bambino ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Orient Bambino do players, teraz ma 7
-VM1245:680 Gracz Orient Bambino ma 5 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Orient Bambino do players, teraz ma 6
-VM1245:687 Gracz Orient Bambino ma 0 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza Orient Bambino do players, teraz ma 3
-VM1245:694 Gracz Orient Bambino ma 1 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza Orient Bambino do players, teraz ma 4
-VM1245:652 Gracz ben02 ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza ben02 do players, teraz ma 1
-VM1245:659 Gracz ben02 ma 0 oraz 2 asyst
-VM1245:661 Przeniesiono 2 asysty gracza ben02 do players, teraz ma 2
-VM1245:680 Gracz ben02 ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza ben02 do players, teraz ma 1
-VM1245:687 Gracz ben02 ma 7 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza ben02 do players, teraz ma 9
-VM1245:687 Gracz niger ma 11 oraz 8 [unranked] bramkek
-VM1245:689 Przeniesiono 8 [unranked] bramki gracza niger do players, teraz ma 19
-VM1245:694 Gracz niger ma 8 oraz 5 [unranked] kartek
-VM1245:696 Przeniesiono 5 [unranked] kartki gracza niger do players, teraz ma 13
-VM1245:649 46. Przeniesiono gracza pień do players
-VM1245:652 Gracz Ronaldinho ma 0 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Ronaldinho do players, teraz ma 2
-VM1245:673 Gracz Ronaldinho ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Ronaldinho do players, teraz ma 2
-VM1245:687 Gracz Ronaldinho ma 0 oraz 14 [unranked] bramkek
-VM1245:689 Przeniesiono 14 [unranked] bramki gracza Ronaldinho do players, teraz ma 14
-VM1245:694 Gracz Ronaldinho ma 0 oraz 7 [unranked] kartek
-VM1245:696 Przeniesiono 7 [unranked] kartki gracza Ronaldinho do players, teraz ma 7
-VM1245:701 Elo [1174] gracza Ronaldinho jest większe niż ELO [0] w players '0'
-VM1245:649 47. Przeniesiono gracza N E R do players
-VM1245:649 48. Przeniesiono gracza s do players
-VM1245:649 49. Przeniesiono gracza trening trollingowy do players
-VM1245:659 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 5 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 6
-VM1245:673 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 7
-VM1245:687 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 3 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 8
-VM1245:694 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 4 oraz 5 [unranked] kartek
-VM1245:696 Przeniesiono 5 [unranked] kartki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 9
-VM1245:687 Gracz Selin Öz ma 2 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Selin Öz do players, teraz ma 3
-VM1245:694 Gracz Selin Öz ma 12 oraz 11 [unranked] kartek
-VM1245:696 Przeniesiono 11 [unranked] kartki gracza Selin Öz do players, teraz ma 23
-VM1245:687 Gracz baby ma 2 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza baby do players, teraz ma 3
-VM1245:694 Gracz baby ma 14 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza baby do players, teraz ma 16
-VM1245:687 Gracz pisburun ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza pisburun do players, teraz ma 1
-VM1245:694 Gracz pisburun ma 0 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza pisburun do players, teraz ma 2
-VM1245:673 Gracz Solskjer ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Solskjer do players, teraz ma 1
-VM1245:687 Gracz Solskjer ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Solskjer do players, teraz ma 4
-VM1245:694 Gracz Solskjer ma 7 oraz 13 [unranked] kartek
-VM1245:696 Przeniesiono 13 [unranked] kartki gracza Solskjer do players, teraz ma 20
-VM1245:687 Gracz Ronaldo ma 5 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Ronaldo do players, teraz ma 6
-VM1245:652 Gracz kłapouszek ma 15 oraz 3 bramek
-VM1245:654 Przeniesiono 3 bramki gracza kłapouszek do players, teraz ma 18
-VM1245:659 Gracz kłapouszek ma 6 oraz 2 asyst
-VM1245:661 Przeniesiono 2 asysty gracza kłapouszek do players, teraz ma 8
-VM1245:687 Gracz kłapouszek ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza kłapouszek do players, teraz ma 4
-VM1245:694 Gracz kłapouszek ma 3 oraz 12 [unranked] kartek
-VM1245:696 Przeniesiono 12 [unranked] kartki gracza kłapouszek do players, teraz ma 15
-VM1245:673 Gracz serek_z_pod ma 3 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza serek_z_pod do players, teraz ma 4
-VM1245:694 Gracz serek_z_pod ma 17 oraz 6 [unranked] kartek
-VM1245:696 Przeniesiono 6 [unranked] kartki gracza serek_z_pod do players, teraz ma 23
-VM1245:649 50. Przeniesiono gracza WIKTOR do players
-VM1245:652 Gracz dnpmbok ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza dnpmbok do players, teraz ma 1
-VM1245:687 Gracz dnpmbok ma 0 oraz 8 [unranked] bramkek
-VM1245:689 Przeniesiono 8 [unranked] bramki gracza dnpmbok do players, teraz ma 8
-VM1245:694 Gracz dnpmbok ma 0 oraz 10 [unranked] kartek
-VM1245:696 Przeniesiono 10 [unranked] kartki gracza dnpmbok do players, teraz ma 10
-VM1245:687 Gracz kacpis ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza kacpis do players, teraz ma 4
-VM1245:694 Gracz kacpis ma 10 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza kacpis do players, teraz ma 13
-VM1245:649 51. Przeniesiono gracza thomas do players
-VM1245:649 52. Przeniesiono gracza hihihi do players
-VM1245:649 53. Przeniesiono gracza hoby do players
-VM1245:649 54. Przeniesiono gracza mekambe do players
-VM1245:649 55. Przeniesiono gracza leo pepsi do players
-VM1245:649 56. Przeniesiono gracza nasrallah do players
-VM1245:649 57. Przeniesiono gracza ___ do players
-VM1245:652 Gracz Billy Bob Kid ma 2 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Billy Bob Kid do players, teraz ma 4
-VM1245:666 Gracz Billy Bob Kid ma 0 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza Billy Bob Kid do players, teraz ma 1
-VM1245:649 58. Przeniesiono gracza Lothar Matthäus do players
-VM1245:673 Gracz bmw e39 ma 16 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza bmw e39 do players, teraz ma 17
-VM1245:680 Gracz bmw e39 ma 14 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza bmw e39 do players, teraz ma 15
-VM1245:694 Gracz bmw e39 ma 12 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza bmw e39 do players, teraz ma 15
-VM1245:694 Gracz Mati ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Mati do players, teraz ma 3
-VM1245:694 Gracz Ninho ma 3 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza Ninho do players, teraz ma 6
-VM1245:649 59. Przeniesiono gracza tensostonieketchup do players
-VM1245:649 60. Przeniesiono gracza kajtek8070 do players
-VM1245:687 Gracz qwerty ma 3 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza qwerty do players, teraz ma 6
-VM1245:694 Gracz qwerty ma 4 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza qwerty do players, teraz ma 7
-VM1245:694 Gracz Marek Gryt ma 1 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza Marek Gryt do players, teraz ma 3
-VM1245:687 Gracz Neymaah ma 1 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Neymaah do players, teraz ma 2
-VM1245:694 Gracz Neymaah ma 4 oraz 7 [unranked] kartek
-VM1245:696 Przeniesiono 7 [unranked] kartki gracza Neymaah do players, teraz ma 11
-VM1245:687 Gracz Eagle ma 2 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Eagle do players, teraz ma 3
-VM1245:649 61. Przeniesiono gracza TheBestTroll do players
-VM1245:649 62. Przeniesiono gracza ==== do players
-VM1245:680 Gracz SLAYQUEEN ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza SLAYQUEEN do players, teraz ma 2
-VM1245:687 Gracz SLAYQUEEN ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza SLAYQUEEN do players, teraz ma 1
-VM1245:694 Gracz SLAYQUEEN ma 5 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza SLAYQUEEN do players, teraz ma 9
-VM1245:649 63. Przeniesiono gracza beginner do players
-VM1245:649 64. Przeniesiono gracza Memento mori do players
-VM1245:687 Gracz Mecnun Çınar ma 0 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Mecnun Çınar do players, teraz ma 2
-VM1245:694 Gracz Mecnun Çınar ma 1 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza Mecnun Çınar do players, teraz ma 3
-VM1245:694 Gracz PABLO ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza PABLO do players, teraz ma 1
-VM1245:694 Gracz reggin ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza reggin do players, teraz ma 1
-VM1245:687 Gracz ks. Mateusz Żmigrodzki ma 3 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza ks. Mateusz Żmigrodzki do players, teraz ma 8
-VM1245:659 Gracz norbi ma 0 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza norbi do players, teraz ma 1
-VM1245:687 Gracz norbi ma 0 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza norbi do players, teraz ma 4
-VM1245:694 Gracz norbi ma 1 oraz 13 [unranked] kartek
-VM1245:696 Przeniesiono 13 [unranked] kartki gracza norbi do players, teraz ma 14
-VM1245:694 Gracz Czerech ma 3 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Czerech do players, teraz ma 4
-VM1245:666 Gracz enepene ma 2 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza enepene do players, teraz ma 3
-VM1245:673 Gracz enepene ma 9 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza enepene do players, teraz ma 10
-VM1245:687 Gracz enepene ma 19 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza enepene do players, teraz ma 23
-VM1245:694 Gracz enepene ma 38 oraz 10 [unranked] kartek
-VM1245:696 Przeniesiono 10 [unranked] kartki gracza enepene do players, teraz ma 48
-VM1245:652 Gracz   ma 10 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza   do players, teraz ma 11
-VM1245:673 Gracz   ma 31 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza   do players, teraz ma 32
-VM1245:680 Gracz   ma 25 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza   do players, teraz ma 26
-VM1245:687 Gracz   ma 8 oraz 13 [unranked] bramkek
-VM1245:689 Przeniesiono 13 [unranked] bramki gracza   do players, teraz ma 21
-VM1245:694 Gracz   ma 19 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza   do players, teraz ma 22
-VM1245:649 65. Przeniesiono gracza Puyol do players
-VM1245:680 Gracz Nigel de Jong ma 2 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Nigel de Jong do players, teraz ma 3
-VM1245:694 Gracz Nigel de Jong ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Nigel de Jong do players, teraz ma 2
-VM1245:652 Gracz blackout ma 4 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza blackout do players, teraz ma 5
-VM1245:673 Gracz blackout ma 3 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza blackout do players, teraz ma 4
-VM1245:687 Gracz blackout ma 7 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza blackout do players, teraz ma 10
-VM1245:694 Gracz blackout ma 9 oraz 7 [unranked] kartek
-VM1245:696 Przeniesiono 7 [unranked] kartki gracza blackout do players, teraz ma 16
-VM1245:701 Elo [1171] gracza blackout jest większe niż ELO [0] w players '0'
-VM1245:687 Gracz HUJEK ma 2 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza HUJEK do players, teraz ma 4
-VM1245:694 Gracz HUJEK ma 1 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza HUJEK do players, teraz ma 5
-VM1245:687 Gracz W̶e̶e̶d̶l̶n̶ ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza W̶e̶e̶d̶l̶n̶ do players, teraz ma 1
-VM1245:687 Gracz Rondeldinho ma 6 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Rondeldinho do players, teraz ma 7
-VM1245:649 66. Przeniesiono gracza karus do players
-VM1245:687 Gracz d ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza d do players, teraz ma 1
-VM1245:652 Gracz Xavinho ma 3 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Xavinho do players, teraz ma 4
-VM1245:659 Gracz Xavinho ma 1 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Xavinho do players, teraz ma 2
-VM1245:673 Gracz Xavinho ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Xavinho do players, teraz ma 7
-VM1245:680 Gracz Xavinho ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Xavinho do players, teraz ma 2
-VM1245:687 Gracz Xavinho ma 27 oraz 5 [unranked] bramkek
-VM1245:689 Przeniesiono 5 [unranked] bramki gracza Xavinho do players, teraz ma 32
-VM1245:694 Gracz Xavinho ma 16 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Xavinho do players, teraz ma 20
-VM1245:649 67. Przeniesiono gracza Majnejmiskutas do players
-VM1245:694 Gracz Niue ma 8 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Niue do players, teraz ma 9
-VM1245:649 68. Przeniesiono gracza randy do players
-VM1245:680 Gracz hptrsjk ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza hptrsjk do players, teraz ma 1
-VM1245:694 Gracz hptrsjk ma 3 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza hptrsjk do players, teraz ma 5
-VM1245:649 69. Przeniesiono gracza Anonimi do players
-VM1245:694 Gracz Kostic ma 4 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Kostic do players, teraz ma 5
-VM1245:694 Gracz fx ma 3 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza fx do players, teraz ma 5
-VM1245:687 Gracz tera ma 7 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza tera do players, teraz ma 8
-VM1245:649 70. Przeniesiono gracza __+ do players
-VM1245:649 71. Przeniesiono gracza puyol do players
-VM1245:649 72. Przeniesiono gracza lubie w dupe do players
-VM1245:652 Gracz Bas ma 0 oraz 4 bramek
-VM1245:654 Przeniesiono 4 bramki gracza Bas do players, teraz ma 4
-VM1245:659 Gracz Bas ma 0 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Bas do players, teraz ma 1
-VM1245:701 Elo [1089] gracza Bas jest większe niż ELO [1074] w players '1074'
-VM1245:649 73. Przeniesiono gracza jakiś c word do players
-VM1245:659 Gracz wq ma 0 oraz 2 asyst
-VM1245:661 Przeniesiono 2 asysty gracza wq do players, teraz ma 2
-VM1245:673 Gracz wq ma 9 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza wq do players, teraz ma 11
-VM1245:687 Gracz wq ma 5 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza wq do players, teraz ma 6
-VM1245:694 Gracz wq ma 6 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza wq do players, teraz ma 7
-VM1245:649 74. Przeniesiono gracza Araujo do players
-VM1245:673 Gracz nalesnik ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza nalesnik do players, teraz ma 1
-VM1245:680 Gracz nalesnik ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza nalesnik do players, teraz ma 1
-VM1245:652 Gracz Foxner ma 8 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Foxner do players, teraz ma 10
-VM1245:659 Gracz Foxner ma 4 oraz 2 asyst
-VM1245:661 Przeniesiono 2 asysty gracza Foxner do players, teraz ma 6
-VM1245:673 Gracz Foxner ma 14 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Foxner do players, teraz ma 15
-VM1245:649 75. Przeniesiono gracza Lewangoalski do players
-VM1245:659 Gracz trzaskowski to pedał ma 2 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza trzaskowski to pedał do players, teraz ma 3
-VM1245:673 Gracz trzaskowski to pedał ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza trzaskowski to pedał do players, teraz ma 2
-VM1245:680 Gracz trzaskowski to pedał ma 0 oraz 2 czerwonych kartek
-VM1245:682 Przeniesiono 2 czerwone kartki gracza trzaskowski to pedał do players, teraz ma 2
-VM1245:687 Gracz trzaskowski to pedał ma 1 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza trzaskowski to pedał do players, teraz ma 3
-VM1245:694 Gracz trzaskowski to pedał ma 6 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza trzaskowski to pedał do players, teraz ma 7
-VM1245:649 76. Przeniesiono gracza Jurek Bąk do players
-VM1245:659 Gracz FLoryda  ma 1 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza FLoryda  do players, teraz ma 2
-VM1245:673 Gracz FLoryda  ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza FLoryda  do players, teraz ma 1
-VM1245:649 77. Przeniesiono gracza Michał Pazdan  do players
-VM1245:649 78. Przeniesiono gracza HEJ CIPCIA do players
-VM1245:673 Gracz redpoweredd ma 5 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza redpoweredd do players, teraz ma 6
-VM1245:652 Gracz Andrea Pirlo ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Andrea Pirlo do players, teraz ma 1
-VM1245:694 Gracz Andrea Pirlo ma 3 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Andrea Pirlo do players, teraz ma 4
-VM1245:649 79. Przeniesiono gracza Sick do players
-VM1245:649 80. Przeniesiono gracza nastroszony do players
-VM1245:649 81. Przeniesiono gracza s u g r  do players
-VM1245:652 Gracz ❤️ℙ𝕖𝕕𝕣𝕚💙 ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza ❤️ℙ𝕖𝕕𝕣𝕚💙 do players, teraz ma 1
-VM1245:687 Gracz ❤️ℙ𝕖𝕕𝕣𝕚💙 ma 1 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza ❤️ℙ𝕖𝕕𝕣𝕚💙 do players, teraz ma 3
-VM1245:694 Gracz ❤️ℙ𝕖𝕕𝕣𝕚💙 ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ❤️ℙ𝕖𝕕𝕣𝕚💙 do players, teraz ma 1
-VM1245:673 Gracz Haaland ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Haaland do players, teraz ma 2
-VM1245:680 Gracz Haaland ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Haaland do players, teraz ma 1
-VM1245:694 Gracz Haaland ma 3 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Haaland do players, teraz ma 7
-VM1245:701 Elo [945] gracza Haaland jest większe niż ELO [0] w players '0'
-VM1245:652 Gracz Dani ma 30 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Dani do players, teraz ma 32
-VM1245:659 Gracz Dani ma 21 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Dani do players, teraz ma 22
-VM1245:673 Gracz Dani ma 29 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Dani do players, teraz ma 30
-VM1245:687 Gracz Dani ma 4 oraz 15 [unranked] bramkek
-VM1245:689 Przeniesiono 15 [unranked] bramki gracza Dani do players, teraz ma 19
-VM1245:694 Gracz Dani ma 1 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Dani do players, teraz ma 5
-VM1245:649 82. Przeniesiono gracza mnich do players
-VM1245:652 Gracz Polsza ma 3 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Polsza do players, teraz ma 4
-VM1245:694 Gracz Jurii ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Jurii do players, teraz ma 1
-VM1245:649 83. Przeniesiono gracza niewiem do players
-VM1245:694 Gracz Chicken19 ma 3 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Chicken19 do players, teraz ma 4
-VM1245:694 Gracz ishak ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ishak do players, teraz ma 2
-VM1245:649 84. Przeniesiono gracza Mount I9 do players
-VM1245:659 Gracz Lakaka ma 0 oraz 2 asyst
-VM1245:661 Przeniesiono 2 asysty gracza Lakaka do players, teraz ma 2
-VM1245:694 Gracz Lakaka ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Lakaka do players, teraz ma 1
-VM1245:649 85. Przeniesiono gracza krav do players
-VM1245:687 Gracz Jarosław Kaczyński ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Jarosław Kaczyński do players, teraz ma 1
-VM1245:694 Gracz Jarosław Kaczyński ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Jarosław Kaczyński do players, teraz ma 1
-VM1245:649 86. Przeniesiono gracza cska4444      do players
-VM1245:649 87. Przeniesiono gracza Vinicius JR do players
-VM1245:652 Gracz islay ma 48 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza islay do players, teraz ma 50
-VM1245:659 Gracz islay ma 23 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza islay do players, teraz ma 24
-VM1245:687 Gracz islay ma 3 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza islay do players, teraz ma 5
-VM1245:694 Gracz islay ma 11 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza islay do players, teraz ma 14
-VM1245:649 88. Przeniesiono gracza Federico Chiesa do players
-VM1245:649 89. Przeniesiono gracza [X] do players
-VM1245:652 Gracz asd ma 27 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza asd do players, teraz ma 29
-VM1245:673 Gracz Rojter ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Rojter do players, teraz ma 1
-VM1245:652 Gracz cumshot ma 1 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza cumshot do players, teraz ma 2
-VM1245:673 Gracz cumshot ma 14 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza cumshot do players, teraz ma 16
-VM1245:680 Gracz cumshot ma 13 oraz 2 czerwonych kartek
-VM1245:682 Przeniesiono 2 czerwone kartki gracza cumshot do players, teraz ma 15
-VM1245:694 Gracz cumshot ma 18 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza cumshot do players, teraz ma 19
-VM1245:659 Gracz Rodrigo Bentancur ma 5 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Rodrigo Bentancur do players, teraz ma 6
-VM1245:687 Gracz ‎Nemanja Vidić ma 1 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza ‎Nemanja Vidić do players, teraz ma 2
-VM1245:694 Gracz ‎Nemanja Vidić ma 3 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ‎Nemanja Vidić do players, teraz ma 4
-VM1245:687 Gracz 🙆‍♀️    ma 3 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza 🙆‍♀️    do players, teraz ma 6
-VM1245:694 Gracz 🙆‍♀️    ma 3 oraz 7 [unranked] kartek
-VM1245:696 Przeniesiono 7 [unranked] kartki gracza 🙆‍♀️    do players, teraz ma 10
-VM1245:687 Gracz Valverde ma 2 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza Valverde do players, teraz ma 5
-VM1245:649 90. Przeniesiono gracza sdfs do players
-VM1245:649 91. Przeniesiono gracza twój stary po żubru do players
-VM1245:649 92. Przeniesiono gracza Blla do players
-VM1245:649 93. Przeniesiono gracza FSO Polonez do players
-VM1245:649 94. Przeniesiono gracza kapi bara do players
-VM1245:673 Gracz e ma 11 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza e do players, teraz ma 13
-VM1245:680 Gracz e ma 5 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza e do players, teraz ma 6
-VM1245:687 Gracz e ma 8 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza e do players, teraz ma 10
-VM1245:694 Gracz e ma 29 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza e do players, teraz ma 30
-VM1245:649 95. Przeniesiono gracza sead do players
-VM1245:673 Gracz Sklejka ma 4 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Sklejka do players, teraz ma 5
-VM1245:687 Gracz Sklejka ma 5 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Sklejka do players, teraz ma 7
-VM1245:687 Gracz Josue ma 13 oraz 10 [unranked] bramkek
-VM1245:689 Przeniesiono 10 [unranked] bramki gracza Josue do players, teraz ma 23
-VM1245:694 Gracz Josue ma 2 oraz 5 [unranked] kartek
-VM1245:696 Przeniesiono 5 [unranked] kartki gracza Josue do players, teraz ma 7
-VM1245:687 Gracz k ma 8 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza k do players, teraz ma 9
-VM1245:687 Gracz :O ma 3 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza :O do players, teraz ma 6
-VM1245:694 Gracz :O ma 18 oraz 2 [unranked] kartek
-VM1245:696 Przeniesiono 2 [unranked] kartki gracza :O do players, teraz ma 20
-VM1245:649 96. Przeniesiono gracza Pnee do players
-VM1245:649 97. Przeniesiono gracza ErSo do players
-VM1245:649 98. Przeniesiono gracza lol do players
-VM1245:649 99. Przeniesiono gracza JUNIOR. do players
-VM1245:687 Gracz Bob Marley ma 0 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza Bob Marley do players, teraz ma 3
-VM1245:694 Gracz Bob Marley ma 2 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Bob Marley do players, teraz ma 6
-VM1245:694 Gracz P.Dybala ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza P.Dybala do players, teraz ma 2
-VM1245:649 100. Przeniesiono gracza muminek do players
-VM1245:652 Gracz Bombel  ma 2 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Bombel  do players, teraz ma 3
-VM1245:673 Gracz Bombel  ma 2 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza Bombel  do players, teraz ma 4
-VM1245:680 Gracz Bombel  ma 2 oraz 2 czerwonych kartek
-VM1245:682 Przeniesiono 2 czerwone kartki gracza Bombel  do players, teraz ma 4
-VM1245:694 Gracz Bombel  ma 7 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Bombel  do players, teraz ma 8
-VM1245:680 Gracz ANTONI PERESZCZAKO ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza ANTONI PERESZCZAKO do players, teraz ma 2
-VM1245:659 Gracz DEMBULANCE ma 2 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza DEMBULANCE do players, teraz ma 3
-VM1245:687 Gracz DEMBULANCE ma 11 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza DEMBULANCE do players, teraz ma 12
-VM1245:694 Gracz DEMBULANCE ma 16 oraz 3 [unranked] kartek
-VM1245:696 Przeniesiono 3 [unranked] kartki gracza DEMBULANCE do players, teraz ma 19
-VM1245:652 Gracz Messi ma 19 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Messi do players, teraz ma 20
-VM1245:659 Gracz Messi ma 12 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Messi do players, teraz ma 13
-VM1245:666 Gracz Messi ma 2 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza Messi do players, teraz ma 3
-VM1245:673 Gracz Messi ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Messi do players, teraz ma 7
-VM1245:687 Gracz Messi ma 8 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza Messi do players, teraz ma 10
-VM1245:666 Gracz borys 1 ma 11 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza borys 1 do players, teraz ma 12
-VM1245:694 Gracz Kacperinio  ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Kacperinio  do players, teraz ma 3
-VM1245:687 Gracz SEX ma 3 oraz 3 [unranked] bramkek
-VM1245:689 Przeniesiono 3 [unranked] bramki gracza SEX do players, teraz ma 6
-VM1245:694 Gracz SEX ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza SEX do players, teraz ma 3
-VM1245:687 Gracz SZUUUUUUUUUUUUU ma 0 oraz 2 [unranked] bramkek
-VM1245:689 Przeniesiono 2 [unranked] bramki gracza SZUUUUUUUUUUUUU do players, teraz ma 2
-VM1245:687 Gracz hubi ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza hubi do players, teraz ma 1
-VM1245:673 Gracz Hexe ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Hexe do players, teraz ma 2
-VM1245:694 Gracz Hexe ma 1 oraz 4 [unranked] kartek
-VM1245:696 Przeniesiono 4 [unranked] kartki gracza Hexe do players, teraz ma 5
-VM1245:652 Gracz antoni ma 9 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza antoni do players, teraz ma 11
-VM1245:666 Gracz antoni ma 0 oraz 1 goli samobójczych
-VM1245:668 Przeniesiono 1 bramki samobójcze gracza antoni do players, teraz ma 1
-VM1245:687 Gracz antoni ma 2 oraz 4 [unranked] bramkek
-VM1245:689 Przeniesiono 4 [unranked] bramki gracza antoni do players, teraz ma 6
-VM1245:694 Gracz antoni ma 17 oraz 6 [unranked] kartek
-VM1245:696 Przeniesiono 6 [unranked] kartki gracza antoni do players, teraz ma 23
-VM1245:694 Gracz Kasper Schmeichel GK ma 6 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Kasper Schmeichel GK do players, teraz ma 7
-VM1245:659 Gracz AJ ma 0 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza AJ do players, teraz ma 1
-VM1245:687 Gracz AJ ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza AJ do players, teraz ma 1
-VM1245:649 101. Przeniesiono gracza CarlesM do players
-VM1245:649 102. Przeniesiono gracza .,. do players
-VM1245:687 Gracz ECPU POLSKA ma 3 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza ECPU POLSKA do players, teraz ma 4
-VM1245:659 Gracz avi ma 0 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza avi do players, teraz ma 1
-VM1245:673 Gracz avi ma 0 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza avi do players, teraz ma 1
-VM1245:649 103. Przeniesiono gracza beroo do players
-VM1245:680 Gracz jfdksaldsajgs ma 1 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza jfdksaldsajgs do players, teraz ma 2
-VM1245:649 104. Przeniesiono gracza Yaya Touré  do players
-VM1245:687 Gracz Tomson ma 1 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza Tomson do players, teraz ma 2
-VM1245:649 105. Przeniesiono gracza TAK do players
-VM1245:666 Gracz PanMobPL ma 0 oraz 2 goli samobójczych
-VM1245:668 Przeniesiono 2 bramki samobójcze gracza PanMobPL do players, teraz ma 2
-VM1245:649 106. Przeniesiono gracza zomb do players
-VM1245:649 107. Przeniesiono gracza ❂ Ƹ𐒄ƖȴƖ𐤠ƝⰙ 𐒄𐤠ⱤƬƖƝƸⱿ do players
-VM1245:649 108. Przeniesiono gracza moja do players
-VM1245:694 Gracz Eldoran ma 10 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Eldoran do players, teraz ma 11
-VM1245:687 Gracz J4rzyk ma 0 oraz 1 [unranked] bramkek
-VM1245:689 Przeniesiono 1 [unranked] bramki gracza J4rzyk do players, teraz ma 1
-VM1245:694 Gracz kardiş ma 1 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza kardiş do players, teraz ma 2
-VM1245:652 Gracz Maryla Kraczewska ma 1 oraz 2 bramek
-VM1245:654 Przeniesiono 2 bramki gracza Maryla Kraczewska do players, teraz ma 3
-VM1245:673 Gracz Maryla Kraczewska ma 0 oraz 3 żółtych kartek
-VM1245:675 Przeniesiono 3 żółte kartki gracza Maryla Kraczewska do players, teraz ma 3
-VM1245:694 Gracz Maryla Kraczewska ma 0 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Maryla Kraczewska do players, teraz ma 1
-VM1245:673 Gracz Sir DJ "Yoshua" King ma 2 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Sir DJ "Yoshua" King do players, teraz ma 3
-VM1245:680 Gracz Sir DJ "Yoshua" King ma 0 oraz 1 czerwonych kartek
-VM1245:682 Przeniesiono 1 czerwone kartki gracza Sir DJ "Yoshua" King do players, teraz ma 1
-VM1245:694 Gracz Sir DJ "Yoshua" King ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza Sir DJ "Yoshua" King do players, teraz ma 3
-VM1245:694 Gracz ddddd ma 2 oraz 1 [unranked] kartek
-VM1245:696 Przeniesiono 1 [unranked] kartki gracza ddddd do players, teraz ma 3
-VM1245:649 109. Przeniesiono gracza GK Lloris do players
-VM1245:673 Gracz Kim Dracula ma 1 oraz 2 żółtych kartek
-VM1245:675 Przeniesiono 2 żółte kartki gracza Kim Dracula do players, teraz ma 3
-VM1245:673 Gracz zeku fan ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza zeku fan do players, teraz ma 2
-VM1245:673 Gracz haaland ma 6 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza haaland do players, teraz ma 7
-VM1245:659 Gracz De GEA ma 0 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza De GEA do players, teraz ma 1
-VM1245:673 Gracz De GEA ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza De GEA do players, teraz ma 2
-VM1245:649 110. Przeniesiono gracza frajerinho do players
-VM1245:649 111. Przeniesiono gracza Onyixu do players
-VM1245:649 112. Przeniesiono gracza Blanka Koniowalska do players
-VM1245:652 Gracz Romelu Lukaku ma 0 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Romelu Lukaku do players, teraz ma 1
-VM1245:659 Gracz Romelu Lukaku ma 3 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Romelu Lukaku do players, teraz ma 4
-VM1245:673 Gracz Romelu Lukaku ma 4 oraz 3 żółtych kartek
-VM1245:675 Przeniesiono 3 żółte kartki gracza Romelu Lukaku do players, teraz ma 7
-VM1245:680 Gracz Romelu Lukaku ma 1 oraz 3 czerwonych kartek
-VM1245:682 Przeniesiono 3 czerwone kartki gracza Romelu Lukaku do players, teraz ma 4
-VM1245:701 Elo [1202] gracza Eplik jest większe niż ELO [1199] w players '1199'
-VM1245:649 113. Przeniesiono gracza Krul menfis | CRA do players
-VM1245:652 Gracz Erik Człopo Pytong BAYERN ma 1 oraz 1 bramek
-VM1245:654 Przeniesiono 1 bramki gracza Erik Człopo Pytong BAYERN do players, teraz ma 2
-VM1245:659 Gracz Erik Człopo Pytong BAYERN ma 2 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza Erik Człopo Pytong BAYERN do players, teraz ma 3
-VM1245:673 Gracz Erik Człopo Pytong BAYERN ma 2 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza Erik Człopo Pytong BAYERN do players, teraz ma 3
-VM1245:649 114. Przeniesiono gracza pipican do players
-VM1245:649 115. Przeniesiono gracza kkkk do players
-VM1245:649 116. Przeniesiono gracza bagietson michael do players
-VM1245:673 Gracz ᴳᴬᴿᴮᵁ ma 9 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza ᴳᴬᴿᴮᵁ do players, teraz ma 10
-VM1245:659 Gracz matrinos ma 3 oraz 1 asyst
-VM1245:661 Przeniesiono 1 asysty gracza matrinos do players, teraz ma 4
-VM1245:673 Gracz matrinos ma 8 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza matrinos do players, teraz ma 9
-VM1245:673 Gracz elo ma 1 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza elo do players, teraz ma 2
-VM1245:701 Elo [977] gracza elo jest większe niż ELO [0] w players '0'
-VM1245:649 117. Przeniesiono gracza BENZYNA do players
-VM1245:673 Gracz kreps ma 4 oraz 1 żółtych kartek
-VM1245:675 Przeniesiono 1 żółte kartki gracza kreps do players, teraz ma 5
+VM1245:694 Gracz Ronaldo ma 1 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Ronaldo do players, teraz ma 2
+VM1245:649 1. Przeniesiono gracza Meo Lessi do players
+VM1245:673 Gracz Chicken19 ma 6 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Chicken19 do players, teraz ma 7
+VM1245:687 Gracz Chicken19 ma 4 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza Chicken19 do players, teraz ma 6
+VM1245:652 Gracz VDN ma 1 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza VDN do players, teraz ma 2
+VM1245:666 Gracz VDN ma 1 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza VDN do players, teraz ma 2
+VM1245:687 Gracz VDN ma 0 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza VDN do players, teraz ma 1
+VM1245:701 Elo [1172] gracza VDN jest większe niż ELO [1087] w players '1087'
+VM1245:659 Gracz Gus Fring  ma 4 oraz 2 asyst
+VM1245:661 Przeniesiono 2 asysty gracza Gus Fring  do players, teraz ma 6
+VM1245:694 Gracz Gus Fring  ma 1 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Gus Fring  do players, teraz ma 2
+VM1245:701 Elo [1072] gracza kardiş jest większe niż ELO [0] w players '0'
+VM1245:652 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 12 oraz 4 bramek
+VM1245:654 Przeniesiono 4 bramki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 16
+VM1245:659 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 6 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 7
+VM1245:673 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 7 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 8
+VM1245:680 Gracz 𝘔𝘢𝘵𝘪𝘢𝘴☆ ma 2 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza 𝘔𝘢𝘵𝘪𝘢𝘴☆ do players, teraz ma 3
+VM1245:659 Gracz Omen ma 22 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Omen do players, teraz ma 23
+VM1245:701 Elo [1217] gracza Omen jest większe niż ELO [0] w players '0'
+VM1245:673 Gracz BAIT ma 1 oraz 5 żółtych kartek
+VM1245:675 Przeniesiono 5 żółte kartki gracza BAIT do players, teraz ma 6
+VM1245:680 Gracz BAIT ma 2 oraz 3 czerwonych kartek
+VM1245:682 Przeniesiono 3 czerwone kartki gracza BAIT do players, teraz ma 5
+VM1245:687 Gracz BAIT ma 1 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza BAIT do players, teraz ma 3
+VM1245:694 Gracz BAIT ma 5 oraz 5 [unranked] kartek
+VM1245:696 Przeniesiono 5 [unranked] kartki gracza BAIT do players, teraz ma 10
+VM1245:701 Elo [1092] gracza BAIT jest większe niż ELO [0] w players '0'
+VM1245:673 Gracz Pascal ma 8 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Pascal do players, teraz ma 9
+VM1245:694 Gracz Pascal ma 13 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Pascal do players, teraz ma 14
+VM1245:649 2. Przeniesiono gracza SHOWUP.TV <- KURWY JEBANE do players
+VM1245:649 3. Przeniesiono gracza nunez do players
+VM1245:652 Gracz   ma 11 oraz 3 bramek
+VM1245:654 Przeniesiono 3 bramki gracza   do players, teraz ma 14
+VM1245:659 Gracz   ma 9 oraz 3 asyst
+VM1245:661 Przeniesiono 3 asysty gracza   do players, teraz ma 12
+VM1245:666 Gracz   ma 22 oraz 2 goli samobójczych
+VM1245:668 Przeniesiono 2 bramki samobójcze gracza   do players, teraz ma 24
+VM1245:673 Gracz   ma 32 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza   do players, teraz ma 33
+VM1245:680 Gracz   ma 26 oraz 4 czerwonych kartek
+VM1245:682 Przeniesiono 4 czerwone kartki gracza   do players, teraz ma 30
+VM1245:687 Gracz   ma 21 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza   do players, teraz ma 22
+VM1245:652 Gracz Eplik ma 20 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Eplik do players, teraz ma 21
+VM1245:659 Gracz Eplik ma 17 oraz 2 asyst
+VM1245:661 Przeniesiono 2 asysty gracza Eplik do players, teraz ma 19
+VM1245:673 Gracz Eplik ma 12 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Eplik do players, teraz ma 13
+VM1245:694 Gracz Eplik ma 11 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Eplik do players, teraz ma 12
+VM1245:680 Gracz psikuta ma 2 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza psikuta do players, teraz ma 3
+VM1245:659 Gracz scrry ma 1 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza scrry do players, teraz ma 2
+VM1245:673 Gracz scrry ma 12 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza scrry do players, teraz ma 13
+VM1245:680 Gracz scrry ma 8 oraz 2 czerwonych kartek
+VM1245:682 Przeniesiono 2 czerwone kartki gracza scrry do players, teraz ma 10
+VM1245:652 Gracz Carlos Vela ma 2 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Carlos Vela do players, teraz ma 3
+VM1245:659 Gracz Carlos Vela ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Carlos Vela do players, teraz ma 1
+VM1245:673 Gracz Carlos Vela ma 1 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Carlos Vela do players, teraz ma 2
+VM1245:680 Gracz Carlos Vela ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Carlos Vela do players, teraz ma 1
+VM1245:659 Gracz C.Ronaldo ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza C.Ronaldo do players, teraz ma 1
+VM1245:680 Gracz C.Ronaldo ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza C.Ronaldo do players, teraz ma 1
+VM1245:652 Gracz Atashk ma 2 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Atashk do players, teraz ma 3
+VM1245:652 Gracz asd ma 29 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza asd do players, teraz ma 30
+VM1245:673 Gracz asd ma 17 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza asd do players, teraz ma 18
+VM1245:680 Gracz asd ma 23 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza asd do players, teraz ma 24
+VM1245:687 Gracz asd ma 68 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza asd do players, teraz ma 70
+VM1245:694 Gracz asd ma 54 oraz 4 [unranked] kartek
+VM1245:696 Przeniesiono 4 [unranked] kartki gracza asd do players, teraz ma 58
+VM1245:652 Gracz Cissé ma 10 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Cissé do players, teraz ma 11
+VM1245:659 Gracz Cissé ma 6 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Cissé do players, teraz ma 7
+VM1245:659 Gracz tera ma 2 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza tera do players, teraz ma 3
+VM1245:680 Gracz tera ma 0 oraz 2 czerwonych kartek
+VM1245:682 Przeniesiono 2 czerwone kartki gracza tera do players, teraz ma 2
+VM1245:652 Gracz Sahiti ma 1 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Sahiti do players, teraz ma 2
+VM1245:659 Gracz Sahiti ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Sahiti do players, teraz ma 1
+VM1245:673 Gracz Sahiti ma 3 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza Sahiti do players, teraz ma 5
+VM1245:680 Gracz Sahiti ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Sahiti do players, teraz ma 1
+VM1245:666 Gracz GK Lloris ma 0 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza GK Lloris do players, teraz ma 1
+VM1245:652 Gracz Artemis ma 8 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza Artemis do players, teraz ma 10
+VM1245:659 Gracz Artemis ma 2 oraz 2 asyst
+VM1245:661 Przeniesiono 2 asysty gracza Artemis do players, teraz ma 4
+VM1245:680 Gracz Artemis ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Artemis do players, teraz ma 1
+VM1245:652 Gracz DON FANDE ma 20 oraz 8 bramek
+VM1245:654 Przeniesiono 8 bramki gracza DON FANDE do players, teraz ma 28
+VM1245:659 Gracz DON FANDE ma 12 oraz 4 asyst
+VM1245:661 Przeniesiono 4 asysty gracza DON FANDE do players, teraz ma 16
+VM1245:673 Gracz DON FANDE ma 11 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza DON FANDE do players, teraz ma 12
+VM1245:687 Gracz DON FANDE ma 2 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza DON FANDE do players, teraz ma 3
+VM1245:701 Elo [1253] gracza DON FANDE jest większe niż ELO [1232] w players '1232'
+VM1245:652 Gracz Takuto Oshima ma 1 oraz 3 bramek
+VM1245:654 Przeniesiono 3 bramki gracza Takuto Oshima do players, teraz ma 4
+VM1245:659 Gracz Takuto Oshima ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Takuto Oshima do players, teraz ma 1
+VM1245:673 Gracz Takuto Oshima ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Takuto Oshima do players, teraz ma 1
+VM1245:673 Gracz qurejek19 ma 1 oraz 3 żółtych kartek
+VM1245:675 Przeniesiono 3 żółte kartki gracza qurejek19 do players, teraz ma 4
+VM1245:701 Elo [1081] gracza qurejek19 jest większe niż ELO [1078] w players '1078'
+VM1245:673 Gracz Piston ma 1 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Piston do players, teraz ma 2
+VM1245:680 Gracz Piston ma 1 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Piston do players, teraz ma 2
+VM1245:652 Gracz lex ma 5 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza lex do players, teraz ma 6
+VM1245:673 Gracz lex ma 7 oraz 4 żółtych kartek
+VM1245:675 Przeniesiono 4 żółte kartki gracza lex do players, teraz ma 11
+VM1245:680 Gracz lex ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza lex do players, teraz ma 1
+VM1245:652 Gracz Di María ma 41 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza Di María do players, teraz ma 43
+VM1245:659 Gracz Di María ma 17 oraz 4 asyst
+VM1245:661 Przeniesiono 4 asysty gracza Di María do players, teraz ma 21
+VM1245:673 Gracz Di María ma 27 oraz 4 żółtych kartek
+VM1245:675 Przeniesiono 4 żółte kartki gracza Di María do players, teraz ma 31
+VM1245:680 Gracz Di María ma 16 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Di María do players, teraz ma 17
+VM1245:673 Gracz Polsza ma 2 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza Polsza do players, teraz ma 4
+VM1245:659 Gracz Waksmund, Małopolskie ma 1 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Waksmund, Małopolskie do players, teraz ma 2
+VM1245:673 Gracz Waksmund, Małopolskie ma 6 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Waksmund, Małopolskie do players, teraz ma 7
+VM1245:680 Gracz Waksmund, Małopolskie ma 6 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Waksmund, Małopolskie do players, teraz ma 7
+VM1245:701 Elo [1107] gracza Waksmund, Małopolskie jest większe niż ELO [1102] w players '1102'
+VM1245:673 Gracz ECPU POLSKA ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza ECPU POLSKA do players, teraz ma 1
+VM1245:649 4. Przeniesiono gracza ŁAAAAAAAAAAAAAAAAAAAAAAAA do players
+VM1245:649 5. Przeniesiono gracza HUJECZEK do players
+VM1245:652 Gracz ROKOKO ma 14 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza ROKOKO do players, teraz ma 15
+VM1245:659 Gracz ROKOKO ma 13 oraz 2 asyst
+VM1245:661 Przeniesiono 2 asysty gracza ROKOKO do players, teraz ma 15
+VM1245:666 Gracz ROKOKO ma 0 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza ROKOKO do players, teraz ma 1
+VM1245:673 Gracz ROKOKO ma 8 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza ROKOKO do players, teraz ma 10
+VM1245:652 Gracz Solskjer ma 0 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Solskjer do players, teraz ma 1
+VM1245:659 Gracz Solskjer ma 0 oraz 2 asyst
+VM1245:661 Przeniesiono 2 asysty gracza Solskjer do players, teraz ma 2
+VM1245:666 Gracz Solskjer ma 2 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza Solskjer do players, teraz ma 3
+VM1245:680 Gracz Solskjer ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Solskjer do players, teraz ma 1
+VM1245:649 6. Przeniesiono gracza ALE BEKA XDDDDDDDDDDDDDDD do players
+VM1245:680 Gracz Kostic ma 1 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Kostic do players, teraz ma 2
+VM1245:649 7. Przeniesiono gracza babuszka do players
+VM1245:652 Gracz Tengo ma 1 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Tengo do players, teraz ma 2
+VM1245:659 Gracz Tengo ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Tengo do players, teraz ma 1
+VM1245:673 Gracz Tengo ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Tengo do players, teraz ma 1
+VM1245:673 Gracz Sup3rC00l ma 2 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Sup3rC00l do players, teraz ma 3
+VM1245:687 Gracz Sup3rC00l ma 22 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza Sup3rC00l do players, teraz ma 23
+VM1245:694 Gracz Sup3rC00l ma 26 oraz 2 [unranked] kartek
+VM1245:696 Przeniesiono 2 [unranked] kartki gracza Sup3rC00l do players, teraz ma 28
+VM1245:652 Gracz f. ma 2 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza f. do players, teraz ma 3
+VM1245:673 Gracz f. ma 10 oraz 3 żółtych kartek
+VM1245:675 Przeniesiono 3 żółte kartki gracza f. do players, teraz ma 13
+VM1245:680 Gracz f. ma 8 oraz 2 czerwonych kartek
+VM1245:682 Przeniesiono 2 czerwone kartki gracza f. do players, teraz ma 10
+VM1245:687 Gracz f. ma 0 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza f. do players, teraz ma 1
+VM1245:701 Elo [1213] gracza f. jest większe niż ELO [1126] w players '1126'
+VM1245:659 Gracz Xavinho ma 2 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Xavinho do players, teraz ma 3
+VM1245:652 Gracz bmw e39 ma 10 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza bmw e39 do players, teraz ma 11
+VM1245:673 Gracz bmw e39 ma 17 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza bmw e39 do players, teraz ma 19
+VM1245:680 Gracz bmw e39 ma 15 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza bmw e39 do players, teraz ma 16
+VM1245:673 Gracz chuj wam w dupe ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza chuj wam w dupe do players, teraz ma 1
+VM1245:694 Gracz Jan Gwałciciel ma 4 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Jan Gwałciciel do players, teraz ma 5
+VM1245:701 Elo [989] gracza franzicz jest większe niż ELO [0] w players '0'
+VM1245:701 Elo [1162] gracza Spucha jest większe niż ELO [0] w players '0'
+VM1245:649 8. Przeniesiono gracza jan router 2 do players
+VM1245:680 Gracz Harutya ma 2 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Harutya do players, teraz ma 3
+VM1245:694 Gracz Harutya ma 0 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Harutya do players, teraz ma 1
+VM1245:652 Gracz KAKA ma 15 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza KAKA do players, teraz ma 17
+VM1245:673 Gracz KAKA ma 26 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza KAKA do players, teraz ma 28
+VM1245:687 Gracz KAKA ma 16 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza KAKA do players, teraz ma 17
+VM1245:649 9. Przeniesiono gracza bynek do players
+VM1245:652 Gracz nieWiem ma 1 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza nieWiem do players, teraz ma 2
+VM1245:673 Gracz nieWiem ma 3 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza nieWiem do players, teraz ma 4
+VM1245:652 Gracz salut ma 11 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza salut do players, teraz ma 12
+VM1245:659 Gracz salut ma 6 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza salut do players, teraz ma 7
+VM1245:666 Gracz salut ma 3 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza salut do players, teraz ma 4
+VM1245:673 Gracz salut ma 11 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza salut do players, teraz ma 13
+VM1245:680 Gracz salut ma 9 oraz 4 czerwonych kartek
+VM1245:682 Przeniesiono 4 czerwone kartki gracza salut do players, teraz ma 13
+VM1245:687 Gracz salut ma 1 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza salut do players, teraz ma 3
+VM1245:694 Gracz salut ma 3 oraz 3 [unranked] kartek
+VM1245:696 Przeniesiono 3 [unranked] kartki gracza salut do players, teraz ma 6
+VM1245:652 Gracz Garnacho ma 10 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Garnacho do players, teraz ma 11
+VM1245:659 Gracz Garnacho ma 4 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Garnacho do players, teraz ma 5
+VM1245:673 Gracz Garnacho ma 16 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza Garnacho do players, teraz ma 18
+VM1245:680 Gracz Garnacho ma 10 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Garnacho do players, teraz ma 11
+VM1245:649 10. Przeniesiono gracza trzaskowski to szmata do players
+VM1245:666 Gracz xd ma 0 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza xd do players, teraz ma 1
+VM1245:673 Gracz xd ma 0 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza xd do players, teraz ma 2
+VM1245:680 Gracz xd ma 0 oraz 2 czerwonych kartek
+VM1245:682 Przeniesiono 2 czerwone kartki gracza xd do players, teraz ma 2
+VM1245:694 Gracz xd ma 1 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza xd do players, teraz ma 2
+VM1245:649 11. Przeniesiono gracza cumshottt do players
+VM1245:666 Gracz ❤️𝓧𝓪𝓿𝓲💙 ma 4 oraz 3 goli samobójczych
+VM1245:668 Przeniesiono 3 bramki samobójcze gracza ❤️𝓧𝓪𝓿𝓲💙 do players, teraz ma 7
+VM1245:673 Gracz ❤️𝓧𝓪𝓿𝓲💙 ma 4 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza ❤️𝓧𝓪𝓿𝓲💙 do players, teraz ma 5
+VM1245:701 Elo [1025] gracza ❤️𝓧𝓪𝓿𝓲💙 jest większe niż ELO [0] w players '0'
+VM1245:649 12. Przeniesiono gracza DeVeRaS do players
+VM1245:649 13. Przeniesiono gracza Radek Runić do players
+VM1245:652 Gracz haaland ma 2 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza haaland do players, teraz ma 3
+VM1245:673 Gracz haaland ma 7 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza haaland do players, teraz ma 8
+VM1245:652 Gracz Eldogga ma 11 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza Eldogga do players, teraz ma 13
+VM1245:659 Gracz Eldogga ma 8 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza Eldogga do players, teraz ma 9
+VM1245:652 Gracz Pierre-Emile Höjbjerg ma 1 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza Pierre-Emile Höjbjerg do players, teraz ma 2
+VM1245:659 Gracz nikola ma 2 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza nikola do players, teraz ma 3
+VM1245:673 Gracz nikola ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza nikola do players, teraz ma 1
+VM1245:694 Gracz nikola ma 10 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza nikola do players, teraz ma 11
+VM1245:694 Gracz LIO ma 19 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza LIO do players, teraz ma 20
+VM1245:652 Gracz 4chan ma 0 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza 4chan do players, teraz ma 2
+VM1245:659 Gracz 4chan ma 0 oraz 1 asyst
+VM1245:661 Przeniesiono 1 asysty gracza 4chan do players, teraz ma 1
+VM1245:673 Gracz 4chan ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza 4chan do players, teraz ma 1
+VM1245:680 Gracz 4chan ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza 4chan do players, teraz ma 1
+VM1245:673 Gracz 2𝓞𝓞6 ma 13 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza 2𝓞𝓞6 do players, teraz ma 14
+VM1245:666 Gracz mati ma 3 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza mati do players, teraz ma 4
+VM1245:680 Gracz bojówka Kamila Stocha ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza bojówka Kamila Stocha do players, teraz ma 1
+VM1245:701 Elo [1200] gracza bojówka Kamila Stocha jest większe niż ELO [0] w players '0'
+VM1245:652 Gracz lulusiotko ma 2 oraz 2 bramek
+VM1245:654 Przeniesiono 2 bramki gracza lulusiotko do players, teraz ma 4
+VM1245:673 Gracz lulusiotko ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza lulusiotko do players, teraz ma 1
+VM1245:666 Gracz korba ma 14 oraz 4 goli samobójczych
+VM1245:668 Przeniesiono 4 bramki samobójcze gracza korba do players, teraz ma 18
+VM1245:673 Gracz korba ma 6 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza korba do players, teraz ma 7
+VM1245:680 Gracz korba ma 12 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza korba do players, teraz ma 13
+VM1245:694 Gracz korba ma 24 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza korba do players, teraz ma 25
+VM1245:652 Gracz .oskar ma 7 oraz 1 bramek
+VM1245:654 Przeniesiono 1 bramki gracza .oskar do players, teraz ma 8
+VM1245:673 Gracz .oskar ma 4 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza .oskar do players, teraz ma 5
+VM1245:673 Gracz pulok ma 0 oraz 2 żółtych kartek
+VM1245:675 Przeniesiono 2 żółte kartki gracza pulok do players, teraz ma 2
+VM1245:680 Gracz pulok ma 0 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza pulok do players, teraz ma 1
+VM1245:687 Gracz pulok ma 2 oraz 5 [unranked] bramkek
+VM1245:689 Przeniesiono 5 [unranked] bramki gracza pulok do players, teraz ma 7
+VM1245:649 14. Przeniesiono gracza KEL do players
+VM1245:680 Gracz islay ma 13 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza islay do players, teraz ma 14
+VM1245:687 Gracz MonteChristo ma 2 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza MonteChristo do players, teraz ma 3
+VM1245:694 Gracz MonteChristo ma 9 oraz 4 [unranked] kartek
+VM1245:696 Przeniesiono 4 [unranked] kartki gracza MonteChristo do players, teraz ma 13
+VM1245:694 Gracz THCMonster420 ma 2 oraz 2 [unranked] kartek
+VM1245:696 Przeniesiono 2 [unranked] kartki gracza THCMonster420 do players, teraz ma 4
+VM1245:687 Gracz ᴳᴬᴿᴮᵁ ma 6 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza ᴳᴬᴿᴮᵁ do players, teraz ma 7
+VM1245:694 Gracz ᴳᴬᴿᴮᵁ ma 13 oraz 8 [unranked] kartek
+VM1245:696 Przeniesiono 8 [unranked] kartki gracza ᴳᴬᴿᴮᵁ do players, teraz ma 21
+VM1245:687 Gracz mvpi dzioni  ma 2 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza mvpi dzioni  do players, teraz ma 3
+VM1245:694 Gracz mvpi dzioni  ma 5 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza mvpi dzioni  do players, teraz ma 6
+VM1245:694 Gracz ?  ma 6 oraz 2 [unranked] kartek
+VM1245:696 Przeniesiono 2 [unranked] kartki gracza ?  do players, teraz ma 8
+VM1245:649 15. Przeniesiono gracza wks do players
+VM1245:649 16. Przeniesiono gracza F22 raptor do players
+VM1245:649 17. Przeniesiono gracza usman aga do players
+VM1245:649 18. Przeniesiono gracza dulum do players
+VM1245:687 Gracz EN7, ma 11 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza EN7, do players, teraz ma 13
+VM1245:694 Gracz EN7, ma 5 oraz 4 [unranked] kartek
+VM1245:696 Przeniesiono 4 [unranked] kartki gracza EN7, do players, teraz ma 9
+VM1245:687 Gracz 🙆‍♀️    ma 6 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza 🙆‍♀️    do players, teraz ma 7
+VM1245:694 Gracz 🙆‍♀️    ma 10 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza 🙆‍♀️    do players, teraz ma 11
+VM1245:687 Gracz GYPSY KING ma 2 oraz 2 [unranked] bramkek
+VM1245:689 Przeniesiono 2 [unranked] bramki gracza GYPSY KING do players, teraz ma 4
+VM1245:694 Gracz GYPSY KING ma 2 oraz 3 [unranked] kartek
+VM1245:696 Przeniesiono 3 [unranked] kartki gracza GYPSY KING do players, teraz ma 5
+VM1245:687 Gracz rozkład jazdy ma 0 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza rozkład jazdy do players, teraz ma 1
+VM1245:694 Gracz rozkład jazdy ma 1 oraz 5 [unranked] kartek
+VM1245:696 Przeniesiono 5 [unranked] kartki gracza rozkład jazdy do players, teraz ma 6
+VM1245:687 Gracz [X] ma 1 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza [X] do players, teraz ma 2
+VM1245:694 Gracz [X] ma 0 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza [X] do players, teraz ma 1
+VM1245:649 19. Przeniesiono gracza sss do players
+VM1245:694 Gracz lech kaczynski ma 0 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza lech kaczynski do players, teraz ma 1
+VM1245:687 Gracz Pr0t0n ma 8 oraz 1 [unranked] bramkek
+VM1245:689 Przeniesiono 1 [unranked] bramki gracza Pr0t0n do players, teraz ma 9
+VM1245:649 20. Przeniesiono gracza EGG do players
+VM1245:694 Gracz Nigel de Jong ma 2 oraz 2 [unranked] kartek
+VM1245:696 Przeniesiono 2 [unranked] kartki gracza Nigel de Jong do players, teraz ma 4
+VM1245:649 21. Przeniesiono gracza Zew Rwetesa do players
+VM1245:701 Elo [944] gracza Rojter jest większe niż ELO [0] w players '0'
+VM1245:666 Gracz Klajster ma 0 oraz 1 goli samobójczych
+VM1245:668 Przeniesiono 1 bramki samobójcze gracza Klajster do players, teraz ma 1
+VM1245:673 Gracz Klajster ma 0 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Klajster do players, teraz ma 1
+VM1245:687 Gracz Klajster ma 0 oraz 3 [unranked] bramkek
+VM1245:689 Przeniesiono 3 [unranked] bramki gracza Klajster do players, teraz ma 3
+VM1245:694 Gracz Kraken ma 1 oraz 1 [unranked] kartek
+VM1245:696 Przeniesiono 1 [unranked] kartki gracza Kraken do players, teraz ma 2
+VM1245:701 Elo [1111] gracza MKowalski180  jest większe niż ELO [1093] w players '1093'
+VM1245:701 Elo [1307] gracza Nwm jest większe niż ELO [1290] w players '1290'
+VM1245:673 Gracz Wykop.pl ma 11 oraz 1 żółtych kartek
+VM1245:675 Przeniesiono 1 żółte kartki gracza Wykop.pl do players, teraz ma 12
+VM1245:680 Gracz Wykop.pl ma 16 oraz 1 czerwonych kartek
+VM1245:682 Przeniesiono 1 czerwone kartki gracza Wykop.pl do players, teraz ma 17
 
 
-VM1245:714 👑 HAXLOG 👑 Wykonano import z innej bazy do bazy players! Dodano 117 nowych graczy oraz wykonano 348 przeniesień
+VM1245:714 👑 HAXLOG 👑 Wykonano import z innej bazy do bazy players! Dodano 21 nowych graczy oraz wykonano 198 przeniesień
