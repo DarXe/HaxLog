@@ -417,10 +417,10 @@ function checkLogs(){
             if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let current = new Date().getTime();
                 let timeStarted = (current - scriptStarted)/1000/60;
-                let timeRestarted = (current - scriptRestarted)/1000/60;
-                if(!timeRestarted) {
+                if((scriptStarted - scriptRestarted) < 1000) {
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted} minut temu.`;
                 } else {
+                    let timeRestarted = (current - scriptRestarted)/1000/60;
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted} minut temu. Uruchomiony ${timeStarted} minut temu.`;
                 }
                 
