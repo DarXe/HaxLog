@@ -19,11 +19,15 @@ let pChangeCounter = 0;
 let isRanked = false;
 let isServerMessage = false;
 let isServerInfo = false;
+let btAnswers = false;
+let collectData = true;
 let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1218.2"; //fix bug
+let ver = "1.3.1402"; //added bot answering questions to the database
+const MESSAGE_COOLDOWN = 60000;
+let blockedPlayers = {};
 getTime = () => new Date().toLocaleTimeString(); //funkcja pobierająca aktualny czas
 getFullTime = () => new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }); //aktualny czas i datę
 document.getElementsByClassName("ps__rail-y")[0].style.color = "transparent";
@@ -75,6 +79,34 @@ function checkLogs(){
             }
         }
 
+        if (btAnswers) {
+            if(newLog.includes("$")) {
+                for(let _ of muted) {
+                    if(newLog.indexOf(_) !== -1) {
+                        return;
+                    }
+                }
+                if(newLog.includes("goals")) {
+                    const name = newLog.split(" (")[0];
+                    
+                    if (blockedPlayers[name]) { //pause in writing commands
+                        const currentTime = new Date().getTime();
+                        const timeSinceLastMessage = (currentTime - blockedPlayers[name]);
+                        
+                        if (timeSinceLastMessage < MESSAGE_COOLDOWN) {
+                            if (dbm) console.log(`👑 HAXLOG 👑 Gracz ${name} jest zablokowany. Może wysłać kolejną wiadomość za ${(MESSAGE_COOLDOWN - timeSinceLastMessage)/1000} sekund.`);
+                            return;
+                        }
+                    }
+                    let _ = showPlayerStats(name);
+                    blockedPlayers[name] = new Date().getTime();
+                    out(_);
+                }
+
+                return;
+            }
+        }
+
         if(consoleChat) console.log(`${time} ${newLog}`) //czat w konsoli
 
         if(newLog.charAt(0) === "[" && newLog.charAt(7) === "]") {//is server message
@@ -82,7 +114,7 @@ function checkLogs(){
         } else if (newLog.charAt(0) === '[' && newLog.charAt(2) === 'S' && newLog.charAt(3) === ' ') {
             isServerInfo = true;
         }
-
+ 
         if(isServerMessage && newLog.includes("Tryb rankingowy.")) {//game is ranked?
             isRanked = true;
             savePlayers();
@@ -100,7 +132,7 @@ function checkLogs(){
         }
 
         //statistics - fouls
-        if (isServerInfo) {
+        if (isServerInfo && collectData) {
             if (isRanked) {
                 if (newLog.includes(" sfaulował ")) { //foul
                     const playerFoul = newLog.split(" sfaulował ")[0].split("ssion] ")[1];
@@ -163,7 +195,7 @@ function checkLogs(){
             }
         }
         //statistics - goals, cards
-        else if (isServerMessage) {
+        else if (isServerMessage && collectData) {
             if (isRanked) {
                 if (newLog.includes(" 🟨 Żółta")) { //yellow card
                     const playerYellowCard = newLog.split(" kartka dla ")[1].split("!")[0];
@@ -348,6 +380,10 @@ function checkLogs(){
 
                 return;
             }
+        } else if (newLog.indexOf("^fix") !== -1) {
+            elmtFix();
+
+            return;
         }
 
         //chat + system mute
@@ -463,11 +499,27 @@ function showPlayerInfo(playerName) {
     }
     return _;
 }
+function showPlayerStats(playerName) {
+    const playerIndex = players.findIndex(player => player.name === playerName);
+    let _ = ``;
+    if (playerIndex !== -1) {
+        _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst :D`;
+        console.log(players[playerIndex]);
+    } else {
+        _ = `Nie mam jeszcze danych o graczu ${playerName} :/ Do dzieła, jeszcze wszystko przed Tobą!`;
+    }
+    return _;
+}
+function elmtFix() {
+    inEl = document.querySelector('[data-hook="input"]');
+    outEl = document.querySelector('button[data-hook="send"]');
+}
 console.log("Pomyślnie zainicjowano HaxLog!");
 function start(){
     stop();
     isRanked = false;
     chat = document.getElementsByClassName("log ps ps--active-y")[0];
+    elmtFix();
     chat.addEventListener("DOMNodeInserted", checkLogs); console.log("Pomyślnie uruchomiono skrypt! Aby zatrzymać wpisz stop();");
 
     //import data
