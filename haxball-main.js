@@ -25,7 +25,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1403"; //new command ^started
+let ver = "1.3.1404"; //fix ^started, added local time info
 const MESSAGE_COOLDOWN = 60000;
 let scriptStarted = new Date().getTime();
 let scriptRestarted = 0;
@@ -414,16 +414,20 @@ function checkLogs(){
                 return;
             }
         } else if (newLog.indexOf("^started") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            if(newLog.toLowerCase().indexOf(playerNickname) !== -1) {
                 let current = new Date().getTime();
-                let timeStarted = (current - scriptStarted)/1000/60;
-                if((scriptStarted - scriptRestarted) < 1000) {
-                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted} minut temu.`;
+                let timeStarted = (current - scriptStarted) / 1000 / 60;
+                let startDate = new Date(scriptStarted);
+                let startTime = startDate.toLocaleTimeString();
+                if ((scriptRestarted - scriptStarted) < 1000) {
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted.toFixed(0)} minut temu o godzinie ${startTime}.`;
                 } else {
-                    let timeRestarted = (current - scriptRestarted)/1000/60;
-                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted} minut temu. Uruchomiony ${timeStarted} minut temu.`;
+                    let timeRestarted = (current - scriptRestarted) / 1000 / 60;
+                    let restartDate = new Date(scriptRestarted);
+                    let restartTime = restartDate.toLocaleTimeString();
+                    chat.lastChild.innerText = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted.toFixed(0)} minut temu o godzinie ${restartTime}. Uruchomiony ${timeStarted.toFixed(2)} minut temu o godzinie ${startTime}.`;
                 }
-                
+
                 return;
             }
         }
