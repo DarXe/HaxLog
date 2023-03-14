@@ -288,26 +288,22 @@ function checkLogs(){
         }
 
         //system cmd
-        if(newLog.indexOf("^mute") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+        if(newLog.indexOf("^") !== -1 && newLog.toLowerCase().indexOf(playerNickname) !== -1) {
+            if(newLog.indexOf("^mute") !== -1){
                 let _ = newLog.substring(newLog.indexOf("^mute")+5).trim();
                 muted.push(_);
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Wyciszyłeś gracza/frazę '${_}'.`;
                 localStorage.setItem('muted', JSON.stringify(muted)); //save
 
                 return;
-            }
         }else if(newLog.indexOf("^add") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
                 let _ = newLog.substring(newLog.indexOf("^add")+4).trim()
                 phrases.push(_);
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Dodałeś do powiadomień frazę '${_}'`;
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
-            }
-        }else if(newLog.indexOf("^time") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            }else if(newLog.indexOf("^time") !== -1){
                 if (timestamp) {
                     timestamp = false;
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Wyłączyłeś godzinę obok wiadomości.`;
@@ -319,9 +315,7 @@ function checkLogs(){
                 localStorage.setItem('config', JSON.stringify(config));
 
                 return;
-            }
-        }else if(newLog.indexOf("^console") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            }else if(newLog.indexOf("^console") !== -1){
                 if (consoleChat) {
                     consoleChat = false;
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Wyłączyłeś czat w konsoli.`;
@@ -333,9 +327,7 @@ function checkLogs(){
                 localStorage.setItem('config', JSON.stringify(config));
 
                 return;
-            }
-        }else if(newLog.indexOf("^del") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            }else if(newLog.indexOf("^del") !== -1){
                 let _ = newLog.substring(newLog.indexOf("^del")+4).trim()
                 phrases = phrases.filter(phrase => !phrase.includes(_));
                 console.log("👑 Aktualne zapisane frazy: ", phrases);
@@ -343,9 +335,7 @@ function checkLogs(){
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
-            }
-        }else if(newLog.indexOf("^unmute") !== -1){
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            }else if(newLog.indexOf("^unmute") !== -1){
                 let _ = newLog.substring(newLog.indexOf("^unmute")+7).trim()
                 muted = muted.filter(mute => !mute.includes(_));
                 console.log("👑 Aktualne wyciszeni: ", muted);
@@ -353,43 +343,32 @@ function checkLogs(){
                 localStorage.setItem('phrases', JSON.stringify(phrases)); //save
 
                 return;
-            }
-        } else if (newLog.indexOf("^stats") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1) {
+            } else if (newLog.indexOf("^stats") !== -1) {
                 const nickname = newLog.substring(newLog.indexOf("^stats")+6).trim();
                 chat.lastChild.innerText = showPlayerInfo(nickname);
 
-                return;
-            }
-            
-        } else if (newLog.indexOf("^top") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                return;      
+            } else if (newLog.indexOf("^top") !== -1) {
                 console.log(`👑 HAXLOG 👑 STATYSTYKI:`);
                 topScore();
                 chat.lastChild.innerText = `👑 HAXLOG 👑 TOP strzelców i asystentów wyświetlono w konsoli.`;
 
                 return;
-            }
-        } else if (newLog.indexOf("^clearP") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            } else if (newLog.indexOf("^clearP") !== -1) {
                 clearPlayers();
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Wyczyszczono! :-)`;
 
                 return;
-            }
-        } else if (newLog.indexOf("^dataLen") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            } else if (newLog.indexOf("^dataLen") !== -1) {
                 chat.lastChild.innerText = `👑 HAXLOG 👑 Info:`;
                 const m = `${players.length}, ${playerFouls.length}, v${ver}`; out(m);
 
                 return;
-            }
-        } else if (newLog.indexOf("^fix") !== -1) {
-            elmtFix();
+            } else if (newLog.indexOf("^fix") !== -1) {
+                elmtFix();
 
-            return;
-        } else if (newLog.indexOf("^bot") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+                return;
+            } else if (newLog.indexOf("^bot") !== -1) {
                 if (!btAnswers) {
                     btAnswers = true;
                     chat.lastChild.innerText = `👑 HAXLOG 👑 Włączyłeś bota`;
@@ -399,9 +378,7 @@ function checkLogs(){
                 }
 
                 return;
-            }
-        } else if (newLog.indexOf("^coll3ct") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1){
+            } else if (newLog.indexOf("^coll3ct") !== -1) {
                 if (!btAnswers) {
                     btAnswers = true;
                     collectData = false;
@@ -411,10 +388,8 @@ function checkLogs(){
                     chat.lastChild.innerText = `👑 HAXLOG 👑 OFF`;
                 }
                 
-                return;
-            }
-        } else if (newLog.indexOf("^started") !== -1) {
-            if(newLog.toLowerCase().indexOf(playerNickname) !== -1) {
+                return
+            } else if (newLog.indexOf("^started") !== -1) {
                 let current = new Date().getTime();
                 let timeStarted = (current - scriptStarted) / 1000 / 60;
                 let startDate = new Date(scriptStarted);
@@ -429,9 +404,23 @@ function checkLogs(){
                 }
 
                 return;
+            } else if (newLog.indexOf("^strd") !== -1) {
+                let current = new Date().getTime();
+                let timeStarted = (current - scriptStarted) / 1000 / 60;
+                let startDate = new Date(scriptStarted);
+                let startTime = startDate.toLocaleTimeString();
+                if ((scriptRestarted - scriptStarted) < 1000) {
+                    let _ = `👑 HAXLOG 👑 Skrypt uruchomiony ${timeStarted.toFixed(0)} minut temu o godzinie ${startTime}.`; out(_);
+                } else {
+                    let timeRestarted = (current - scriptRestarted) / 1000 / 60;
+                    let restartDate = new Date(scriptRestarted);
+                    let restartTime = restartDate.toLocaleTimeString();
+                    let _ = `👑 HAXLOG 👑 Skrypt zrestartowany ${timeRestarted.toFixed(0)} minut temu o godzinie ${restartTime}. Uruchomiony ${timeStarted.toFixed(2)} minut temu o godzinie ${startTime}.`; out(_);
+                }
+
+                return;
             }
         }
-
         //chat + system mute
         for(let _ of muted){
             if(newLog.indexOf(_) !== -1){
