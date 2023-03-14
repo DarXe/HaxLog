@@ -25,7 +25,7 @@ let autoSave = true;
 let consoleChatMuted = true;
 let dbm = false; //debug message;
 let cd = true;
-let ver = "1.3.1412"; //added info about commands
+let ver = "1.3.1412.1"; //added more commands
 const MESSAGE_COOLDOWN = 60000;
 let scriptStarted = new Date().getTime();
 let scriptRestarted = 0;
@@ -106,10 +106,19 @@ function checkLogs(){
                     return;
                 }
                 if(newLog.includes("goals")) {
-                    let _ = showPlayerStats(name);
+                    let _ = showPlayerStats(name, 'g', 'en');
+                    out(_);
+                } else if (newLog.includes("assists")) {
+                    let _ = showPlayerStats(name, 'a', 'en');
+                    out(_);
+                } else if (newLog.includes("bramki")) {
+                    let _ = showPlayerStats(name, 'g', 'pl');
+                    out(_);
+                } else if (newLog.includes("asysty")) {
+                    let _ = showPlayerStats(name, 'g', 'pl');
                     out(_);
                 } else {
-                    out("Jak na razie mam tylko jedną komendę, $goals");
+                    out("COMMANDS: $bramki $goals $asysty $assists");
                 }
                 blockedPlayers[name] = new Date().getTime();
 
@@ -542,14 +551,60 @@ function showPlayerInfo(playerName) {
     }
     return _;
 }
-function showPlayerStats(playerName) {
+function showPlayerStats(playerName, action, lang) {
     const playerIndex = players.findIndex(player => player.name === playerName);
     let _ = ``;
     if (playerIndex !== -1) {
-        _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek i ${players[playerIndex].assists} asyst!`;
+        switch (action) {
+            case 'g':
+                {
+                    switch (lang) {
+                        case 'pl':
+                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} bramek oraz ${players[playerIndex].unrankedGoals} bramek nierankinowych!`;
+                            break;
+                        case 'en':
+                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].goals} goals and ${players[playerIndex].unrankedGoals} unranked goals!`;
+                            break;
+                    
+                        default:
+                            break;
+                    }
+                }
+                break;
+            case 'a':
+                {
+                    switch (lang) {
+                        case 'pl':
+                            _ = `Witaj ${players[playerIndex].name}, masz ${players[playerIndex].goals} asyst!`;
+                            break;
+                        case 'en':
+                            _ = `Hello ${players[playerIndex].name}, you have ${players[playerIndex].assists} assists!`;
+                            break;
+                    
+                        default:
+                            break;
+                    }
+                }
+                break;
+        
+            default:
+                break;
+        }
+        
         console.log(players[playerIndex]);
     } else {
-        _ = `Nie mam jeszcze danych o graczu ${playerName} :/ Do dzieła, jeszcze wszystko przed Tobą!`;
+        
+        switch (lang) {
+            case 'pl':
+                _ = `Nie mam jeszcze danych o graczu ${playerName} :/ Do dzieła, jeszcze wszystko przed Tobą!`;
+                break;
+            case 'en':
+                _ = `I don't have player details yet ${playerName} :/ Let's do it, there's more to come!`;
+                break;
+        
+            default:
+                break;
+        }
     }
     return _;
 }
@@ -734,7 +789,7 @@ function joinArrays() {
   //localStorage.setItem('players', JSON.stringify(players));
 }
 
-const playersNew = players.map(player => {
+const database = players.map(player => {
     return {
         n: player.name,
         g: player.goals,
