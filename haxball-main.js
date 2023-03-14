@@ -129,6 +129,8 @@ function checkLogs(){
         } else if(isServerMessage && newLog.includes("Tryb rozgrzewki (")) {
             isRanked = false;
             if(dbm) console.log(`⭐️Debug Message⭐️ Gra w trybie rozgrzewki! Log:${newLog}`);
+            document.getElementsByClassName("ps__rail-x")[0].innerText = "";
+            document.getElementsByClassName("ps__rail-y")[0].innerText = "";
 
             return;
         }
